@@ -11,10 +11,10 @@
                     "adjective_count": 1570,
                     "particle_count": 99,
                     "sampled_sentences": [
-                        "Seeing as good comments are immediately deleted, I suspect someone's pranks and comments are part-time, so don't pay attention to Hye-sun's comments~^^",
+                        "Seeing as good comments are deleted right away, I suspect someone is joking or commenting, so don't pay attention to Hye-sun's comments~^^",
                         "Jinyoung, I hope you can beat our song's magician lYG Haengning~ Haengnim~",
                         "7 BTS members were crushed by Kang Daniel",
-                        "Even if you just read the text, it's cliche...you can't escape the feeling of a Japanese novel from the 70's...like a misfortune...",
+                        "Even if you just read the text, it's cliche.. You can't escape the feeling of a Japanese novel from the 70's.. It's like Oshin..",
                         "You're so crazy, are you comforting a Japanese guy?"
                     ]
                 },
@@ -28,7 +28,7 @@
                     "particle_count": 107,
                     "sampled_sentences": [
                         "It seems like there is a virus going around in Korea that is eating the brains of people full of selfishness.",
-                        "? Have you been living together ever since?",
+                        "? Have you been living together this whole time?",
                         "Don't curse at the man",
                         "Hello~~~ It's just a man getting bored and wanting to abandon the woman~~ Everyone, why are you like this like people who have never been married~~",
                         "Is it okay for me to appear on TV and say something like this? Is Kim Hak-rae living alone without a family? And do we, who know nothing, have the right to call others trash? It would be better for Kim Hak-rae to admit that he was wrong as well. I don't know what the circumstances were, but he clearly made a mistake."
@@ -47,7 +47,7 @@
                         "Ugh, why don't you meet someone younger and get married hahahahahahahahaha I won't see you for 2 years. If you're a dry model woman and she's in her 40s, it's over. Go to the hospital and get tested first. Is it possible to get pregnant?",
                         "All three family members are pretty.",
                         "If you have a lot of money, you should throw away the old one and buy a new one.. Good job Yongdae..",
-                        "They are also affected... So, if they step into the entertainment industry, they become addicted to it like a drug... I was hoping you wouldn't be like that..."
+                        "They are also affected... So if they step into the entertainment industry, they become addicted to it like a drug... I was hoping you wouldn't be like that..."
                     ]
                 },
                 "korean_hate_speech_chunk_3_with_stopwords": {
@@ -111,7 +111,7 @@
                         "I can hear your heartbeat, but you were playing around and ended up having a miscarriage.",
                         "Jeon Hyun-moo made a life choice. Like Lee So-ra who broke up with Shin Dong-yeop, Jeon Hyun-moo will meet a professional woman and live well in the future, and Han Hye-jin will be like Lee So-ra. An older woman with a broken heart brags about meeting a younger man, and is destined to grow old ugly.",
                         "Shamelessness seems to be on the same level as nationalism.",
-                        "Auntie Rado is like a old lady, the world is heaven."
+                        "Auntie Rado is like a noppamunregi, the world is heaven."
                     ]
                 },
                 "korean_hate_speech_chunk_7_with_stopwords": {
@@ -222,7 +222,7 @@
                     "particle_count": 86,
                     "sampled_sentences": [
                         "Standing Tool Yong is broadcasting ~~ There are many naive people",
-                        "La... you're so arrogant... you're pitiful. Arrest him and sentence him to death.",
+                        "La...you look so proud...pity the oyster. Arrest him and sentence him to death.",
                         "The cost was pitiful.",
                         "I wish Taejipa could live comfortably. She would be of school age, but I am worried that she will go abroad because of the inconvenience.",
                         "Yoon Jin-ga is good at acting."
@@ -267,11 +267,11 @@
                 "korean_hate_speech_chunk_0_with_stopwords": {
                     "char_count": 39186,
                     "word_count": 8271,
-                    "noun_count": 2817,
-                    "verb_count": 1465,
-                    "adverb_count": 77,
-                    "adjective_count": 752,
-                    "particle_count": 127,
+                    "noun_count": 6541,
+                    "verb_count": 2271,
+                    "adverb_count": 340,
+                    "adjective_count": 1216,
+                    "particle_count": 2474,
                     "sampled_sentences": [
                         "\uc88b\uc740 \ub313\uae00\uc740 \ubc14\ub85c \uc9c0\uc6cc\uc9c0\ub294\uac83\ubcf4\ub2c8 \ub204\uad70\uac00\uc758 \uc7a5\ub09c \ubc0f \ub313\uae00\uc54c\ubc14 \uc758\uc2ec\ub418\ub2c8 \ud61c\uc120\uc528 \ub313\uae00 \uc2e0\uacbd\uc4f0\uc9c0\ub9c8\uc138\uc694~^^",
                         "\uc9c4\uc601\uc774 \ud615\ub2d8\uc740 \uc6b0\ub9ac \uace1\uc758 \ud558\uc220\uc0ac lYG\ud589\ub2dd\uc744 \uc774\uae30\uace0 \uc624\uc168\uc73c\uba74 \uc88b\uaca0\ub2e4\ub294 \ub9c8\uc74c\uc785\ub2c8\ub2e4 \ud589\ub2d8~",
@@ -283,11 +283,11 @@
                 "korean_hate_speech_chunk_1_with_stopwords": {
                     "char_count": 39921,
                     "word_count": 8418,
-                    "noun_count": 2827,
-                    "verb_count": 1549,
-                    "adverb_count": 82,
-                    "adjective_count": 752,
-                    "particle_count": 130,
+                    "noun_count": 6685,
+                    "verb_count": 2367,
+                    "adverb_count": 379,
+                    "adjective_count": 1198,
+                    "particle_count": 2542,
                     "sampled_sentences": [
                         "\uc544\uc8fc \uc774\uae30\uc8fc\uc758\uc5d0 \uca54\uc740 \uc778\uac04\ub4e4 \ucc9c\uc9c0\ub124 \ub1cc\ub97c \ud30c\uba39\ub294 \ubc14\uc774\ub7ec\uc2a4\uac00 \ud55c\uad6d\uc5d0 \ub3cc\uc544\ub2e4\ub2c8\ub294 \ub4ef",
                         "? \uc5ec\ud0dc\uaecf \ub3d9\uac70\ud55c\uac70\uc5d0\uc694?",
@@ -299,11 +299,11 @@
                 "korean_hate_speech_chunk_2_with_stopwords": {
                     "char_count": 41205,
                     "word_count": 8797,
-                    "noun_count": 2952,
-                    "verb_count": 1548,
-                    "adverb_count": 85,
-                    "adjective_count": 744,
-                    "particle_count": 148,
+                    "noun_count": 6963,
+                    "verb_count": 2427,
+                    "adverb_count": 384,
+                    "adjective_count": 1219,
+                    "particle_count": 2571,
                     "sampled_sentences": [
                         "\uc815\uc900 \ubcc4\ub85c...\uc0ac\uc0c1\uc758\uc2ec",
                         "\uc5b4\ud734 \uc880\ub354 \uc5b4\ub9b0\ubd84 \ub9cc\ub098\uc11c \uacb0\ud63c\ud558\uc2dc\uc9c0 \u314b\u314b\u314b\u314b\u314b\u314b\u314b\u314b\uc5b4\ud734 2\uc138 \uc548\ubcfc\uac70\uc5d0\uc694 \uac74\ubaa8\ud615 \uc5ec\uc790\ub098\uc774 40\uc774\uba74 \ub05d\ub09c\uac70\uc5d0\uc694 \ubcd1\uc6d0\uac00\uc11c \uac80\uc0ac\ubd80\ud130 \ubc1b\uc544\ubcf4\uc138\uc694 \uc784\uc2e0\uac00\ub2a5\ud55c\uac00",
@@ -315,11 +315,11 @@
                 "korean_hate_speech_chunk_3_with_stopwords": {
                     "char_count": 37360,
                     "word_count": 7883,
-                    "noun_count": 2759,
-                    "verb_count": 1379,
-                    "adverb_count": 81,
-                    "adjective_count": 730,
-                    "particle_count": 126,
+                    "noun_count": 6144,
+                    "verb_count": 2201,
+                    "adverb_count": 311,
+                    "adjective_count": 1168,
+                    "particle_count": 2310,
                     "sampled_sentences": [
                         "\uc6b0\uc640 \ud558\ub9bc\ub2d8 \uc815\ub9d0 \ucd95\ud558\ub4dc\ub824\uc694!!",
                         "\uac15\ud0c0 \uc2e4\uc81c\ub85c \ubcf4\uba74 \uc798\uc0dd\uacbc\ub294\uac00\ubcf4\ub139,,, \uac1c\ucde8\uc9c0 \ubb50",
@@ -331,11 +331,11 @@
                 "korean_hate_speech_chunk_4_with_stopwords": {
                     "char_count": 39286,
                     "word_count": 8316,
-                    "noun_count": 2858,
-                    "verb_count": 1459,
-                    "adverb_count": 81,
-                    "adjective_count": 751,
-                    "particle_count": 138,
+                    "noun_count": 6552,
+                    "verb_count": 2241,
+                    "adverb_count": 375,
+                    "adjective_count": 1208,
+                    "particle_count": 2451,
                     "sampled_sentences": [
                         "\uc7a5\uc560\uc778 \uc2a4\ud2f0\ube10 \ud638\ud0b9\ubc15\uc0ac\ubcf4\ub2e4 \uc77c\ubca0\ucda9\ub4e4\uc758 \ud589\ubcf5\uc9c0\uc218\uac00 \ub354 \ub192\ub2e4.",
                         "\ud798\ub4e4\uba74 \uad00\ub480\uc5b4\uc57c\uc9c0 \uadf8\uac8c \ud604\uba85\ud55c\uac70\ub2e4",
@@ -347,11 +347,11 @@
                 "korean_hate_speech_chunk_5_with_stopwords": {
                     "char_count": 39517,
                     "word_count": 8413,
-                    "noun_count": 2877,
-                    "verb_count": 1565,
-                    "adverb_count": 70,
-                    "adjective_count": 754,
-                    "particle_count": 133,
+                    "noun_count": 6627,
+                    "verb_count": 2340,
+                    "adverb_count": 334,
+                    "adjective_count": 1202,
+                    "particle_count": 2456,
                     "sampled_sentences": [
                         "\uc11c\ub85c \ub3c4\uad6c\ub85c \uc774\uc6a9\ud558\ub294 \ubc29\uc1a1~~\uc21c\uc9c4\ud55c \uc778\uac04\ub4e4 \ub9ce\ub124",
                         "\uc800 \ub610\ub77c\uc774...\uc798\ub09c\ucc99 \uac89\uba4b\uc740...\uc5d0\uad74 \ubd88\uc30d\ud0c0.\uad6c\uc18d\ud574\uc11c \uc0ac\ud615\ud310\uacb0\ub0b4\ub824\ub77c",
@@ -363,11 +363,11 @@
                 "korean_hate_speech_chunk_6_with_stopwords": {
                     "char_count": 38532,
                     "word_count": 8163,
-                    "noun_count": 2768,
-                    "verb_count": 1463,
-                    "adverb_count": 76,
-                    "adjective_count": 719,
-                    "particle_count": 130,
+                    "noun_count": 6419,
+                    "verb_count": 2186,
+                    "adverb_count": 350,
+                    "adjective_count": 1163,
+                    "particle_count": 2386,
                     "sampled_sentences": [
                         "\uc2ed\ub144\uc774 \ud750\ub978 \uc9c0\uae08\uc5d0\ub3c4 \ub0a8\uc794 \uc758\ub9ac!!",
                         "\uc2ec\uc7a5\uc18c\ub9ac\uac00 \ub4e4\ub9ac\ub124\ub9c8\ub124 \uc7a5\ub09c\uce58\ub354\ub2c8 \uc9c4\uc9dc \uc720\uc0b0\ub418\ubc84\ub824\ub77c.",
@@ -379,11 +379,11 @@
                 "korean_hate_speech_chunk_7_with_stopwords": {
                     "char_count": 38347,
                     "word_count": 8052,
-                    "noun_count": 2734,
-                    "verb_count": 1413,
-                    "adverb_count": 80,
-                    "adjective_count": 753,
-                    "particle_count": 135,
+                    "noun_count": 6398,
+                    "verb_count": 2211,
+                    "adverb_count": 339,
+                    "adjective_count": 1185,
+                    "particle_count": 2468,
                     "sampled_sentences": [
                         "\ub178\ud654\ub85c \uc778\ud55c \ubabb\uc0dd\uae40\uc774 \uc2ac\uc2ac\ub354 \uac00\uc911\ub418\ub294 \uc2dc\uae30~~^^",
                         "\uba85\uc608\ud6fc\uc190\uc73c\ub85c \uace0\uc18c\ud558\uba74 \ub2f5\ub098\uc628\ub2e4",
@@ -397,11 +397,11 @@
                 "korean_hate_speech_chunk_0_without_stopwords": {
                     "char_count": 32858,
                     "word_count": 7876,
-                    "noun_count": 2702,
-                    "verb_count": 1217,
-                    "adverb_count": 30,
-                    "adjective_count": 478,
-                    "particle_count": 59,
+                    "noun_count": 6530,
+                    "verb_count": 1988,
+                    "adverb_count": 189,
+                    "adjective_count": 843,
+                    "particle_count": 1703,
                     "sampled_sentences": [
                         "\uc88b\uc740 \ub313\uae00\uc740  \uc9c0\uc6cc\uc9c0\ub294\ubcf4\ub2c8 \ub204\uad70\uac00 \uc7a5\ub09c  \ub313\uae00\uc54c\ubc14 \uc2ec\ub418\ub2c8 \ud61c\uc120\uc528 \ub313\uae00 \uc2e0\uacbd\uc4f0\uc9c0\ub9c8\uc138\uc694~^^",
                         "\uc9c4 \ud615\ub2d8\uc740  \uace1 \uc220\uc0ac lYG\ud589\ub2dd \uae30\uace0 \uc168\uc73c\uba74 \uc88b\uaca0\ub2e4\ub294 \ub9c8\uc74c\uc785\ub2c8\ub2e4 \ud589\ub2d8~",
@@ -413,11 +413,11 @@
                 "korean_hate_speech_chunk_1_without_stopwords": {
                     "char_count": 33269,
                     "word_count": 8026,
-                    "noun_count": 2698,
-                    "verb_count": 1277,
-                    "adverb_count": 35,
-                    "adjective_count": 466,
-                    "particle_count": 60,
+                    "noun_count": 6645,
+                    "verb_count": 2036,
+                    "adverb_count": 252,
+                    "adjective_count": 824,
+                    "particle_count": 1732,
                     "sampled_sentences": [
                         "\uc8fc \uae30\uc8fc\uc758 \uca54\uc740 \uc778\uac04 \ucc9c\uc9c0 \ub1cc \ud30c\uba39\ub294 \ubc14\ub7ec\uc2a4 \ud55c\uad6d \ub3cc\ub2e4\ub2c8\ub294 \ub4ef",
                         "? \uc5ec\ud0dc\uaecf \ub3d9\uac70\ud55c\uac70\uc694?",
@@ -429,11 +429,11 @@
                 "korean_hate_speech_chunk_2_without_stopwords": {
                     "char_count": 35617,
                     "word_count": 8415,
-                    "noun_count": 2877,
-                    "verb_count": 1336,
-                    "adverb_count": 49,
-                    "adjective_count": 502,
-                    "particle_count": 74,
+                    "noun_count": 6957,
+                    "verb_count": 2127,
+                    "adverb_count": 266,
+                    "adjective_count": 884,
+                    "particle_count": 1864,
                     "sampled_sentences": [
                         "\uc815\uc900 \ubcc4\ub85c...\uc0ac\uc0c1\uc758\uc2ec",
                         "\uc5b4 \ub354 \uc5b4\ub9b0\ubd84 \ub9cc\uc11c \uacb0\ud63c\uc2dc\uc9c0 \u314b\u314b\u314b\u314b\u314b\u314b\u314b\u314b\uc5b4 2\uc138 \uc548\ubcfc\uac70\uc694 \uac74\ud615 \uc5ec\uc790 40\uba74 \ub05d\ub09c\uac70\uc694 \ubcd1\uc6d0\uac00\uc11c \uac80\uc0ac \ubc1b\ubcf4\uc138\uc694 \uc784\uc2e0\uac00\ub2a5\ud55c\uac00",
@@ -445,11 +445,11 @@
                 "korean_hate_speech_chunk_3_without_stopwords": {
                     "char_count": 32293,
                     "word_count": 7512,
-                    "noun_count": 2713,
-                    "verb_count": 1184,
-                    "adverb_count": 48,
-                    "adjective_count": 498,
-                    "particle_count": 67,
+                    "noun_count": 6177,
+                    "verb_count": 1895,
+                    "adverb_count": 165,
+                    "adjective_count": 822,
+                    "particle_count": 1737,
                     "sampled_sentences": [
                         "\uc6b0 \ub9bc\ub2d8 \uc815\ub9d0 \ucd95\ub4dc\ub824\uc694!!",
                         "\uac15\ud0c0 \uc2e4\ub85c \ubcf4\uba74 \uc798\uc0dd\uacbc\ub294\uac00\ubcf4\ub139,,, \uac1c\ucde8\uc9c0 \ubb50",
@@ -461,11 +461,11 @@
                 "korean_hate_speech_chunk_4_without_stopwords": {
                     "char_count": 32704,
                     "word_count": 7899,
-                    "noun_count": 2704,
-                    "verb_count": 1235,
-                    "adverb_count": 41,
-                    "adjective_count": 462,
-                    "particle_count": 63,
+                    "noun_count": 6431,
+                    "verb_count": 2033,
+                    "adverb_count": 249,
+                    "adjective_count": 829,
+                    "particle_count": 1514,
                     "sampled_sentences": [
                         "\uc7a5\uc560\uc778 \uc2a4\ud2f0\ube10 \ud638\ud0b9\ubc15\ubcf4\ub2e4 \ubca0\ucda9\ub4e4 \ud589\ubcf5\uc9c0\uc218 \ub354 \ub192\ub2e4.",
                         "\ud798\ub4e4\uba74 \uad00\ub480\uc9c0 \uac8c \ud604\uba85\ud55c\uac70\ub2e4",
@@ -477,11 +477,11 @@
                 "korean_hate_speech_chunk_5_without_stopwords": {
                     "char_count": 33288,
                     "word_count": 8022,
-                    "noun_count": 2727,
-                    "verb_count": 1322,
-                    "adverb_count": 33,
-                    "adjective_count": 473,
-                    "particle_count": 60,
+                    "noun_count": 6460,
+                    "verb_count": 2098,
+                    "adverb_count": 246,
+                    "adjective_count": 873,
+                    "particle_count": 1638,
                     "sampled_sentences": [
                         "\uc11c \ub3c4\uad6c \uc6a9\ub294 \ubc29\uc1a1~~\uc21c\uc9c4\ud55c \uc778\uac04 \ub9ce",
                         " \ub77c...\uc798\ub09c\ucc99 \uac89\uba4b\uc740...\uad74 \ubd88\uc30d\ud0c0.\uad6c\uc18d\ud574\uc11c \uc0ac\ud615\ud310\uacb0\ub0b4\ub824\ub77c",
@@ -493,11 +493,11 @@
                 "korean_hate_speech_chunk_6_without_stopwords": {
                     "char_count": 32664,
                     "word_count": 7791,
-                    "noun_count": 2698,
-                    "verb_count": 1258,
-                    "adverb_count": 32,
-                    "adjective_count": 454,
-                    "particle_count": 71,
+                    "noun_count": 6431,
+                    "verb_count": 1958,
+                    "adverb_count": 211,
+                    "adjective_count": 776,
+                    "particle_count": 1689,
                     "sampled_sentences": [
                         "\uc2ed \ud750\ub978 \uc9c0\uae08\ub3c4 \ub0a8\uc794 \uc758\ub9ac!!",
                         "\uc2ec\uc7a5\uc18c\ub9ac\uac00 \ub9ac\ub9c8 \uc7a5\ub09c\uce58\ub354\ub2c8 \uc9c4\uc9dc \uc720\uc0b0\ub418\ubc84\ub824\ub77c.",
@@ -509,11 +509,11 @@
                 "korean_hate_speech_chunk_7_without_stopwords": {
                     "char_count": 32785,
                     "word_count": 7681,
-                    "noun_count": 2631,
-                    "verb_count": 1257,
-                    "adverb_count": 41,
-                    "adjective_count": 486,
-                    "particle_count": 72,
+                    "noun_count": 6335,
+                    "verb_count": 1992,
+                    "adverb_count": 187,
+                    "adjective_count": 844,
+                    "particle_count": 1761,
                     "sampled_sentences": [
                         "\ub178\ud654\ub85c \uc778\ud55c \ubabb\uc0dd\uae40 \uc2ac\uc2ac\ub354 \uc911\ub418\ub294 \uc2dc\uae30~~^^",
                         "\uba85\uc608\ud6fc\uc190\uc73c\ub85c \uace0\uc18c\uba74 \ub2f5\uc628\ub2e4",

@@ -37,7 +37,7 @@ Top 10 frequent nouns in korean_hate_speech_chunk_0_without_stopwords.txt:
  ('고', 34),
  ('뭐', 34),
  ('연인', 34)]
-Number of nouns in korean_hate_speech_chunk_0_without_stopwords.txt: 2702
+Number of nouns in korean_hate_speech_chunk_0_without_stopwords.txt: 6530
 
 Top 10 frequent verbs in korean_hate_speech_chunk_0_without_stopwords.txt:
 [('는', 66),
@@ -50,7 +50,7 @@ Top 10 frequent verbs in korean_hate_speech_chunk_0_without_stopwords.txt:
  ('한다', 15),
  ('해서', 14),
  ('한', 13)]
-Number of verbs in korean_hate_speech_chunk_0_without_stopwords.txt: 1217
+Number of verbs in korean_hate_speech_chunk_0_without_stopwords.txt: 1988
 
 Top 10 frequent adverbs in korean_hate_speech_chunk_0_without_stopwords.txt:
 [('다', 97),
@@ -63,7 +63,7 @@ Top 10 frequent adverbs in korean_hate_speech_chunk_0_without_stopwords.txt:
  ('빨리', 4),
  ('맨날', 4),
  ('우', 3)]
-Number of adverbs in korean_hate_speech_chunk_0_without_stopwords.txt: 30
+Number of adverbs in korean_hate_speech_chunk_0_without_stopwords.txt: 189
 
 Top 10 frequent adjectives in korean_hate_speech_chunk_0_without_stopwords.txt:
 [('많', 26),
@@ -76,7 +76,7 @@ Top 10 frequent adjectives in korean_hate_speech_chunk_0_without_stopwords.txt:
  ('같은데', 12),
  ('입니다', 12),
  ('많은', 11)]
-Number of adjectives in korean_hate_speech_chunk_0_without_stopwords.txt: 478
+Number of adjectives in korean_hate_speech_chunk_0_without_stopwords.txt: 843
 
 Top 10 frequent josa (Korean particles) in korean_hate_speech_chunk_0_without_stopwords.txt:
 [('가', 183),
@@ -89,7 +89,7 @@ Top 10 frequent josa (Korean particles) in korean_hate_speech_chunk_0_without_st
  ('라', 66),
  ('서', 62),
  ('만', 53)]
-Number of josa (Korean Particles) in korean_hate_speech_chunk_0_without_stopwords.txt: 59
+Number of josa (Korean Particles) in korean_hate_speech_chunk_0_without_stopwords.txt: 1703
 
 Collocations among tagged words:
 [(('\n  ', 'Foreign'), ('철구', 'Noun')),

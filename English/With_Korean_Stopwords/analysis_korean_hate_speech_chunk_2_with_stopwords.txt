@@ -212,8 +212,8 @@ Whole chunk tree for sentence: If you have a lot of money, you should throw away
 
 Translating this randomly sampled korean sentence: 얘들도 물들었네.....그래서 연예계로 발 들이면 마약처럼 중독되지...니들은 안그러길 바랬는데...
 
-Chunking this translated sentence: They are also affected... So, if they step into the entertainment industry, they become addicted to it like a drug... I was hoping you wouldn't be like that...
-Whole chunk tree for sentence: They are also affected... So, if they step into the entertainment industry, they become addicted to it like a drug... I was hoping you wouldn't be like that...
+Chunking this translated sentence: They are also affected... So if they step into the entertainment industry, they become addicted to it like a drug... I was hoping you wouldn't be like that...
+Whole chunk tree for sentence: They are also affected... So if they step into the entertainment industry, they become addicted to it like a drug... I was hoping you wouldn't be like that...
 (S
   They/PRP
   (VP are/VBP)
@@ -221,7 +221,6 @@ Whole chunk tree for sentence: They are also affected... So, if they step into t
   affected/JJ
   .../:
   So/RB
-  ,/,
   if/IN
   they/PRP
   (VP step/VBP)

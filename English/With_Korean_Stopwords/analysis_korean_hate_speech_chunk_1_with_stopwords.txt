@@ -122,16 +122,17 @@ Whole chunk tree for sentence: It seems like there is a virus going around in Ko
 
 Translating this randomly sampled korean sentence: ? 여태껏 동거한거에요?
 
-Chunking this translated sentence: ? Have you been living together ever since?
-Whole chunk tree for sentence: ? Have you been living together ever since?
+Chunking this translated sentence: ? Have you been living together this whole time?
+Whole chunk tree for sentence: ? Have you been living together this whole time?
 (S
   ?/.
   (VP Have/VBP)
   you/PRP
   (VP been/VBN living/VBG)
   together/RB
-  ever/RB
-  since/IN
+  this/DT
+  whole/JJ
+  (NP time/NN)
   ?/.)
 
 Translating this randomly sampled korean sentence: 남자측 욕하지마세요

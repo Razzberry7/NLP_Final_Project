@@ -114,19 +114,19 @@ Whole chunk tree for sentence: Standing Tool Yong is broadcasting ~~ There are m
 
 Translating this randomly sampled korean sentence:  라...잘난척 겉멋은...굴 불쌍타.구속해서 사형판결내려라
 
-Chunking this translated sentence: La... you're so arrogant... you're pitiful. Arrest him and sentence him to death.
-Whole chunk tree for sentence: La... you're so arrogant... you're pitiful. Arrest him and sentence him to death.
+Chunking this translated sentence: La...you look so proud...pity the oyster. Arrest him and sentence him to death.
+Whole chunk tree for sentence: La...you look so proud...pity the oyster. Arrest him and sentence him to death.
 (S
   (NP La/NNP)
   .../:
   you/PRP
-  (VP 're/VBP)
+  (VP look/VBP)
   so/RB
-  arrogant/JJ
+  proud/JJ
   .../:
-  you/PRP
-  (VP 're/VBP)
-  pitiful/JJ
+  (NP pity/NN)
+  the/DT
+  (NP oyster/NN)
   ./.
   (NP Arrest/NNP)
   him/PRP

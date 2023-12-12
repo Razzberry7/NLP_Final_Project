@@ -214,15 +214,14 @@ Whole chunk tree for sentence: Shamelessness seems to be on the same level as na
 
 Translating this randomly sampled korean sentence: 라도아줌마는 노빠문레기들 세상이 천국이랑께
 
-Chunking this translated sentence: Auntie Rado is like a old lady, the world is heaven.
-Whole chunk tree for sentence: Auntie Rado is like a old lady, the world is heaven.
+Chunking this translated sentence: Auntie Rado is like a noppamunregi, the world is heaven.
+Whole chunk tree for sentence: Auntie Rado is like a noppamunregi, the world is heaven.
 (S
   (NP Auntie/NNP Rado/NNP)
   (VP is/VBZ)
   like/IN
   a/DT
-  old/JJ
-  (NP lady/NN)
+  (NP noppamunregi/NN)
   ,/,
   the/DT
   (NP world/NN)
