@@ -10,6 +10,7 @@ from konlpy.corpus import kolaw
 from konlpy.tag import Kkma, Okt
 from konlpy.utils import concordance, pprint
 from matplotlib import pyplot
+import matplotlib.font_manager as fm
 import os
 from alive_progress import alive_bar; import time
 import random
@@ -19,6 +20,7 @@ import numpy
 import json
 import sys
 from enum import Enum
+import csv
 
 # Method to print concordance to file (adapted from KoNLPy's util.py) 
 def concordance_to_file(phrase, text, show, output_file):
@@ -679,13 +681,14 @@ def generate_plots():
             
             # Make a table for every averaged metric
             for metric in Metric:
+                # Create column names
+                columns = ['Language', 'Stopwords', metric.name]
+
+                # Load appropriate data into a different list for the table
                 data = [['Korean', 'With', average_metric(language=Language.KOREAN.value, stopword=Stopword.WITH.value, metric=metric.value)],
                         ['Korean', 'Without', average_metric(language=Language.KOREAN.value, stopword=Stopword.WITHOUT.value, metric=metric.value)],
                         ['English', 'With', average_metric(language=Language.ENGLISH.value, stopword=Stopword.WITH.value, metric=metric.value)],
                         ['English', 'Without', average_metric(language=Language.ENGLISH.value, stopword=Stopword.WITHOUT.value, metric=metric.value)]]
-
-
-                columns = ['Language', 'Stopwords', metric.name]
 
                 # Create a figure and axis
                 fig, ax = pyplot.subplots()
@@ -696,19 +699,54 @@ def generate_plots():
                 # Create a table
                 pyplot.table(cellText=data, colLabels=columns, loc='center')
 
+                # Save the table to a file
                 pyplot.savefig(f"./Tables/{metric.name}_table.png")
 
             # Make a table for each chunk's sampled sentences
-            for language in Language:
+            columns = ['Corpus Chunk', 'Stopwords', 'Sampled Sentences', 'Ko Word Count', 
+                        'Translated Sentences', 'En Word Count', 'Word Count Difference']
+            
+            # Assemble data in the correct format to match columns
+            data = []
+            for stopword in Stopword:
                 print("\n")
-                for stopword in Stopword:
-                    print("\n")
-                    for idx, chunk in enumerate(overall_data[language.value][stopword.value]):
-                        for sentence in chunk[7]:
-                            print(f"{language.name} {stopword.name} chunk{idx} {sentence}")
+                for i, chunk in enumerate(overall_data[Language.KOREAN.value][stopword.value]):
+                    for j, sentence in enumerate(chunk[7]):
+                        ko_sentence_word_count = len(sentence.split())
+                        translated_sentence = overall_data[Language.ENGLISH.value][stopword.value][i][7][j]
+                        en_sentence_word_count = len(translated_sentence.split())
+                        word_count_diff = abs(ko_sentence_word_count - en_sentence_word_count)
+                        data.append([f'korean_hate_speech_chunk_{i}', stopword.name, sentence, 
+                                     ko_sentence_word_count, translated_sentence, en_sentence_word_count, word_count_diff])
                 
+            # Create CSV file
+            with open('sampled_sentences_data.csv', 'w', encoding="utf-8", newline='') as csv_file:
+                writer = csv.writer(csv_file)
 
+                writer.writerow(columns)
 
+                # Write each row in the list to the CSV
+                for row in data:
+                    writer.writerow(row)
+
+                    # # Create a table
+                    # table = pyplot.table(cellText=data, colLabels=columns, loc='center')
+
+                    # fprop = fm.FontProperties(fname='NotoSansKR-Regular.ttf')
+
+                    # for cell in table._cells:
+                    #     table._cells[cell].set_text_props(fontproperties=fprop)
+
+                    # # Hide the axes
+                    # pyplot.axis('off')
+
+                    # # Save the table to a file
+                    # pyplot.savefig(f"./Tables/test_table_{i}_{stopword.name}.png", dpi=300)
+
+                    # pyplot.clf()
+
+            
+            
 
 
     except (FileNotFoundError, json.JSONDecodeError):

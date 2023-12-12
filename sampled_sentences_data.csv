@@ -1,0 +1,81 @@
+Corpus Chunk,Stopwords,Sampled Sentences,Ko Word Count,Translated Sentences,En Word Count,Word Count Difference
+korean_hate_speech_chunk_0,WITH,좋은 댓글은 바로 지워지는것보니 누군가의 장난 및 댓글알바 의심되니 혜선씨 댓글 신경쓰지마세요~^^,12,"Seeing as good comments are immediately deleted, I suspect someone's pranks and comments are part-time, so don't pay attention to Hye-sun's comments~^^",22,10
+korean_hate_speech_chunk_0,WITH,진영이 형님은 우리 곡의 하술사 lYG행닝을 이기고 오셨으면 좋겠다는 마음입니다 행님~,11,"Jinyoung, I hope you can beat our song's magician lYG Haengning~ Haengnim~",12,1
+korean_hate_speech_chunk_0,WITH,방탄이 7명이 강다니엘에게 압살당함,4,7 BTS members were crushed by Kang Daniel,8,4
+korean_hate_speech_chunk_0,WITH,글만읽어도 진부하다..70년대 일본소설 느낌을 벗어날수 없다..오싱같은..,6,"Even if you just read the text, it's cliche...you can't escape the feeling of a Japanese novel from the 70's...like a misfortune...",22,16
+korean_hate_speech_chunk_0,WITH,정신빠진놈이구만 일본놈을 위로하냐,3,"You're so crazy, are you comforting a Japanese guy?",9,6
+korean_hate_speech_chunk_1,WITH,아주 이기주의에 쩔은 인간들 천지네 뇌를 파먹는 바이러스가 한국에 돌아다니는 듯,11,It seems like there is a virus going around in Korea that is eating the brains of people full of selfishness.,21,10
+korean_hate_speech_chunk_1,WITH,? 여태껏 동거한거에요?,3,? Have you been living together ever since?,8,5
+korean_hate_speech_chunk_1,WITH,남자측 욕하지마세요,2,Don't curse at the man,5,3
+korean_hate_speech_chunk_1,WITH,여보세요~~~ 그냥 남자가 권태기 와서 여자 버리고 싶어진겁니다~~여러분 결혼 한번 안해본 사람들처럼 왜이러세요~~,13,"Hello~~~ It's just a man getting bored and wanting to abandon the woman~~ Everyone, why are you like this like people who have never been married~~",26,13
+korean_hate_speech_chunk_1,WITH,방송출연해서 이런말 막해도 되나? 김학래는 가정 없이 혼자사는분인가? 글고 아무것도 모르는 우리도 남을 쓰레기라 말할 자격있나? 김학래씨도 잘못했다고 인정하는게 좋을듯 어떤 사정이 있었는지는 모르나 잘못한부분은 분명히 있으니,27,"Is it okay for me to appear on TV and say something like this? Is Kim Hak-rae living alone without a family? And do we, who know nothing, have the right to call others trash? It would be better for Kim Hak-rae to admit that he was wrong as well. I don't know what the circumstances were, but he clearly made a mistake.",63,36
+korean_hate_speech_chunk_2,WITH,정준 별로...사상의심,2,Jeongjun not so much...I doubt the idea,7,5
+korean_hate_speech_chunk_2,WITH,어휴 좀더 어린분 만나서 결혼하시지 ㅋㅋㅋㅋㅋㅋㅋㅋ어휴 2세 안볼거에요 건모형 여자나이 40이면 끝난거에요 병원가서 검사부터 받아보세요 임신가능한가,16,"Ugh, why don't you meet someone younger and get married hahahahahahahahaha I won't see you for 2 years. If you're a dry model woman and she's in her 40s, it's over. Go to the hospital and get tested first. Is it possible to get pregnant?",45,29
+korean_hate_speech_chunk_2,WITH,세 가족 다 예쁘네,4,All three family members are pretty.,6,2
+korean_hate_speech_chunk_2,WITH,돈많으면 쓰던거 버리고 새것 사야지.. 잘했어 용대야..,7,"If you have a lot of money, you should throw away the old one and buy a new one.. Good job Yongdae..",22,15
+korean_hate_speech_chunk_2,WITH,얘들도 물들었네.....그래서 연예계로 발 들이면 마약처럼 중독되지...니들은 안그러길 바랬는데...,9,"They are also affected... So, if they step into the entertainment industry, they become addicted to it like a drug... I was hoping you wouldn't be like that...",28,19
+korean_hate_speech_chunk_3,WITH,우와 하림님 정말 축하드려요!!,4,"Wow, congratulations Harim!!",3,1
+korean_hate_speech_chunk_3,WITH,"강타 실제로 보면 잘생겼는가보넹,,, 개취지 뭐",6,"Kangta looks handsome in person,,, what a mess.",8,2
+korean_hate_speech_chunk_3,WITH,"장례식장에 페미들이 몰려와서 여성평등을 외치고 난동 부릴거 같더니,,, 페미들이 조용하네,,, ㅋㅋㅋ",11,"It looked like feminists would come to the funeral and shout for women's equality and cause a riot,,, but the feminists are quiet,,, lol.",24,13
+korean_hate_speech_chunk_3,WITH,국내 관종 환자들을 볼 수 있는 프로!!,7,A professional who can see domestic patients with vascular disease!!,10,3
+korean_hate_speech_chunk_3,WITH,왜 이러나 정말 이건 불륜인데 나중에 늘겅서 어쪄려고,8,"Why is this happening? This is really an affair, so what are you going to do with it later?",19,11
+korean_hate_speech_chunk_4,WITH,장애인 스티븐 호킹박사보다 일베충들의 행복지수가 더 높다.,7,The happiness index of Ilbe loyalists is higher than that of the disabled Dr. Stephen Hawking.,16,9
+korean_hate_speech_chunk_4,WITH,힘들면 관뒀어야지 그게 현명한거다,4,"If it's hard, you should quit. That's wise.",8,4
+korean_hate_speech_chunk_4,WITH,화끈하게 뿌리시길~~ 그와중에 잘생김 뚝뚝..,5,"Spray it hot~~ Meanwhile, you look handsome..",7,2
+korean_hate_speech_chunk_4,WITH,"최자는 연예인들까지 나서서 오냐오냐 해주고 주변 지인이였던 여자연예인들은 안해도 욕먹고, 추모한 연예인도 가만있어라고 욕먹고..잘하는 짓이다. 남자나패라.여자 패지말고.",17,"Choiza even went so far as to ask celebrities to come forward, and female celebrities who were acquaintances of him were criticized for not doing anything, and celebrities who paid tribute to him were criticized for telling him to stay still. This is a good thing. Beat up men. Don’t beat up women.",53,36
+korean_hate_speech_chunk_4,WITH,불청에 나와서 즐기다 들어가던만..뭔 2년..,5,"I came out uninvited, enjoyed it, and then went back in... two years...",13,8
+korean_hate_speech_chunk_5,WITH,서로 도구로 이용하는 방송~~순진한 인간들 많네,6,There are a lot of naive people on broadcasting who use each other as tools.,15,9
+korean_hate_speech_chunk_5,WITH,저 또라이...잘난척 겉멋은...에굴 불쌍타.구속해서 사형판결내려라,5,That fool... he's so arrogant... I feel sorry for him. Arrest him and sentence him to death.,17,12
+korean_hate_speech_chunk_5,WITH,예원이가 불쌍한거였어,2,Yewon was pitiful,3,1
+korean_hate_speech_chunk_5,WITH,태지오빠 좀 편히 살게 해줬으면ㅜㅜ자녀도 곧 취학연령이 될텐데불편해서 또 해외로 떠나실까봐 걱정돼요,12,"Taejioppa, I wish I could live a more comfortable life. My children will soon be of school age, but I am worried that they will go abroad again because of the inconvenience.",32,20
+korean_hate_speech_chunk_5,WITH,윤진이가 연기를 잘하는것임,3,Yunjin is good at acting.,5,2
+korean_hate_speech_chunk_6,WITH,십년이 흐른 지금에도 남잔 의리!!,5,"Even after ten years, he is still loyal to men!!",10,5
+korean_hate_speech_chunk_6,WITH,심장소리가 들리네마네 장난치더니 진짜 유산되버려라.,5,"I can hear your heartbeat, but you were playing around and ended up having a miscarriage.",16,11
+korean_hate_speech_chunk_6,WITH,"전현무는 인생선택을 한 것임. 신동엽과 헤어진 이소라 처럼, 전현무는 앞으로 전문직 여성 만나 잘 살거고, 한혜진은 이소라 꼴 낫거임. 나이든 상폐녀가 연하남 만난다는 자랑이나 하며, 추하게 늙어갈 운명.",28,"Jeon Hyun-moo made a life choice. Like Lee So-ra who broke up with Shin Dong-yeop, Jeon Hyun-moo will meet a professional woman and live well in the future, and Han Hye-jin will be like Lee So-ra. An older woman with a broken heart brags about meeting a younger man, and is destined to grow old ugly.",56,28
+korean_hate_speech_chunk_6,WITH,뻔뻔함이 개국이랑 동급인듯,3,Shamelessness seems to be on the same level as nationalism.,10,7
+korean_hate_speech_chunk_6,WITH,라도아줌마는 노빠문레기들 세상이 천국이랑께,4,"Auntie Rado is like a old lady, the world is heaven.",11,7
+korean_hate_speech_chunk_7,WITH,노화로 인한 못생김이 슬슬더 가중되는 시기~~^^,6,It is a time when ugliness due to aging gradually becomes worse~~^^,12,6
+korean_hate_speech_chunk_7,WITH,명예훼손으로 고소하면 답나온다,3,"If you sue for defamation, you will get an answer.",10,7
+korean_hate_speech_chunk_7,WITH,진짜 대한민국 원탑~~~!!!!!♡♡♡♡♡♡♡,3,The real top of Korea~~~!!!!!♡♡♡♡♡♡♡,5,2
+korean_hate_speech_chunk_7,WITH,ㅅㅂ 모르고저런거지 알고 저랬겠냐 꼰대 새키들 드럽게 말많네 ㅋㅋㅋ,9,ㅅㅂ You're like that without knowing. Do you think you did that with knowledge? Old guys and newbies talk so much haha.,22,13
+korean_hate_speech_chunk_7,WITH,여자가 아깝다...그냥일반인과 결혼하지...,3,It's a waste of a woman...just marry an ordinary person...,10,7
+korean_hate_speech_chunk_0,WITHOUT,좋은 댓글은  지워지는보니 누군가 장난  댓글알바 심되니 혜선씨 댓글 신경쓰지마세요~^^,10,"Good comments are deleted, so don't pay attention to Hye-sun's comments as someone is trying to make joke comments~^^",19,9
+korean_hate_speech_chunk_0,WITHOUT,진 형님은  곡 술사 lYG행닝 기고 셨으면 좋겠다는 마음입니다 행님~,10,"Brother Jin, I hope that you will contribute to the music magician lYG Haengning~ Haengnim~",15,5
+korean_hate_speech_chunk_0,WITHOUT,방탄 7명 강다니엘게 압살당함,4,7 BTS members were crushed by Kang Daniel,8,4
+korean_hate_speech_chunk_0,WITHOUT,글만읽도 진부다..70년대 본소설 느낌 벗날수 없다..싱같은..,6,"Even just reading the text, it's so cliché.. I can't escape the feeling of this novel from the 70's.. It's like...",21,15
+korean_hate_speech_chunk_0,WITHOUT,정신빠진놈구만 본놈 위로냐,3,Are you comforting someone who just saw him out of his mind?,12,9
+korean_hate_speech_chunk_1,WITHOUT,주 기주의 쩔은 인간 천지 뇌 파먹는 바러스 한국 돌다니는 듯,11,Joo Gi-ju's crazy human brain-eating varus seems to be wandering around Korea.,12,1
+korean_hate_speech_chunk_1,WITHOUT,? 여태껏 동거한거요?,3,? Have you ever lived together?,6,3
+korean_hate_speech_chunk_1,WITHOUT,남측 욕지마세요,2,Don't criticize the South,4,2
+korean_hate_speech_chunk_1,WITHOUT,여보세요~~~ 냥 남 권태기 서 여 버리고 싶진겁니다~~ 결혼 한번 안해본 사람처럼 러세요~~,13,Hello~~~ The man is bored and wants to abandon the woman~~ Act like someone who has never been married before~~,20,7
+korean_hate_speech_chunk_1,WITHOUT,방송출연해서 런말 막해도 되? 김학래는 정 없 혼사는분인? 글고 무도 르는 도 남을 쓰레기라 말할 격있? 김학래씨도 잘못했다고 인정는게 좋을듯 떤 사정 있었는지는 르 잘못한부분은 분명히 있으니,27,"Is it okay for me to appear on a TV show and say something like that? Is Kim Hak-rae a married person without affection? Do you even have the right to call others trash? I think it would be better for Mr. Hak-rae Kim to admit that he was also at fault, because it is clear that he made a mistake under certain circumstances.",64,37
+korean_hate_speech_chunk_2,WITHOUT,정준 별로...사상의심,2,Jeongjun not so much...I doubt the idea,7,5
+korean_hate_speech_chunk_2,WITHOUT,어 더 어린분 만서 결혼시지 ㅋㅋㅋㅋㅋㅋㅋㅋ어 2세 안볼거요 건형 여자 40면 끝난거요 병원가서 검사 받보세요 임신가능한가,16,"Uh, you're getting married to someone younger hahahahaha. Uh, I won't see you for 2 years. If you're a healthy girl in your 40s, you're done. Go to the hospital and get tested. Is it possible for you to get pregnant?",41,25
+korean_hate_speech_chunk_2,WITHOUT,세 가족 다 예쁘,4,All three family members are pretty,6,2
+korean_hate_speech_chunk_2,WITHOUT,돈많으면 쓰던거 버리고 새 사야지.. 잘했어 용대야..,7,"If you have a lot of money, you should throw away the old one and buy a new one.. Good job Yongdae..",22,15
+korean_hate_speech_chunk_2,WITHOUT,얘도 물었.....래서 연예계로 발 면 마약처럼 중독되지...니은 안러길 바랬는데...,9,"He also asked... So, if you enter the entertainment industry, you become addicted to it like a drug... I was hoping you wouldn't do that...",25,16
+korean_hate_speech_chunk_3,WITHOUT,우 림님 정말 축드려요!!,4,"Woo Lim, I really congratulate you!!",6,2
+korean_hate_speech_chunk_3,WITHOUT,"강타 실로 보면 잘생겼는가보넹,,, 개취지 뭐",6,"Kangta actually looks handsome,,, whatever.",5,1
+korean_hate_speech_chunk_3,WITHOUT,"장례식장 페미 몰려서 여성평등 외치고 난동 부릴거 같더니,,, 페미 조용네,,, ㅋㅋㅋ",11,"It looked like feminists would gather at the funeral and shout for women's equality and cause trouble,,, but the feminists are quiet,,, lol.",23,12
+korean_hate_speech_chunk_3,WITHOUT,국내 관종 환자 볼 수 있는 프로!!,7,A professional who can see domestic patients with vascular disease!!,10,3
+korean_hate_speech_chunk_3,WITHOUT, 러 정말 건 불륜인데 중 늘겅서 어쪄려고,7,"It's really an affair, but what are you going to do with it?",13,6
+korean_hate_speech_chunk_4,WITHOUT,장애인 스티븐 호킹박보다 베충들 행복지수 더 높다.,7,The happiness index of insects is higher than that of disabled person Stephen Hawking Park.,15,8
+korean_hate_speech_chunk_4,WITHOUT,힘들면 관뒀지 게 현명한거다,4,"If it was hard, it was wise to quit.",9,5
+korean_hate_speech_chunk_4,WITHOUT,화끈게 뿌리시길~~ 중 잘생김 뚝뚝..,5,Spray it hot~~ You look so handsome..,7,2
+korean_hate_speech_chunk_4,WITHOUT,"최는 연인들 서서 오냐오냐 해주고 주변 지인였던 연인들은 안해도 욕먹고, 추모한 연인도 만있라고 욕먹고..잘는 짓다. 남패라. 패지말고.",17,"Choi asked lovers to come or not, and those who were acquaintances around him were scolded for not doing so, and those who mourned him were scolded for telling him to just stay. Be a loser. Don't lose.",38,21
+korean_hate_speech_chunk_4,WITHOUT,불청 서 즐기다 들던만..뭔 2년..,5,I was enjoying it uninvited...what 2 years...,7,2
+korean_hate_speech_chunk_5,WITHOUT,서 도구 용는 방송~~순진한 인간 많,6,Standing Tool Yong is broadcasting ~~ There are many naive people,11,5
+korean_hate_speech_chunk_5,WITHOUT, 라...잘난척 겉멋은...굴 불쌍타.구속해서 사형판결내려라,4,La... you're so arrogant... you're pitiful. Arrest him and sentence him to death.,13,9
+korean_hate_speech_chunk_5,WITHOUT,원가 불쌍한거였,2,The cost was pitiful.,4,2
+korean_hate_speech_chunk_5,WITHOUT,태지빠  편히 살게 해줬으면ㅜㅜ녀도  취학연령 될텐데불편해서  해외 떠실까봐 걱정돼요,9,"I wish Taejipa could live comfortably. She would be of school age, but I am worried that she will go abroad because of the inconvenience.",25,16
+korean_hate_speech_chunk_5,WITHOUT,윤진가 연기 잘는임,3,Yoon Jin-ga is good at acting.,6,3
+korean_hate_speech_chunk_6,WITHOUT,십 흐른 지금도 남잔 의리!!,5,"Even after ten years, I am still loyal to men!!",10,5
+korean_hate_speech_chunk_6,WITHOUT,심장소리가 리마 장난치더니 진짜 유산되버려라.,5,The sound of my heart was playing tricks on me and I ended up having a miscarriage.,17,12
+korean_hate_speech_chunk_6,WITHOUT,"전현무는 인생선택 한 임. 신동엽과 헤진 소라 처럼, 전현무는 앞으 전문직 여성 만 잘 살거고, 한혜진은 소라 꼴 낫거임. 든 상폐녀가 연남 만난다는 랑 며, 추게 늙갈 운명.",28,"Jeon Hyun-moo made a life choice. Like Shin Dong-yeop and Sora, Jeon Hyun-moo will only live well as a professional woman in the future, and Han Hye-jin will be like Sora. She said that a woman with a broken heart meets a young man, and that she is destined to grow old coldly.",53,25
+korean_hate_speech_chunk_6,WITHOUT,뻔뻔함 개국랑 동급인듯,3,"Shameless, it seems to be on the same level as Gaekak.",11,8
+korean_hate_speech_chunk_6,WITHOUT,라도줌마는 노빠문레기 세상 천국랑께,4,"Radojumma is the world of Noppamunregi, heaven and earth",9,5
+korean_hate_speech_chunk_7,WITHOUT,노화로 인한 못생김 슬슬더 중되는 시기~~^^,6,It is a time when ugliness due to aging becomes more and more serious~~^^,14,8
+korean_hate_speech_chunk_7,WITHOUT,명예훼손으로 고소면 답온다,3,"If you sue for defamation, you will receive an answer.",10,7
+korean_hate_speech_chunk_7,WITHOUT,진짜 대한민국 원탑~~~!!!!!♡♡♡♡♡♡♡,3,The real top of Korea~~~!!!!!♡♡♡♡♡♡♡,5,2
+korean_hate_speech_chunk_7,WITHOUT,ㅅㅂ 모르고런거지 알고 랬겠냐 꼰대 새키들 드럽게 말많 ㅋㅋㅋ,9,"ㅅㅂ You didn't know, but you knew what you were doing. Old and new kids talk so much haha.",19,10
+korean_hate_speech_chunk_7,WITHOUT,여 깝다...냥반인과 결혼지...,3,Well... I'm getting married to a nyangbanin...,7,4
