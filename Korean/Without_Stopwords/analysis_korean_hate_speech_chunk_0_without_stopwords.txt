@@ -1,0 +1,168 @@
+Number of characters in korean_hate_speech_chunk_0_without_stopwords.txt: 32858
+Number of words in korean_hate_speech_chunk_0_without_stopwords.txt: 7876
+
+Top 10 frequent phrases in korean_hate_speech_chunk_0_without_stopwords.txt:
+[('무리', 1),
+ ('무리 공인기', 1),
+ ('무리 공인기 행동', 1),
+ ('무리 공인기 행동 더', 1),
+ ('무리 공인기 행동 더 조심해는건 해지', 1),
+ ('성형', 1),
+ ('대중', 1),
+ ('대중 허락', 1),
+ ('대중 허락 받는건가요', 1),
+ ('진심', 1)]
+
+Top 10 frequent morphemes in korean_hate_speech_chunk_0_without_stopwords.txt:
+[(('\n', 'Foreign'), 906),
+ (('.', 'Punctuation'), 328),
+ (('가', 'Josa'), 183),
+ (('?', 'Punctuation'), 159),
+ (('도', 'Josa'), 154),
+ (('..', 'Punctuation'), 145),
+ (('은', 'Josa'), 137),
+ (('고', 'Josa'), 135),
+ (('는', 'Josa'), 131),
+ (('...', 'Punctuation'), 130)]
+Number of morphemes in korean_hate_speech_chunk_0_without_stopwords.txt: 4855
+
+Top 10 frequent nouns in korean_hate_speech_chunk_0_without_stopwords.txt:
+[('사람', 83),
+ ('니', 57),
+ ('남', 54),
+ ('무', 49),
+ ('진짜', 49),
+ ('연기', 43),
+ ('더', 40),
+ ('고', 34),
+ ('뭐', 34),
+ ('연인', 34)]
+Number of nouns in korean_hate_speech_chunk_0_without_stopwords.txt: 2702
+
+Top 10 frequent verbs in korean_hate_speech_chunk_0_without_stopwords.txt:
+[('는', 66),
+ ('지', 28),
+ ('잘', 27),
+ ('가', 25),
+ ('할', 21),
+ ('보면', 20),
+ ('넘', 17),
+ ('한다', 15),
+ ('해서', 14),
+ ('한', 13)]
+Number of verbs in korean_hate_speech_chunk_0_without_stopwords.txt: 1217
+
+Top 10 frequent adverbs in korean_hate_speech_chunk_0_without_stopwords.txt:
+[('다', 97),
+ ('근데', 18),
+ ('엄청', 9),
+ ('열심히', 8),
+ ('히', 7),
+ ('걍', 7),
+ ('누군지', 5),
+ ('빨리', 4),
+ ('맨날', 4),
+ ('우', 3)]
+Number of adverbs in korean_hate_speech_chunk_0_without_stopwords.txt: 30
+
+Top 10 frequent adjectives in korean_hate_speech_chunk_0_without_stopwords.txt:
+[('많', 26),
+ ('없', 21),
+ ('좋은', 18),
+ ('같은', 15),
+ ('좋', 13),
+ ('미', 13),
+ ('없는', 13),
+ ('같은데', 12),
+ ('입니다', 12),
+ ('많은', 11)]
+Number of adjectives in korean_hate_speech_chunk_0_without_stopwords.txt: 478
+
+Top 10 frequent josa (Korean particles) in korean_hate_speech_chunk_0_without_stopwords.txt:
+[('가', 183),
+ ('도', 154),
+ ('은', 137),
+ ('고', 135),
+ ('는', 131),
+ ('게', 74),
+ ('지', 71),
+ ('라', 66),
+ ('서', 62),
+ ('만', 53)]
+Number of josa (Korean Particles) in korean_hate_speech_chunk_0_without_stopwords.txt: 59
+
+Collocations among tagged words:
+[(('\n  ', 'Foreign'), ('철구', 'Noun')),
+ ((',?', 'Punctuation'), ('벌었', 'Verb')),
+ (('-!!', 'Punctuation'), ('멋지고', 'Adjective')),
+ (('.........', 'Punctuation'), ('♥', 'Foreign')),
+ (('..?', 'Punctuation'), ('사과받고싶', 'Verb')),
+ (('100', 'Number'), ('퍼', 'PreEomi')),
+ (('2016년', 'Number'), ('사진래요', 'Verb')),
+ (('2018년', 'Number'), ('도', 'Foreign')),
+ (('2020', 'Number'), ('송도', 'Noun')),
+ (('20년', 'Number'), ('전', 'Foreign'))]
+
+Randomly sampling this sentence for chunking: 좋은 댓글은  지워지는보니 누군가 장난  댓글알바 심되니 혜선씨 댓글 신경쓰지마세요~^^
+Whole chunk tree for sentence: 좋은 댓글은  지워지는보니 누군가 장난  댓글알바 심되니 혜선씨 댓글 신경쓰지마세요~^^
+(S
+  (AP 좋은/Adjective)
+  (NP 댓글/Noun)
+  은/Josa
+  (VP 지워지는/Verb 보니/Verb)
+  (NP 누군가/Noun 장난/Noun 댓글알바/Noun 심/Noun)
+  (VP 되니/Verb)
+  (NP 혜/Noun 선씨/Noun 댓글/Noun 신경/Noun)
+  (VP 쓰지/Verb 마세요/Verb)
+  ~^^/Punctuation)
+
+Randomly sampling this sentence for chunking: 진 형님은  곡 술사 lYG행닝 기고 셨으면 좋겠다는 마음입니다 행님~
+Whole chunk tree for sentence: 진 형님은  곡 술사 lYG행닝 기고 셨으면 좋겠다는 마음입니다 행님~
+(S
+  (NP 진/Noun 형님/Noun)
+  은/Josa
+  (NP 곡/Noun 술사/Noun)
+  (AP lYG/Alpha)
+  (NP 행닝/Noun 기고/Noun 셨으/Noun)
+  면/Josa
+  (AP 좋겠다는/Adjective)
+  (NP 마음/Noun)
+  (AP 입니다/Adjective)
+  (NP 행/Noun 님/Suffix)
+  ~/Punctuation)
+
+Randomly sampling this sentence for chunking: 방탄 7명 강다니엘게 압살당함
+Whole chunk tree for sentence: 방탄 7명 강다니엘게 압살당함
+(S
+  (NP 방탄/Noun 7/Number 명/Noun 강/Noun 다니엘/Noun)
+  게/Josa
+  (NP 압살/Noun)
+  (AP 당함/Adjective))
+
+Randomly sampling this sentence for chunking: 글만읽도 진부다..70년대 본소설 느낌 벗날수 없다..싱같은..
+Whole chunk tree for sentence: 글만읽도 진부다..70년대 본소설 느낌 벗날수 없다..싱같은..
+(S
+  (NP 글/Noun)
+  만/Josa
+  (VP 읽도/Verb)
+  (NP 진부/Noun)
+  다/Josa
+  ../Punctuation
+  (NP 70년/Number)
+  대/Foreign
+  본/Modifier
+  (NP 소설/Noun 느낌/Noun 벗/Noun 날수/Noun)
+  (AP 없다/Adjective)
+  ../Punctuation
+  (NP 싱같/Noun)
+  은/Josa
+  ../Punctuation)
+
+Randomly sampling this sentence for chunking: 정신빠진놈구만 본놈 위로냐
+Whole chunk tree for sentence: 정신빠진놈구만 본놈 위로냐
+(S
+  (NP 정신/Noun)
+  (VP 빠진/Verb 놈구만/Verb)
+  본/Modifier
+  (NP 놈/Noun 위로/Noun)
+  냐/Josa)

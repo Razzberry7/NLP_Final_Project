@@ -1,0 +1,219 @@
+Number of characters in korean_hate_speech_chunk_1_without_stopwords.txt: 92319
+Number of words in korean_hate_speech_chunk_1_without_stopwords.txt: 16887
+
+Top 10 frequent morphemes in korean_hate_speech_chunk_1_without_stopwords.txt:
+((',', ','), 918)
+(('.', '.'), 907)
+(('I', 'PRP'), 570)
+(('a', 'DT'), 508)
+(('the', 'DT'), 489)
+(('you', 'PRP'), 412)
+(('is', 'VBZ'), 394)
+(('to', 'TO'), 392)
+(('it', 'PRP'), 381)
+(('?', '.'), 366)
+
+Number of particles in korean_hate_speech_chunk_1_without_stopwords.txt: 20558
+
+Top 10 frequent nouns in korean_hate_speech_chunk_1_without_stopwords.txt:
+('Kim', 50)
+('haha', 49)
+('’', 49)
+('people', 46)
+('..', 37)
+('tsk', 36)
+('lot', 35)
+('money', 28)
+('Park', 26)
+('something', 25)
+
+Number of nouns in korean_hate_speech_chunk_1_without_stopwords.txt: 4481
+
+Top 10 frequent verbs in korean_hate_speech_chunk_1_without_stopwords.txt:
+('is', 394)
+("'s", 259)
+('was', 144)
+('are', 137)
+('be', 110)
+("'m", 104)
+('have', 102)
+('do', 98)
+("'re", 70)
+('get', 50)
+
+Number of verbs in korean_hate_speech_chunk_1_without_stopwords.txt: 3644
+
+Top 10 frequent adverbs in korean_hate_speech_chunk_1_without_stopwords.txt:
+("n't", 192)
+('so', 93)
+('really', 74)
+('just', 63)
+('not', 56)
+('even', 43)
+('too', 43)
+('also', 41)
+('Even', 38)
+('always', 26)
+
+Number of adverbs in korean_hate_speech_chunk_1_without_stopwords.txt: 1165
+
+Top 10 frequent adjectives in korean_hate_speech_chunk_1_without_stopwords.txt:
+('good', 93)
+('same', 22)
+('hard', 22)
+('more', 19)
+('much', 19)
+('first', 18)
+('nice', 18)
+('great', 17)
+('pretty', 16)
+('old', 16)
+
+Number of adjectives in korean_hate_speech_chunk_1_without_stopwords.txt: 1421
+
+Top 10 frequent particles in korean_hate_speech_chunk_1_without_stopwords.txt:
+('up', 35)
+('out', 22)
+('okay', 5)
+('off', 3)
+('ten', 1)
+('around', 1)
+('down', 1)
+
+Number of particles in korean_hate_speech_chunk_1_without_stopwords.txt: 68
+
+Collocations among tagged words:
+[(('$', '$'), ('1,000', 'CD')),
+ (("'Rangjiral", 'NNP'), ("'", "''")),
+ (("'s", 'PRP'), ('elect', 'VB')),
+ (('....', 'JJ'), ('Awesome', 'NNP')),
+ (('10+8', 'CD'), ('Compared', 'VBD')),
+ (('12', 'CD'), ('hours', 'NNS')),
+ (('15', 'CD'), ('weeks', 'NNS')),
+ (('3040', 'CD'), ('denomination', 'NN')),
+ (('32', 'CD'), ('ranks', 'NNS')),
+ (('59', 'CD'), ('Jimin', 'NNP'))]
+
+Translating this randomly sampled korean sentence: 주 기주의 쩔은 인간 천지 뇌 파먹는 바러스 한국 돌다니는 듯
+
+Chunking this translated sentence: Joo Gi-ju's crazy human brain-eating varus seems to be wandering around Korea.
+Whole chunk tree for sentence: Joo Gi-ju's crazy human brain-eating varus seems to be wandering around Korea.
+(S
+  (NP Joo/NNP Gi-ju/NNP)
+  's/POS
+  crazy/JJ
+  human/JJ
+  (NP brain-eating/NN varus/NN)
+  (VP seems/VBZ)
+  to/TO
+  (VP be/VB wandering/VBG)
+  around/IN
+  (NP Korea/NNP)
+  ./.)
+
+Translating this randomly sampled korean sentence: ? 여태껏 동거한거요?
+
+Chunking this translated sentence: ? Have you ever lived together?
+Whole chunk tree for sentence: ? Have you ever lived together?
+(S ?/. (VP Have/VBP) you/PRP ever/RB (VP lived/VBD) together/RB ?/.)
+
+Translating this randomly sampled korean sentence: 남측 욕지마세요
+
+Chunking this translated sentence: Don't criticize the South
+Whole chunk tree for sentence: Don't criticize the South
+(S (VP Do/VBP) n't/RB (VP criticize/VB) the/DT (NP South/NNP))
+
+Translating this randomly sampled korean sentence: 여보세요~~~ 냥 남 권태기 서 여 버리고 싶진겁니다~~ 결혼 한번 안해본 사람처럼 러세요~~
+
+Chunking this translated sentence: Hello~~~ The man is bored and wants to abandon the woman~~ Act like someone who has never been married before~~
+Whole chunk tree for sentence: Hello~~~ The man is bored and wants to abandon the woman~~ Act like someone who has never been married before~~
+(S
+  (NP Hello~~~/NNP)
+  The/DT
+  (NP man/NN)
+  (VP is/VBZ bored/VBN)
+  and/CC
+  (VP wants/VBZ)
+  to/TO
+  (VP abandon/VB)
+  the/DT
+  woman~~/JJ
+  (NP Act/NNP)
+  like/IN
+  (NP someone/NN)
+  who/WP
+  (VP has/VBZ)
+  never/RB
+  (VP been/VBN married/VBN)
+  (NP before~~/NN))
+
+Translating this randomly sampled korean sentence: 방송출연해서 런말 막해도 되? 김학래는 정 없 혼사는분인? 글고 무도 르는 도 남을 쓰레기라 말할 격있? 김학래씨도 잘못했다고 인정는게 좋을듯 떤 사정 있었는지는 르 잘못한부분은 분명히 있으니
+
+Chunking this translated sentence: Is it okay for me to appear on a TV show and say something like that? Is Kim Hak-rae a married person without affection? Do you even have the right to call others trash? I think it would be better for Mr. Hak-rae Kim to admit that he was also at fault, because it is clear that he made a mistake under certain circumstances.
+Whole chunk tree for sentence: Is it okay for me to appear on a TV show and say something like that? Is Kim Hak-rae a married person without affection? Do you even have the right to call others trash? I think it would be better for Mr. Hak-rae Kim to admit that he was also at fault, because it is clear that he made a mistake under certain circumstances.
+(S
+  (VP Is/VBZ)
+  it/PRP
+  okay/RP
+  for/IN
+  me/PRP
+  to/TO
+  (VP appear/VB)
+  on/IN
+  a/DT
+  (NP TV/NN show/NN)
+  and/CC
+  (VP say/VBP)
+  (NP something/NN)
+  like/IN
+  that/DT
+  ?/.
+  (VP Is/VBZ)
+  (NP Kim/NNP Hak-rae/NNP)
+  a/DT
+  married/JJ
+  (NP person/NN)
+  without/IN
+  (NP affection/NN)
+  ?/.
+  (VP Do/VBP)
+  you/PRP
+  even/RB
+  (VP have/VBP)
+  the/DT
+  (NP right/NN)
+  to/TO
+  (VP call/VB)
+  (NP others/NNS)
+  trash/IN
+  ?/.
+  I/PRP
+  (VP think/VBP)
+  it/PRP
+  would/MD
+  (VP be/VB)
+  better/JJR
+  for/IN
+  (NP Mr./NNP Hak-rae/NNP Kim/NNP)
+  to/TO
+  (VP admit/VB)
+  that/IN
+  he/PRP
+  (VP was/VBD)
+  also/RB
+  at/IN
+  (NP fault/NN)
+  ,/,
+  because/IN
+  it/PRP
+  (VP is/VBZ)
+  clear/JJ
+  that/IN
+  he/PRP
+  (VP made/VBD)
+  a/DT
+  (NP mistake/NN)
+  under/IN
+  certain/JJ
+  (NP circumstances/NNS)
+  ./.)

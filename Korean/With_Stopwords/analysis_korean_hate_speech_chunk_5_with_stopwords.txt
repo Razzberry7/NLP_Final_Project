@@ -1,0 +1,168 @@
+Number of characters in korean_hate_speech_chunk_5_with_stopwords.txt: 39517
+Number of words in korean_hate_speech_chunk_5_with_stopwords.txt: 8413
+
+Top 10 frequent phrases in korean_hate_speech_chunk_5_with_stopwords.txt:
+[('연예인', 1),
+ ('이미지', 1),
+ ('이미지 생각', 1),
+ ('생각', 1),
+ ('생각할 수', 1),
+ ('책임감', 1),
+ ('나이', 1),
+ ('남자', 1),
+ ('곧 결혼', 1),
+ ('곧 결혼할 나이임', 1)]
+
+Top 10 frequent morphemes in korean_hate_speech_chunk_5_with_stopwords.txt:
+[(('\n', 'Foreign'), 986),
+ (('이', 'Josa'), 285),
+ (('.', 'Punctuation'), 250),
+ (('들', 'Suffix'), 215),
+ (('가', 'Josa'), 201),
+ (('?', 'Punctuation'), 178),
+ (('..', 'Punctuation'), 160),
+ (('은', 'Josa'), 155),
+ (('에', 'Josa'), 147),
+ (('는', 'Josa'), 139)]
+Number of morphemes in korean_hate_speech_chunk_5_with_stopwords.txt: 5837
+
+Top 10 frequent nouns in korean_hate_speech_chunk_5_with_stopwords.txt:
+[('여자', 68),
+ ('사람', 67),
+ ('왜', 57),
+ ('좀', 51),
+ ('진짜', 44),
+ ('애', 42),
+ ('때', 36),
+ ('남자', 35),
+ ('더', 34),
+ ('거', 32)]
+Number of nouns in korean_hate_speech_chunk_5_with_stopwords.txt: 2877
+
+Top 10 frequent verbs in korean_hate_speech_chunk_5_with_stopwords.txt:
+[('하는', 32),
+ ('잘', 27),
+ ('넘', 27),
+ ('할', 21),
+ ('하면', 20),
+ ('해서', 18),
+ ('들', 18),
+ ('지', 15),
+ ('참', 15),
+ ('합니다', 13)]
+Number of verbs in korean_hate_speech_chunk_5_with_stopwords.txt: 1565
+
+Top 10 frequent adverbs in korean_hate_speech_chunk_5_with_stopwords.txt:
+[('다', 61),
+ ('너무', 46),
+ ('많이', 21),
+ ('근데', 19),
+ ('이렇게', 13),
+ ('그래도', 12),
+ ('그렇게', 11),
+ ('딱', 8),
+ ('이리', 8),
+ ('없이', 7)]
+Number of adverbs in korean_hate_speech_chunk_5_with_stopwords.txt: 70
+
+Top 10 frequent adjectives in korean_hate_speech_chunk_5_with_stopwords.txt:
+[('입니다', 20),
+ ('같은', 16),
+ ('좋은', 16),
+ ('없는', 14),
+ ('아니', 13),
+ ('솔직히', 12),
+ ('같은데', 10),
+ ('이런', 10),
+ ('있는데', 8),
+ ('아님', 8)]
+Number of adjectives in korean_hate_speech_chunk_5_with_stopwords.txt: 754
+
+Top 10 frequent josa (Korean particles) in korean_hate_speech_chunk_5_with_stopwords.txt:
+[('이', 285),
+ ('가', 201),
+ ('은', 155),
+ ('에', 147),
+ ('는', 139),
+ ('도', 133),
+ ('을', 92),
+ ('를', 65),
+ ('로', 62),
+ ('의', 52)]
+Number of josa (Korean Particles) in korean_hate_speech_chunk_5_with_stopwords.txt: 133
+
+Collocations among tagged words:
+[(('$', 'Punctuation'), ('아닌가요', 'Adjective')),
+ (('&', 'Punctuation'), ('A', 'Alpha')),
+ (('0.0000000003초', 'Number'), ('만에', 'Foreign')),
+ (('1000만', 'Number'), ('번', 'Foreign')),
+ (('10년', 'Number'), ('간', 'Foreign')),
+ (('11년', 'Number'), ('키우던', 'Verb')),
+ (('11월', 'Number'), ('까지', 'Foreign')),
+ (('13년', 'Number'), ('기댄', 'Verb')),
+ (('14시간', 'Number'), ('씩', 'Foreign')),
+ (('15년', 'Number'), ('부터한', 'Foreign'))]
+
+Randomly sampling this sentence for chunking: 서로 도구로 이용하는 방송~~순진한 인간들 많네
+Whole chunk tree for sentence: 서로 도구로 이용하는 방송~~순진한 인간들 많네
+(S
+  (NP 서로/Noun 도구로/Noun 이용/Noun)
+  (VP 하는/Verb)
+  (NP 방송/Noun)
+  ~~/Punctuation
+  (AP 순진한/Adjective)
+  (NP 인간/Noun 들/Suffix)
+  (AP 많네/Adjective))
+
+Randomly sampling this sentence for chunking: 저 또라이...잘난척 겉멋은...에굴 불쌍타.구속해서 사형판결내려라
+Whole chunk tree for sentence: 저 또라이...잘난척 겉멋은...에굴 불쌍타.구속해서 사형판결내려라
+(S
+  (NP 저/Noun 또/Noun 라이/Noun)
+  .../Punctuation
+  (AP 잘난/Adjective)
+  (NP 척/Noun 겉멋/Noun)
+  은/Josa
+  .../Punctuation
+  에/Josa
+  (NP 굴/Noun 불쌍타/Noun)
+  ./Punctuation
+  (NP 구속/Noun)
+  (VP 해서/Verb)
+  (NP 사형/Noun 판결/Noun)
+  (VP 내려라/Verb))
+
+Randomly sampling this sentence for chunking: 예원이가 불쌍한거였어
+Whole chunk tree for sentence: 예원이가 불쌍한거였어
+(S (NP 예원/Noun 이/Suffix) 가/Josa (AP 불쌍한거였어/Adjective))
+
+Randomly sampling this sentence for chunking: 태지오빠 좀 편히 살게 해줬으면ㅜㅜ자녀도 곧 취학연령이 될텐데불편해서 또 해외로 떠나실까봐 걱정돼요
+Whole chunk tree for sentence: 태지오빠 좀 편히 살게 해줬으면ㅜㅜ자녀도 곧 취학연령이 될텐데불편해서 또 해외로 떠나실까봐 걱정돼요
+(S
+  (NP 태지/Noun 오빠/Suffix)
+  (NP 좀/Noun)
+  (AP 편히/Adjective)
+  (NP 살/Noun)
+  게/Josa
+  (VP 해줬으면/Verb)
+  ㅜㅜ/KoreanParticle
+  (NP 자녀/Noun)
+  도/Josa
+  (NP 곧/Noun 취학/Noun 연령/Noun)
+  이/Josa
+  (VP 될텐데/Verb)
+  (AP 불편해서/Adjective)
+  (NP 또/Noun 해외/Noun)
+  로/Josa
+  (VP 떠나실까봐/Verb)
+  (NP 걱정/Noun)
+  (VP 돼요/Verb))
+
+Randomly sampling this sentence for chunking: 윤진이가 연기를 잘하는것임
+Whole chunk tree for sentence: 윤진이가 연기를 잘하는것임
+(S
+  (NP 윤진이/Noun)
+  가/Josa
+  (NP 연기/Noun)
+  를/Josa
+  (VP 잘/VerbPrefix 하는것/Verb)
+  (NP 임/Noun))

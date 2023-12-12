@@ -1,0 +1,190 @@
+Number of characters in korean_hate_speech_chunk_5_without_stopwords.txt: 90274
+Number of words in korean_hate_speech_chunk_5_without_stopwords.txt: 16513
+
+Top 10 frequent morphemes in korean_hate_speech_chunk_5_without_stopwords.txt:
+(('.', '.'), 912)
+((',', ','), 791)
+(('I', 'PRP'), 573)
+(('the', 'DT'), 550)
+(('a', 'DT'), 516)
+(('to', 'TO'), 388)
+(('?', '.'), 364)
+(('and', 'CC'), 347)
+(('it', 'PRP'), 345)
+(('you', 'PRP'), 322)
+
+Number of particles in korean_hate_speech_chunk_5_without_stopwords.txt: 19983
+
+Top 10 frequent nouns in korean_hate_speech_chunk_5_without_stopwords.txt:
+('’', 66)
+('people', 47)
+('Kim', 45)
+('haha', 40)
+('woman', 38)
+('..', 38)
+('ha', 36)
+('lot', 35)
+('person', 33)
+('Park', 31)
+
+Number of nouns in korean_hate_speech_chunk_5_without_stopwords.txt: 4458
+
+Top 10 frequent verbs in korean_hate_speech_chunk_5_without_stopwords.txt:
+('is', 311)
+("'s", 217)
+('was', 153)
+('are', 143)
+('be', 117)
+('do', 114)
+('have', 110)
+("'m", 96)
+('Is', 47)
+('’', 45)
+
+Number of verbs in korean_hate_speech_chunk_5_without_stopwords.txt: 3593
+
+Top 10 frequent adverbs in korean_hate_speech_chunk_5_without_stopwords.txt:
+("n't", 161)
+('not', 86)
+('so', 77)
+('really', 72)
+('even', 55)
+('just', 47)
+('also', 37)
+('well', 33)
+('Even', 29)
+('only', 24)
+
+Number of adverbs in korean_hate_speech_chunk_5_without_stopwords.txt: 1092
+
+Top 10 frequent adjectives in korean_hate_speech_chunk_5_without_stopwords.txt:
+('good', 67)
+('old', 21)
+('bad', 18)
+('great', 15)
+('s', 15)
+('’', 14)
+('true', 14)
+('pretty', 13)
+('other', 13)
+('first', 13)
+
+Number of adjectives in korean_hate_speech_chunk_5_without_stopwords.txt: 1342
+
+Top 10 frequent particles in korean_hate_speech_chunk_5_without_stopwords.txt:
+('up', 37)
+('out', 20)
+('off', 13)
+('down', 9)
+('over', 2)
+('acting~', 1)
+('away', 1)
+('around', 1)
+('..', 1)
+('along', 1)
+
+Number of particles in korean_hate_speech_chunk_5_without_stopwords.txt: 86
+
+Collocations among tagged words:
+[((',ㅉㅉ', 'NNP'), ('Against', 'NNP')),
+ (('....', 'JJ'), ('Confessing', 'NNP')),
+ (('0', 'CD'), ('points', 'NNS')),
+ (('162', 'CD'), ('cm', 'NN')),
+ (('185cm', 'CD'), ('tall', 'JJ')),
+ (('21C', 'CD'), ('Shaman', 'NNP')),
+ (('4th', 'CD'), ('dimension', 'NN')),
+ (('503', 'CD'), ('Hwang-ro', 'NNP')),
+ (('82kg', 'CD'), ('Jiyoung', 'NNP')),
+ (('84', 'CD'), ('Studio', 'NNP'))]
+
+Translating this randomly sampled korean sentence: 서 도구 용는 방송~~순진한 인간 많
+
+Chunking this translated sentence: Standing Tool Yong is broadcasting ~~ There are many naive people
+Whole chunk tree for sentence: Standing Tool Yong is broadcasting ~~ There are many naive people
+(S
+  (VP Standing/VBG)
+  (NP Tool/NNP Yong/NNP)
+  (VP is/VBZ broadcasting/VBG)
+  ~~/IN
+  There/EX
+  (VP are/VBP)
+  many/JJ
+  naive/JJ
+  (NP people/NNS))
+
+Translating this randomly sampled korean sentence:  라...잘난척 겉멋은...굴 불쌍타.구속해서 사형판결내려라
+
+Chunking this translated sentence: La... you're so arrogant... you're pitiful. Arrest him and sentence him to death.
+Whole chunk tree for sentence: La... you're so arrogant... you're pitiful. Arrest him and sentence him to death.
+(S
+  (NP La/NNP)
+  .../:
+  you/PRP
+  (VP 're/VBP)
+  so/RB
+  arrogant/JJ
+  .../:
+  you/PRP
+  (VP 're/VBP)
+  pitiful/JJ
+  ./.
+  (NP Arrest/NNP)
+  him/PRP
+  and/CC
+  (NP sentence/NN)
+  him/PRP
+  to/TO
+  (NP death/NN)
+  ./.)
+
+Translating this randomly sampled korean sentence: 원가 불쌍한거였
+
+Chunking this translated sentence: The cost was pitiful.
+Whole chunk tree for sentence: The cost was pitiful.
+(S The/DT (NP cost/NN) (VP was/VBD) pitiful/JJ ./.)
+
+Translating this randomly sampled korean sentence: 태지빠  편히 살게 해줬으면ㅜㅜ녀도  취학연령 될텐데불편해서  해외 떠실까봐 걱정돼요
+
+Chunking this translated sentence: I wish Taejipa could live comfortably. She would be of school age, but I am worried that she will go abroad because of the inconvenience.
+Whole chunk tree for sentence: I wish Taejipa could live comfortably. She would be of school age, but I am worried that she will go abroad because of the inconvenience.
+(S
+  I/PRP
+  (VP wish/VBP)
+  (NP Taejipa/NNP)
+  could/MD
+  (VP live/VB)
+  comfortably/RB
+  ./.
+  She/PRP
+  would/MD
+  (VP be/VB)
+  of/IN
+  (NP school/NN age/NN)
+  ,/,
+  but/CC
+  I/PRP
+  (VP am/VBP)
+  worried/JJ
+  that/IN
+  she/PRP
+  will/MD
+  (VP go/VB)
+  abroad/RB
+  because/IN
+  of/IN
+  the/DT
+  (NP inconvenience/NN)
+  ./.)
+
+Translating this randomly sampled korean sentence: 윤진가 연기 잘는임
+
+Chunking this translated sentence: Yoon Jin-ga is good at acting.
+Whole chunk tree for sentence: Yoon Jin-ga is good at acting.
+(S
+  Yoon/PRP$
+  (NP Jin-ga/NNP)
+  (VP is/VBZ)
+  good/JJ
+  at/IN
+  (VP acting/VBG)
+  ./.)

@@ -1,0 +1,208 @@
+Number of characters in korean_hate_speech_chunk_4_without_stopwords.txt: 89124
+Number of words in korean_hate_speech_chunk_4_without_stopwords.txt: 16232
+
+Top 10 frequent morphemes in korean_hate_speech_chunk_4_without_stopwords.txt:
+(('.', '.'), 901)
+((',', ','), 800)
+(('I', 'PRP'), 570)
+(('the', 'DT'), 468)
+(('a', 'DT'), 445)
+(('you', 'PRP'), 385)
+(('?', '.'), 375)
+(('to', 'TO'), 366)
+(('is', 'VBZ'), 355)
+(('it', 'PRP'), 344)
+
+Number of particles in korean_hate_speech_chunk_4_without_stopwords.txt: 19804
+
+Top 10 frequent nouns in korean_hate_speech_chunk_4_without_stopwords.txt:
+('people', 62)
+('..', 46)
+('’', 46)
+('haha', 46)
+('Kim', 41)
+('lot', 40)
+('money', 37)
+('person', 36)
+('face', 31)
+('life', 30)
+
+Number of nouns in korean_hate_speech_chunk_4_without_stopwords.txt: 4332
+
+Top 10 frequent verbs in korean_hate_speech_chunk_4_without_stopwords.txt:
+('is', 355)
+("'s", 242)
+('was', 132)
+('are', 122)
+('do', 120)
+('be', 109)
+("'m", 102)
+('have', 80)
+("'re", 60)
+('’', 55)
+
+Number of verbs in korean_hate_speech_chunk_4_without_stopwords.txt: 3589
+
+Top 10 frequent adverbs in korean_hate_speech_chunk_4_without_stopwords.txt:
+("n't", 203)
+('so', 79)
+('not', 68)
+('really', 59)
+('just', 54)
+('even', 52)
+('also', 44)
+('well', 30)
+('too', 28)
+('only', 28)
+
+Number of adverbs in korean_hate_speech_chunk_4_without_stopwords.txt: 1106
+
+Top 10 frequent adjectives in korean_hate_speech_chunk_4_without_stopwords.txt:
+('good', 79)
+('old', 23)
+('many', 21)
+('wrong', 17)
+('hard', 17)
+('s', 16)
+('same', 15)
+('best', 14)
+('more', 14)
+('’', 14)
+
+Number of adjectives in korean_hate_speech_chunk_4_without_stopwords.txt: 1345
+
+Top 10 frequent particles in korean_hate_speech_chunk_4_without_stopwords.txt:
+('up', 35)
+('out', 27)
+('off', 14)
+('down', 11)
+('over', 2)
+('back', 1)
+('around', 1)
+('on~~~', 1)
+
+Number of particles in korean_hate_speech_chunk_4_without_stopwords.txt: 92
+
+Collocations among tagged words:
+[(('..', 'CC'), ('Eating', 'NNP')),
+ (('....', 'POS'), ('Anchovy-type', 'JJ')),
+ (('....', 'VBN'), ('ㅜ', 'NNP')),
+ (('.....', 'JJ'), ('lol', 'RB')),
+ (('.........................', 'NNP'), ('Spit', 'NNP')),
+ (('10,000', 'CD'), ('la', 'JJ')),
+ (('14', 'CD'), ('Jugeum', 'NNP')),
+ (('2NE1', 'CD'), ('disbanded', 'VBD')),
+ (('Advertisement', 'NNP'), ('Jaedae', 'NNP')),
+ (('Alaview', 'NNP'), ('Ruku', 'NNP'))]
+
+Translating this randomly sampled korean sentence: 장애인 스티븐 호킹박보다 베충들 행복지수 더 높다.
+
+Chunking this translated sentence: The happiness index of insects is higher than that of disabled person Stephen Hawking Park.
+Whole chunk tree for sentence: The happiness index of insects is higher than that of disabled person Stephen Hawking Park.
+(S
+  The/DT
+  (NP happiness/NN index/NN)
+  of/IN
+  (NP insects/NNS)
+  (VP is/VBZ)
+  higher/JJR
+  than/IN
+  that/DT
+  of/IN
+  disabled/JJ
+  (NP person/NN Stephen/NNP Hawking/NNP Park/NNP)
+  ./.)
+
+Translating this randomly sampled korean sentence: 힘들면 관뒀지 게 현명한거다
+
+Chunking this translated sentence: If it was hard, it was wise to quit.
+Whole chunk tree for sentence: If it was hard, it was wise to quit.
+(S
+  If/IN
+  it/PRP
+  (VP was/VBD)
+  hard/RB
+  ,/,
+  it/PRP
+  (VP was/VBD)
+  wise/JJ
+  to/TO
+  (VP quit/VB)
+  ./.)
+
+Translating this randomly sampled korean sentence: 화끈게 뿌리시길~~ 중 잘생김 뚝뚝..
+
+Chunking this translated sentence: Spray it hot~~ You look so handsome..
+Whole chunk tree for sentence: Spray it hot~~ You look so handsome..
+(S
+  (NP Spray/NN)
+  it/PRP
+  (VP hot~~/VBZ)
+  You/PRP
+  (VP look/VBP)
+  so/RB
+  handsome/JJ
+  (NP ../NN))
+
+Translating this randomly sampled korean sentence: 최는 연인들 서서 오냐오냐 해주고 주변 지인였던 연인들은 안해도 욕먹고, 추모한 연인도 만있라고 욕먹고..잘는 짓다. 남패라. 패지말고.
+
+Chunking this translated sentence: Choi asked lovers to come or not, and those who were acquaintances around him were scolded for not doing so, and those who mourned him were scolded for telling him to just stay. Be a loser. Don't lose.
+Whole chunk tree for sentence: Choi asked lovers to come or not, and those who were acquaintances around him were scolded for not doing so, and those who mourned him were scolded for telling him to just stay. Be a loser. Don't lose.
+(S
+  (NP Choi/NNP)
+  (VP asked/VBD)
+  (NP lovers/NNS)
+  to/TO
+  (VP come/VB)
+  or/CC
+  not/RB
+  ,/,
+  and/CC
+  those/DT
+  who/WP
+  (VP were/VBD)
+  (NP acquaintances/NNS)
+  around/IN
+  him/PRP
+  (VP were/VBD scolded/VBN)
+  for/IN
+  not/RB
+  (VP doing/VBG)
+  so/RB
+  ,/,
+  and/CC
+  those/DT
+  who/WP
+  (VP mourned/VBD)
+  him/PRP
+  (VP were/VBD scolded/VBN)
+  for/IN
+  (VP telling/VBG)
+  him/PRP
+  to/TO
+  just/RB
+  (VP stay/VB)
+  ./.
+  (VP Be/VB)
+  a/DT
+  (NP loser/NN)
+  ./.
+  (VP Do/VBP)
+  n't/RB
+  (VP lose/VB)
+  ./.)
+
+Translating this randomly sampled korean sentence: 불청 서 즐기다 들던만..뭔 2년..
+
+Chunking this translated sentence: I was enjoying it uninvited...what 2 years...
+Whole chunk tree for sentence: I was enjoying it uninvited...what 2 years...
+(S
+  I/PRP
+  (VP was/VBD enjoying/VBG)
+  it/PRP
+  (VP uninvited/VBD)
+  .../:
+  what/WP
+  2/CD
+  (NP years/NNS)
+  .../:)

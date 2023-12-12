@@ -1,0 +1,205 @@
+Number of characters in korean_hate_speech_chunk_0_without_stopwords.txt: 70534
+Number of words in korean_hate_speech_chunk_0_without_stopwords.txt: 12853
+
+Top 10 frequent morphemes in korean_hate_speech_chunk_0_without_stopwords.txt:
+(('.', '.'), 692)
+((',', ','), 639)
+(('I', 'PRP'), 435)
+(('the', 'DT'), 366)
+(('a', 'DT'), 345)
+(('it', 'PRP'), 304)
+(('you', 'PRP'), 287)
+(('?', '.'), 277)
+(('to', 'TO'), 269)
+(('and', 'CC'), 263)
+
+Number of particles in korean_hate_speech_chunk_0_without_stopwords.txt: 15713
+
+Top 10 frequent nouns in korean_hate_speech_chunk_0_without_stopwords.txt:
+('people', 59)
+('Kim', 46)
+('lot', 42)
+('’', 42)
+('haha', 32)
+('..', 32)
+('person', 30)
+('t', 25)
+('drama', 23)
+('face', 22)
+
+Number of nouns in korean_hate_speech_chunk_0_without_stopwords.txt: 3482
+
+Top 10 frequent verbs in korean_hate_speech_chunk_0_without_stopwords.txt:
+('is', 234)
+("'s", 214)
+('are', 124)
+('do', 98)
+('was', 95)
+('be', 89)
+("'m", 79)
+('have', 66)
+("'re", 50)
+('see', 40)
+
+Number of verbs in korean_hate_speech_chunk_0_without_stopwords.txt: 2843
+
+Top 10 frequent adverbs in korean_hate_speech_chunk_0_without_stopwords.txt:
+("n't", 180)
+('so', 61)
+('not', 56)
+('really', 49)
+('just', 42)
+('also', 36)
+('even', 33)
+('Even', 29)
+('always', 19)
+('only', 18)
+
+Number of adverbs in korean_hate_speech_chunk_0_without_stopwords.txt: 905
+
+Top 10 frequent adjectives in korean_hate_speech_chunk_0_without_stopwords.txt:
+('good', 73)
+('’', 24)
+('hard', 17)
+('other', 17)
+('nice', 16)
+('fun', 13)
+('old', 12)
+('cool', 12)
+('s', 11)
+('better', 10)
+
+Number of adjectives in korean_hate_speech_chunk_0_without_stopwords.txt: 1109
+
+Top 10 frequent particles in korean_hate_speech_chunk_0_without_stopwords.txt:
+('up', 27)
+('out', 12)
+('down', 4)
+('off', 4)
+('..', 1)
+('back', 1)
+('over', 1)
+
+Number of particles in korean_hate_speech_chunk_0_without_stopwords.txt: 50
+
+Collocations among tagged words:
+[(('(', '('), ('Special', 'NNP')),
+ (('......', 'NNP'), ('sob', 'VBD')),
+ (('.......', 'NNP'), ('♥', 'NN')),
+ (('163', 'CD'), ('cm', 'NN')),
+ (('180', 'CD'), ('Hobbits', 'NNP')),
+ (('2020', 'CD'), ('Songdo', 'NN')),
+ (('52', 'CD'), ('degrees', 'NNS')),
+ (('=', 'NNP'), ('Grandmother', 'NNP')),
+ (('Always', 'NNPS'), ('embrace', 'VBP')),
+ (('American', 'JJ'), ('soldiers', 'NNS'))]
+
+Translating this randomly sampled korean sentence: 좋은 댓글은  지워지는보니 누군가 장난  댓글알바 심되니 혜선씨 댓글 신경쓰지마세요~^^
+
+Chunking this translated sentence: Good comments are deleted, so don't pay attention to Hye-sun's comments as someone is trying to make joke comments~^^
+Whole chunk tree for sentence: Good comments are deleted, so don't pay attention to Hye-sun's comments as someone is trying to make joke comments~^^
+(S
+  Good/JJ
+  (NP comments/NNS)
+  (VP are/VBP deleted/VBN)
+  ,/,
+  so/RB
+  (VP do/VBP)
+  n't/RB
+  (VP pay/VB)
+  (NP attention/NN)
+  to/TO
+  (NP Hye-sun/NNP)
+  's/POS
+  (NP comments/NNS)
+  as/IN
+  (NP someone/NN)
+  (VP is/VBZ trying/VBG)
+  to/TO
+  (VP make/VB)
+  (NP joke/NN comments~^^/NN))
+
+Translating this randomly sampled korean sentence: 진 형님은  곡 술사 lYG행닝 기고 셨으면 좋겠다는 마음입니다 행님~
+
+Chunking this translated sentence: Brother Jin, I hope that you will contribute to the music magician lYG Haengning~ Haengnim~
+Whole chunk tree for sentence: Brother Jin, I hope that you will contribute to the music magician lYG Haengning~ Haengnim~
+(S
+  (NP Brother/NNP Jin/NNP)
+  ,/,
+  I/PRP
+  (VP hope/VBP)
+  that/IN
+  you/PRP
+  will/MD
+  (VP contribute/VB)
+  to/TO
+  the/DT
+  (NP music/NN)
+  magician/JJ
+  (NP lYG/NN Haengning~/NNP Haengnim~/NNP))
+
+Translating this randomly sampled korean sentence: 방탄 7명 강다니엘게 압살당함
+
+Chunking this translated sentence: 7 BTS members were crushed by Kang Daniel
+Whole chunk tree for sentence: 7 BTS members were crushed by Kang Daniel
+(S
+  7/CD
+  BTS/JJ
+  (NP members/NNS)
+  (VP were/VBD crushed/VBN)
+  by/IN
+  (NP Kang/NNP Daniel/NNP))
+
+Translating this randomly sampled korean sentence: 글만읽도 진부다..70년대 본소설 느낌 벗날수 없다..싱같은..
+
+Chunking this translated sentence: Even just reading the text, it's so cliché.. I can't escape the feeling of this novel from the 70's.. It's like...
+Whole chunk tree for sentence: Even just reading the text, it's so cliché.. I can't escape the feeling of this novel from the 70's.. It's like...
+(S
+  Even/RB
+  just/RB
+  (VP reading/VBG)
+  the/DT
+  (NP text/NN)
+  ,/,
+  it/PRP
+  (VP 's/VBZ)
+  so/RB
+  cliché/JJ
+  (NP ../NN)
+  I/PRP
+  ca/MD
+  n't/RB
+  (VP escape/VB)
+  the/DT
+  (NP feeling/NN)
+  of/IN
+  this/DT
+  (NP novel/NN)
+  from/IN
+  the/DT
+  70/CD
+  's/POS
+  (NP ../NN)
+  It/PRP
+  (VP 's/VBZ)
+  like/IN
+  .../:)
+
+Translating this randomly sampled korean sentence: 정신빠진놈구만 본놈 위로냐
+
+Chunking this translated sentence: Are you comforting someone who just saw him out of his mind?
+Whole chunk tree for sentence: Are you comforting someone who just saw him out of his mind?
+(S
+  (NP Are/NNP)
+  you/PRP
+  (VP comforting/VBG)
+  (NP someone/NN)
+  who/WP
+  just/RB
+  (VP saw/VBD)
+  him/PRP
+  out/IN
+  of/IN
+  his/PRP$
+  (NP mind/NN)
+  ?/.)

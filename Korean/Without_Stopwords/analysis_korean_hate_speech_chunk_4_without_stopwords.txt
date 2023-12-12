@@ -1,0 +1,178 @@
+Number of characters in korean_hate_speech_chunk_4_without_stopwords.txt: 32704
+Number of words in korean_hate_speech_chunk_4_without_stopwords.txt: 7899
+
+Top 10 frequent phrases in korean_hate_speech_chunk_4_without_stopwords.txt:
+[('방송', 1),
+ ('방송올 잘', 1),
+ ('발 태진', 1),
+ ('올리지', 1),
+ ('보지', 1),
+ ('기내려', 1),
+ ('고대', 1),
+ ('팩트', 1),
+ ('남들', 1),
+ ('설리', 1)]
+
+Top 10 frequent morphemes in korean_hate_speech_chunk_4_without_stopwords.txt:
+[(('\n', 'Foreign'), 906),
+ (('.', 'Punctuation'), 312),
+ (('들', 'Suffix'), 189),
+ (('?', 'Punctuation'), 179),
+ (('..', 'Punctuation'), 153),
+ (('은', 'Josa'), 140),
+ (('...', 'Punctuation'), 139),
+ (('도', 'Josa'), 133),
+ (('고', 'Josa'), 112),
+ (('는', 'Josa'), 112)]
+Number of morphemes in korean_hate_speech_chunk_4_without_stopwords.txt: 4882
+
+Top 10 frequent nouns in korean_hate_speech_chunk_4_without_stopwords.txt:
+[('람', 63),
+ ('니', 59),
+ ('무', 55),
+ ('진짜', 53),
+ ('기', 43),
+ ('남', 42),
+ ('거', 42),
+ ('도', 41),
+ ('더', 40),
+ ('결혼', 37)]
+Number of nouns in korean_hate_speech_chunk_4_without_stopwords.txt: 2704
+
+Top 10 frequent verbs in korean_hate_speech_chunk_4_without_stopwords.txt:
+[('는', 63),
+ ('들', 58),
+ ('지', 28),
+ ('잘', 23),
+ ('할', 21),
+ ('서', 20),
+ ('한', 16),
+ ('대', 16),
+ ('넘', 14),
+ ('해서', 14)]
+Number of verbs in korean_hate_speech_chunk_4_without_stopwords.txt: 1235
+
+Top 10 frequent adverbs in korean_hate_speech_chunk_4_without_stopwords.txt:
+[('다', 88),
+ ('으', 43),
+ ('근데', 22),
+ ('엄청', 9),
+ ('걍', 8),
+ ('누군지', 7),
+ ('특히', 7),
+ ('우', 6),
+ ('빨리', 6),
+ ('열심히', 6)]
+Number of adverbs in korean_hate_speech_chunk_4_without_stopwords.txt: 41
+
+Top 10 frequent adjectives in korean_hate_speech_chunk_4_without_stopwords.txt:
+[('많', 27),
+ ('같은', 22),
+ ('없', 20),
+ ('좋', 18),
+ ('있', 13),
+ ('미', 12),
+ ('솔직히', 12),
+ ('있는', 11),
+ ('같음', 11),
+ ('없다', 11)]
+Number of adjectives in korean_hate_speech_chunk_4_without_stopwords.txt: 462
+
+Top 10 frequent josa (Korean particles) in korean_hate_speech_chunk_4_without_stopwords.txt:
+[('은', 140),
+ ('도', 133),
+ ('고', 112),
+ ('는', 112),
+ ('게', 94),
+ ('서', 78),
+ ('라', 72),
+ ('랑', 69),
+ ('지', 68),
+ ('면', 64)]
+Number of josa (Korean Particles) in korean_hate_speech_chunk_4_without_stopwords.txt: 63
+
+Collocations among tagged words:
+[(('!', 'Foreign'),
+  ('!https://www1.president.go.kr/petitions/Temp/70RSXH', 'URL')),
+ (('!^^', 'Punctuation'), ('밝게', 'Verb')),
+ (('&', 'Punctuation'), ('슈', 'Noun')),
+ (('(?)', 'Punctuation'), ('피터', 'Noun')),
+ (('+', 'Punctuation'), ('소품', 'Noun')),
+ (('...........', 'Punctuation'), ('애정', 'Noun')),
+ (('//', 'Punctuation'), ('정재', 'Noun')),
+ (('10년', 'Number'), ('만', 'Foreign')),
+ (('10위안', 'Number'), ('도', 'Foreign')),
+ (('11회', 'Number'), ('봤는데', 'Verb'))]
+
+Randomly sampling this sentence for chunking: 장애인 스티븐 호킹박보다 베충들 행복지수 더 높다.
+Whole chunk tree for sentence: 장애인 스티븐 호킹박보다 베충들 행복지수 더 높다.
+(S
+  (NP 장애인/Noun 스티븐/Noun 호킹/Noun 박보/Noun)
+  다/Josa
+  (NP 베충/Noun 들/Suffix)
+  (NP 행복지수/Noun 더/Noun)
+  (AP 높다/Adjective)
+  ./Punctuation)
+
+Randomly sampling this sentence for chunking: 힘들면 관뒀지 게 현명한거다
+Whole chunk tree for sentence: 힘들면 관뒀지 게 현명한거다
+(S
+  (AP 힘들면/Adjective)
+  (NP 관/Noun)
+  (VP 뒀지/Verb)
+  (NP 게/Noun)
+  (AP 현명한거다/Adjective))
+
+Randomly sampling this sentence for chunking: 화끈게 뿌리시길~~ 중 잘생김 뚝뚝..
+Whole chunk tree for sentence: 화끈게 뿌리시길~~ 중 잘생김 뚝뚝..
+(S
+  (NP 화끈/Noun)
+  게/Josa
+  (VP 뿌리시길/Verb)
+  ~~/Punctuation
+  (NP 중/Noun)
+  (AP 잘생김/Adjective)
+  (NP 뚝뚝/Noun)
+  ../Punctuation)
+
+Randomly sampling this sentence for chunking: 최는 연인들 서서 오냐오냐 해주고 주변 지인였던 연인들은 안해도 욕먹고, 추모한 연인도 만있라고 욕먹고..잘는 짓다. 남패라. 패지말고.
+Whole chunk tree for sentence: 최는 연인들 서서 오냐오냐 해주고 주변 지인였던 연인들은 안해도 욕먹고, 추모한 연인도 만있라고 욕먹고..잘는 짓다. 남패라. 패지말고.
+(S
+  (NP 최/Noun)
+  는/Josa
+  (NP 연/Noun)
+  인들/Josa
+  (NP 서서/Noun)
+  (VP 오냐오냐/Verb 해주고/Verb)
+  (NP 주변/Noun)
+  (VP 지인였던/Verb)
+  (NP 연인/Noun 들/Suffix)
+  은/Josa
+  (NP 안해/Noun)
+  도/Josa
+  (VP 욕먹고/Verb)
+  ,/Punctuation
+  (NP 추모/Noun)
+  한/Josa
+  (NP 연인/Noun)
+  도/Josa
+  (VP 만있라고/Verb 욕먹고/Verb)
+  ../Punctuation
+  (VP 잘는/Verb 짓다/Verb)
+  ./Punctuation
+  (NP 남패/Noun)
+  라/Josa
+  ./Punctuation
+  (NP 패/Noun)
+  (VP 지말고/Verb)
+  ./Punctuation)
+
+Randomly sampling this sentence for chunking: 불청 서 즐기다 들던만..뭔 2년..
+Whole chunk tree for sentence: 불청 서 즐기다 들던만..뭔 2년..
+(S
+  (NP 불청/Noun)
+  (VP 서/Verb 즐기다/Verb 들던만/Verb)
+  ../Punctuation
+  뭔/Modifier
+  (NP 2년/Number)
+  ../Punctuation)

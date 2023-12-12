@@ -1,0 +1,163 @@
+Number of characters in korean_hate_speech_chunk_3_without_stopwords.txt: 32293
+Number of words in korean_hate_speech_chunk_3_without_stopwords.txt: 7512
+
+Top 10 frequent phrases in korean_hate_speech_chunk_3_without_stopwords.txt:
+[('얘 전 후원자', 1),
+ ('뭔터', 1),
+ ('벌써', 1),
+ ('벌써 결혼', 1),
+ ('완전', 1),
+ ('완전 비호감', 1),
+ ('은퇴', 1),
+ ('논외로', 1),
+ ('논외로 친지', 1),
+ ('어차피', 1)]
+
+Top 10 frequent morphemes in korean_hate_speech_chunk_3_without_stopwords.txt:
+[(('\n', 'Foreign'), 910),
+ (('.', 'Punctuation'), 266),
+ (('가', 'Josa'), 171),
+ (('?', 'Punctuation'), 167),
+ (('..', 'Punctuation'), 153),
+ (('은', 'Josa'), 140),
+ (('도', 'Josa'), 135),
+ (('고', 'Josa'), 127),
+ (('는', 'Josa'), 122),
+ (('...', 'Punctuation'), 110)]
+Number of morphemes in korean_hate_speech_chunk_3_without_stopwords.txt: 4900
+
+Top 10 frequent nouns in korean_hate_speech_chunk_3_without_stopwords.txt:
+[('무', 63),
+ ('사람', 62),
+ ('진짜', 54),
+ ('니', 53),
+ ('여자', 47),
+ ('더', 42),
+ ('남자', 39),
+ ('거', 39),
+ ('렇', 32),
+ ('도', 32)]
+Number of nouns in korean_hate_speech_chunk_3_without_stopwords.txt: 2713
+
+Top 10 frequent verbs in korean_hate_speech_chunk_3_without_stopwords.txt:
+[('는', 57),
+ ('지', 28),
+ ('할', 25),
+ ('가', 24),
+ ('잘', 20),
+ ('대', 18),
+ ('해서', 18),
+ ('해', 17),
+ ('한', 16),
+ ('서', 15)]
+Number of verbs in korean_hate_speech_chunk_3_without_stopwords.txt: 1184
+
+Top 10 frequent adverbs in korean_hate_speech_chunk_3_without_stopwords.txt:
+[('다', 73),
+ ('근데', 17),
+ ('으', 5),
+ ('열심히', 5),
+ ('걍', 5),
+ ('엄청', 4),
+ ('우', 3),
+ ('특히', 3),
+ ('오래', 2),
+ ('괜히', 2)]
+Number of adverbs in korean_hate_speech_chunk_3_without_stopwords.txt: 48
+
+Top 10 frequent adjectives in korean_hate_speech_chunk_3_without_stopwords.txt:
+[('많', 17),
+ ('같은', 17),
+ ('솔직히', 17),
+ ('없는', 13),
+ ('원합니다', 13),
+ ('미', 11),
+ ('좋', 11),
+ ('같', 11),
+ ('같은데', 9),
+ ('있지', 9)]
+Number of adjectives in korean_hate_speech_chunk_3_without_stopwords.txt: 498
+
+Top 10 frequent josa (Korean particles) in korean_hate_speech_chunk_3_without_stopwords.txt:
+[('가', 171),
+ ('은', 140),
+ ('도', 135),
+ ('고', 127),
+ ('는', 122),
+ ('게', 73),
+ ('서', 73),
+ ('지', 60),
+ ('네', 57),
+ ('만', 56)]
+Number of josa (Korean Particles) in korean_hate_speech_chunk_3_without_stopwords.txt: 67
+
+Collocations among tagged words:
+[(('\n   ', 'Foreign'), ('라디오', 'Noun')),
+ (('*', 'Punctuation'), ('민경훈', 'Noun')),
+ (('-', 'Punctuation'), ('무법', 'Noun')),
+ (('..??', 'Punctuation'), ('운명', 'Noun')),
+ (('100%', 'Number'), ('코쟁', 'Noun')),
+ (('10분', 'Number'), ('라', 'Foreign')),
+ (('130만', 'Number'), ('명', 'Foreign')),
+ (('1400억', 'Number'), ('뜯기고', 'Verb')),
+ (('180', 'Number'), ('넘어갈', 'Verb')),
+ (('19', 'Number'), ('세기말', 'Noun'))]
+
+Randomly sampling this sentence for chunking: 우 림님 정말 축드려요!!
+Whole chunk tree for sentence: 우 림님 정말 축드려요!!
+(S
+  (AP 우/Adverb)
+  (NP 림/Noun 님/Suffix)
+  (NP 정말/Noun 축/Noun)
+  (VP 드려요/Verb)
+  !!/Punctuation)
+
+Randomly sampling this sentence for chunking: 강타 실로 보면 잘생겼는가보넹,,, 개취지 뭐
+Whole chunk tree for sentence: 강타 실로 보면 잘생겼는가보넹,,, 개취지 뭐
+(S
+  (NP 강타/Noun 실로/Noun)
+  (VP 보면/Verb)
+  (AP 잘생겼는/Adjective)
+  (NP 가보/Noun 넹/Noun)
+  ,,,/Punctuation
+  (NP 개취/Noun)
+  지/Josa
+  (NP 뭐/Noun))
+
+Randomly sampling this sentence for chunking: 장례식장 페미 몰려서 여성평등 외치고 난동 부릴거 같더니,,, 페미 조용네,,, ㅋㅋㅋ
+Whole chunk tree for sentence: 장례식장 페미 몰려서 여성평등 외치고 난동 부릴거 같더니,,, 페미 조용네,,, ㅋㅋㅋ
+(S
+  (NP 장례식/Noun 장/Suffix)
+  (NP 페미/Noun)
+  (VP 몰려서/Verb)
+  (NP 여성/Noun 평등/Noun 외치/Noun)
+  고/Josa
+  (NP 난동/Noun)
+  (VP 부릴거/Verb)
+  (AP 같더니/Adjective)
+  ,,,/Punctuation
+  (NP 페미/Noun)
+  조/Modifier
+  (NP 용/Noun)
+  네/Josa
+  ,,,/Punctuation
+  ㅋㅋㅋ/KoreanParticle)
+
+Randomly sampling this sentence for chunking: 국내 관종 환자 볼 수 있는 프로!!
+Whole chunk tree for sentence: 국내 관종 환자 볼 수 있는 프로!!
+(S
+  (NP 국내/Noun 관종/Noun 환자/Noun 볼/Noun 수/Noun)
+  (AP 있는/Adjective)
+  (NP 프로/Noun)
+  !!/Punctuation)
+
+Randomly sampling this sentence for chunking:  러 정말 건 불륜인데 중 늘겅서 어쪄려고
+Whole chunk tree for sentence:  러 정말 건 불륜인데 중 늘겅서 어쪄려고
+(S
+  러/Eomi
+  (NP 정말/Noun 건/Noun 불륜/Noun)
+  인데/Josa
+  (NP 중/Noun 늘겅/Noun)
+  서/Josa
+  (NP 어쪄려/Noun)
+  고/Josa)

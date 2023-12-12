@@ -1,0 +1,159 @@
+Number of characters in korean_hate_speech_chunk_5_without_stopwords.txt: 33288
+Number of words in korean_hate_speech_chunk_5_without_stopwords.txt: 8022
+
+Top 10 frequent phrases in korean_hate_speech_chunk_5_without_stopwords.txt:
+[('연인', 1),
+ ('미지', 1),
+ ('미지 생각', 1),
+ ('무책임', 1),
+ ('생각', 1),
+ ('생각할 수', 1),
+ ('책임감', 1),
+ ('도 생각', 1),
+ ('른감', 1),
+ ('결혼', 1)]
+
+Top 10 frequent morphemes in korean_hate_speech_chunk_5_without_stopwords.txt:
+[(('\n', 'Foreign'), 911),
+ (('.', 'Punctuation'), 248),
+ (('가', 'Josa'), 182),
+ (('?', 'Punctuation'), 178),
+ (('..', 'Punctuation'), 159),
+ (('고', 'Josa'), 142),
+ (('은', 'Josa'), 132),
+ (('도', 'Josa'), 121),
+ (('...', 'Punctuation'), 121),
+ (('는', 'Josa'), 119)]
+Number of morphemes in korean_hate_speech_chunk_5_without_stopwords.txt: 5013
+
+Top 10 frequent nouns in korean_hate_speech_chunk_5_without_stopwords.txt:
+[('사람', 64),
+ ('니', 57),
+ ('진짜', 44),
+ ('거', 37),
+ ('애', 36),
+ ('더', 36),
+ ('렇', 35),
+ ('기', 34),
+ ('연인', 33),
+ ('생각', 32)]
+Number of nouns in korean_hate_speech_chunk_5_without_stopwords.txt: 2727
+
+Top 10 frequent verbs in korean_hate_speech_chunk_5_without_stopwords.txt:
+[('는', 66),
+ ('잘', 27),
+ ('넘', 27),
+ ('가', 27),
+ ('지', 26),
+ ('서', 24),
+ ('할', 19),
+ ('해서', 19),
+ ('했', 16),
+ ('대', 14)]
+Number of verbs in korean_hate_speech_chunk_5_without_stopwords.txt: 1322
+
+Top 10 frequent adverbs in korean_hate_speech_chunk_5_without_stopwords.txt:
+[('다', 86),
+ ('너무', 46),
+ ('으', 33),
+ ('근데', 19),
+ ('우', 7),
+ ('엄청', 5),
+ ('히', 5),
+ ('걍', 4),
+ ('열심히', 3),
+ ('첨', 3)]
+Number of adverbs in korean_hate_speech_chunk_5_without_stopwords.txt: 33
+
+Top 10 frequent adjectives in korean_hate_speech_chunk_5_without_stopwords.txt:
+[('많', 31),
+ ('없', 25),
+ ('입니다', 19),
+ ('같은', 17),
+ ('좋은', 16),
+ ('없는', 15),
+ ('있', 14),
+ ('좋', 14),
+ ('솔직히', 12),
+ ('미', 11)]
+Number of adjectives in korean_hate_speech_chunk_5_without_stopwords.txt: 473
+
+Top 10 frequent josa (Korean particles) in korean_hate_speech_chunk_5_without_stopwords.txt:
+[('가', 182),
+ ('고', 142),
+ ('은', 132),
+ ('도', 121),
+ ('는', 119),
+ ('게', 89),
+ ('서', 80),
+ ('라', 75),
+ ('지', 70),
+ ('면', 46)]
+Number of josa (Korean Particles) in korean_hate_speech_chunk_5_without_stopwords.txt: 60
+
+Collocations among tagged words:
+[(('$', 'Punctuation'), ('닌가', 'Noun')),
+ (('&', 'Punctuation'), ('A', 'Alpha')),
+ (('...~~~', 'Punctuation'), ('불끈함', 'Noun')),
+ (('0.0000000003초', 'Number'), ('만', 'Foreign')),
+ (('1000만', 'Number'), ('번', 'Foreign')),
+ (('10년', 'Number'), ('간', 'Foreign')),
+ (('11년', 'Number'), ('키우던', 'Verb')),
+ (('13년', 'Number'), ('기댄', 'Verb')),
+ (('14', 'Number'), ('씩', 'Adverb')),
+ (('15년', 'Number'), ('한', 'Foreign'))]
+
+Randomly sampling this sentence for chunking: 서 도구 용는 방송~~순진한 인간 많
+Whole chunk tree for sentence: 서 도구 용는 방송~~순진한 인간 많
+(S
+  (VP 서/Verb)
+  (NP 도구/Noun)
+  (VP 용는/Verb)
+  (NP 방송/Noun)
+  ~~/Punctuation
+  (AP 순진한/Adjective)
+  (NP 인간/Noun)
+  (AP 많/Adjective))
+
+Randomly sampling this sentence for chunking:  라...잘난척 겉멋은...굴 불쌍타.구속해서 사형판결내려라
+Whole chunk tree for sentence:  라...잘난척 겉멋은...굴 불쌍타.구속해서 사형판결내려라
+(S
+  라/Josa
+  .../Punctuation
+  (AP 잘난/Adjective)
+  (NP 척/Noun 겉멋/Noun)
+  은/Josa
+  .../Punctuation
+  (NP 굴/Noun 불쌍타/Noun)
+  ./Punctuation
+  (NP 구속/Noun)
+  (VP 해서/Verb)
+  (NP 사형/Noun 판결/Noun)
+  (VP 내려라/Verb))
+
+Randomly sampling this sentence for chunking: 원가 불쌍한거였
+Whole chunk tree for sentence: 원가 불쌍한거였
+(S (NP 원가/Noun) (AP 불쌍한거였/Adjective))
+
+Randomly sampling this sentence for chunking: 태지빠  편히 살게 해줬으면ㅜㅜ녀도  취학연령 될텐데불편해서  해외 떠실까봐 걱정돼요
+Whole chunk tree for sentence: 태지빠  편히 살게 해줬으면ㅜㅜ녀도  취학연령 될텐데불편해서  해외 떠실까봐 걱정돼요
+(S
+  (NP 태지/Noun 빠/Noun)
+  (AP 편히/Adjective)
+  (NP 살/Noun)
+  게/Josa
+  (VP 해줬으면/Verb)
+  ㅜㅜ/KoreanParticle
+  (NP 녀/Noun)
+  도/Josa
+  (NP 취학/Noun 연령/Noun)
+  (VP 될텐데/Verb)
+  (AP 불편해서/Adjective)
+  (NP 해외/Noun)
+  (VP 떠실까봐/Verb)
+  (NP 걱정/Noun)
+  (VP 돼요/Verb))
+
+Randomly sampling this sentence for chunking: 윤진가 연기 잘는임
+Whole chunk tree for sentence: 윤진가 연기 잘는임
+(S (NP 윤진/Noun) 가/Josa (NP 연기/Noun) (VP 잘는/Verb) (NP 임/Noun))

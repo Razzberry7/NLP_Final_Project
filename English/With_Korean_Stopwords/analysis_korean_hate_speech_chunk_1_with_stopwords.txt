@@ -1,0 +1,249 @@
+Number of characters in korean_hate_speech_chunk_1_with_stopwords.txt: 105207
+Number of words in korean_hate_speech_chunk_1_with_stopwords.txt: 19147
+
+Top 10 frequent morphemes in korean_hate_speech_chunk_1_with_stopwords.txt:
+(('.', '.'), 1027)
+((',', ','), 916)
+(('the', 'DT'), 573)
+(('a', 'DT'), 529)
+(('I', 'PRP'), 526)
+(('to', 'TO'), 411)
+(('?', '.'), 409)
+(('is', 'VBZ'), 398)
+(('it', 'PRP'), 360)
+(('and', 'CC'), 352)
+
+Number of particles in korean_hate_speech_chunk_1_with_stopwords.txt: 23017
+
+Top 10 frequent nouns in korean_hate_speech_chunk_1_with_stopwords.txt:
+('people', 72)
+('’', 69)
+('Lee', 60)
+('haha', 54)
+('Kim', 52)
+('time', 45)
+('women', 41)
+('person', 38)
+('t', 35)
+('lot', 34)
+
+Number of nouns in korean_hate_speech_chunk_1_with_stopwords.txt: 4974
+
+Top 10 frequent verbs in korean_hate_speech_chunk_1_with_stopwords.txt:
+('is', 398)
+("'s", 242)
+('are', 222)
+('do', 154)
+('be', 148)
+('have', 121)
+('was', 120)
+("'m", 73)
+('get', 57)
+('think', 54)
+
+Number of verbs in korean_hate_speech_chunk_1_with_stopwords.txt: 4082
+
+Top 10 frequent adverbs in korean_hate_speech_chunk_1_with_stopwords.txt:
+("n't", 223)
+('so', 105)
+('not', 103)
+('really', 70)
+('just', 69)
+('even', 55)
+('also', 43)
+('too', 41)
+('pretty', 37)
+('Even', 32)
+
+Number of adverbs in korean_hate_speech_chunk_1_with_stopwords.txt: 1439
+
+Top 10 frequent adjectives in korean_hate_speech_chunk_1_with_stopwords.txt:
+('good', 64)
+('hard', 24)
+('other', 24)
+('old', 23)
+('same', 21)
+('such', 20)
+('first', 19)
+('’', 19)
+('much', 19)
+('pretty', 18)
+
+Number of adjectives in korean_hate_speech_chunk_1_with_stopwords.txt: 1507
+
+Top 10 frequent particles in korean_hate_speech_chunk_1_with_stopwords.txt:
+('up', 48)
+('out', 37)
+('off', 17)
+('over', 2)
+('down', 2)
+('okay', 1)
+
+Number of particles in korean_hate_speech_chunk_1_with_stopwords.txt: 107
+
+Collocations among tagged words:
+[(('//antijms.net', 'NN'), ('Living', 'VBG')),
+ (('10cm', 'CD'), ('Legendary', 'JJ')),
+ (('12', 'CD'), ('hours', 'NNS')),
+ (('15', 'CD'), ('weeks', 'NNS')),
+ (('3040', 'CD'), ('merchants', 'NNS')),
+ (('32', 'CD'), ('ranks', 'NNS')),
+ (('=', 'IN'), ('Men', 'NNP')),
+ (('=', 'VBP'), ('Noan-on', 'NNP')),
+ (('Abang', 'NNP'), ('Palace', 'NNP')),
+ (('Abolish', 'NNP'), ('Angbal', 'NNP'))]
+
+Translating this randomly sampled korean sentence: 아주 이기주의에 쩔은 인간들 천지네 뇌를 파먹는 바이러스가 한국에 돌아다니는 듯
+
+Chunking this translated sentence: It seems like there is a virus going around in Korea that is eating the brains of people full of selfishness.
+Whole chunk tree for sentence: It seems like there is a virus going around in Korea that is eating the brains of people full of selfishness.
+(S
+  It/PRP
+  (VP seems/VBZ)
+  like/IN
+  there/EX
+  (VP is/VBZ)
+  a/DT
+  (NP virus/NN)
+  (VP going/VBG)
+  around/RB
+  in/IN
+  (NP Korea/NNP)
+  that/WDT
+  (VP is/VBZ eating/VBG)
+  the/DT
+  (NP brains/NNS)
+  of/IN
+  (NP people/NNS)
+  full/JJ
+  of/IN
+  (NP selfishness/NN)
+  ./.)
+
+Translating this randomly sampled korean sentence: ? 여태껏 동거한거에요?
+
+Chunking this translated sentence: ? Have you been living together ever since?
+Whole chunk tree for sentence: ? Have you been living together ever since?
+(S
+  ?/.
+  (VP Have/VBP)
+  you/PRP
+  (VP been/VBN living/VBG)
+  together/RB
+  ever/RB
+  since/IN
+  ?/.)
+
+Translating this randomly sampled korean sentence: 남자측 욕하지마세요
+
+Chunking this translated sentence: Don't curse at the man
+Whole chunk tree for sentence: Don't curse at the man
+(S (VP Do/VBP) n't/RB (VP curse/VB) at/IN the/DT (NP man/NN))
+
+Translating this randomly sampled korean sentence: 여보세요~~~ 그냥 남자가 권태기 와서 여자 버리고 싶어진겁니다~~여러분 결혼 한번 안해본 사람들처럼 왜이러세요~~
+
+Chunking this translated sentence: Hello~~~ It's just a man getting bored and wanting to abandon the woman~~ Everyone, why are you like this like people who have never been married~~
+Whole chunk tree for sentence: Hello~~~ It's just a man getting bored and wanting to abandon the woman~~ Everyone, why are you like this like people who have never been married~~
+(S
+  (NP Hello~~~/NNP)
+  It/PRP
+  (VP 's/VBZ)
+  just/RB
+  a/DT
+  (NP man/NN)
+  (VP getting/VBG bored/VBN)
+  and/CC
+  (VP wanting/VBG)
+  to/TO
+  (VP abandon/VB)
+  the/DT
+  (NP woman~~/NN Everyone/NNP)
+  ,/,
+  why/WRB
+  (VP are/VBP)
+  you/PRP
+  like/IN
+  this/DT
+  like/JJ
+  (NP people/NNS)
+  who/WP
+  (VP have/VBP)
+  never/RB
+  (VP been/VBN)
+  (NP married~~/NN))
+
+Translating this randomly sampled korean sentence: 방송출연해서 이런말 막해도 되나? 김학래는 가정 없이 혼자사는분인가? 글고 아무것도 모르는 우리도 남을 쓰레기라 말할 자격있나? 김학래씨도 잘못했다고 인정하는게 좋을듯 어떤 사정이 있었는지는 모르나 잘못한부분은 분명히 있으니
+
+Chunking this translated sentence: Is it okay for me to appear on TV and say something like this? Is Kim Hak-rae living alone without a family? And do we, who know nothing, have the right to call others trash? It would be better for Kim Hak-rae to admit that he was wrong as well. I don't know what the circumstances were, but he clearly made a mistake.
+Whole chunk tree for sentence: Is it okay for me to appear on TV and say something like this? Is Kim Hak-rae living alone without a family? And do we, who know nothing, have the right to call others trash? It would be better for Kim Hak-rae to admit that he was wrong as well. I don't know what the circumstances were, but he clearly made a mistake.
+(S
+  (VP Is/VBZ)
+  it/PRP
+  okay/RP
+  for/IN
+  me/PRP
+  to/TO
+  (VP appear/VB)
+  on/IN
+  (NP TV/NN)
+  and/CC
+  (VP say/VBP)
+  (NP something/NN)
+  like/IN
+  this/DT
+  ?/.
+  (VP Is/VBZ)
+  (NP Kim/NNP Hak-rae/NNP)
+  (VP living/VBG)
+  alone/RB
+  without/IN
+  a/DT
+  (NP family/NN)
+  ?/.
+  And/CC
+  (VP do/VBP)
+  we/PRP
+  ,/,
+  who/WP
+  (VP know/VBP)
+  (NP nothing/NN)
+  ,/,
+  (VP have/VBP)
+  the/DT
+  (NP right/NN)
+  to/TO
+  (VP call/VB)
+  (NP others/NNS)
+  (VP trash/VB)
+  ?/.
+  It/PRP
+  would/MD
+  (VP be/VB)
+  better/JJR
+  for/IN
+  (NP Kim/NNP Hak-rae/NNP)
+  to/TO
+  (VP admit/VB)
+  that/IN
+  he/PRP
+  (VP was/VBD)
+  wrong/JJ
+  as/RB
+  well/RB
+  ./.
+  I/PRP
+  (VP do/VBP)
+  n't/RB
+  (VP know/VB)
+  what/WP
+  the/DT
+  (NP circumstances/NNS)
+  (VP were/VBD)
+  ,/,
+  but/CC
+  he/PRP
+  clearly/RB
+  (VP made/VBD)
+  a/DT
+  (NP mistake/NN)
+  ./.)

@@ -1,0 +1,167 @@
+Number of characters in korean_hate_speech_chunk_2_without_stopwords.txt: 35617
+Number of words in korean_hate_speech_chunk_2_without_stopwords.txt: 8415
+
+Top 10 frequent phrases in korean_hate_speech_chunk_2_without_stopwords.txt:
+[('연애', 1),
+ ('퇴출한다는게', 1),
+ ('퇴출한다는게 상한거', 1),
+ ('신뢰', 1),
+ ('좋은거지', 1),
+ ('좋은거지 상해상해', 1),
+ ('누가', 1),
+ ('누가  권리', 1),
+ ('판단', 1),
+ ('도 르겠다', 1)]
+
+Top 10 frequent morphemes in korean_hate_speech_chunk_2_without_stopwords.txt:
+[(('\n', 'Foreign'), 910),
+ (('.', 'Punctuation'), 291),
+ (('?', 'Punctuation'), 206),
+ (('가', 'Josa'), 194),
+ (('..', 'Punctuation'), 177),
+ (('고', 'Josa'), 161),
+ (('도', 'Josa'), 156),
+ (('는', 'Josa'), 138),
+ (('...', 'Punctuation'), 134),
+ (('은', 'Josa'), 125)]
+Number of morphemes in korean_hate_speech_chunk_2_without_stopwords.txt: 5245
+
+Top 10 frequent nouns in korean_hate_speech_chunk_2_without_stopwords.txt:
+[('여자', 71),
+ ('니', 67),
+ ('사람', 64),
+ ('진짜', 57),
+ ('뭐', 46),
+ ('거', 42),
+ ('더', 42),
+ ('결혼', 41),
+ ('만', 37),
+ ('애', 34)]
+Number of nouns in korean_hate_speech_chunk_2_without_stopwords.txt: 2877
+
+Top 10 frequent verbs in korean_hate_speech_chunk_2_without_stopwords.txt:
+[('는', 61),
+ ('할', 25),
+ ('지', 24),
+ ('가', 24),
+ ('한', 21),
+ ('잘', 21),
+ ('쳐', 13),
+ ('서', 12),
+ ('해서', 12),
+ ('해', 12)]
+Number of verbs in korean_hate_speech_chunk_2_without_stopwords.txt: 1336
+
+Top 10 frequent adverbs in korean_hate_speech_chunk_2_without_stopwords.txt:
+[('다', 103),
+ ('너무', 50),
+ ('근데', 20),
+ ('히', 8),
+ ('엄청', 7),
+ ('누군지', 6),
+ ('걍', 6),
+ ('괜히', 4),
+ ('가만히', 4),
+ ('왠지', 4)]
+Number of adverbs in korean_hate_speech_chunk_2_without_stopwords.txt: 49
+
+Top 10 frequent adjectives in korean_hate_speech_chunk_2_without_stopwords.txt:
+[('없', 20),
+ ('많', 20),
+ ('좋은', 18),
+ ('없는', 17),
+ ('같', 13),
+ ('솔직히', 13),
+ ('같은', 12),
+ ('있는', 11),
+ ('좋', 11),
+ ('없다', 11)]
+Number of adjectives in korean_hate_speech_chunk_2_without_stopwords.txt: 502
+
+Top 10 frequent josa (Korean particles) in korean_hate_speech_chunk_2_without_stopwords.txt:
+[('가', 194),
+ ('고', 161),
+ ('도', 156),
+ ('는', 138),
+ ('은', 125),
+ ('게', 82),
+ ('서', 74),
+ ('의', 57),
+ ('냐', 56),
+ ('라', 54)]
+Number of josa (Korean Particles) in korean_hate_speech_chunk_2_without_stopwords.txt: 74
+
+Collocations among tagged words:
+[((',,,,', 'Punctuation'), ('짧은', 'Adjective')),
+ (('-', 'Punctuation'), ('추', 'Noun')),
+ (('.,..', 'Punctuation'), ('지로', 'Noun')),
+ (('..,', 'Punctuation'), ('신의한수', 'Noun')),
+ (('...!', 'Punctuation'), ('유키스', 'Noun')),
+ (('...!!!', 'Punctuation'), ('화도', 'Noun')),
+ (('....??', 'Punctuation'), ('병역', 'Noun')),
+ (('100년', 'Number'), ('해먹어도', 'Foreign')),
+ (('10억', 'Number'), ('준다고면까', 'Foreign')),
+ (('140', 'Number'), ('키로', 'Noun'))]
+
+Randomly sampling this sentence for chunking: 정준 별로...사상의심
+Whole chunk tree for sentence: 정준 별로...사상의심
+(S (NP 정준/Noun 별로/Noun) .../Punctuation (NP 사상/Noun 의심/Noun))
+
+Randomly sampling this sentence for chunking: 어 더 어린분 만서 결혼시지 ㅋㅋㅋㅋㅋㅋㅋㅋ어 2세 안볼거요 건형 여자 40면 끝난거요 병원가서 검사 받보세요 임신가능한가
+Whole chunk tree for sentence: 어 더 어린분 만서 결혼시지 ㅋㅋㅋㅋㅋㅋㅋㅋ어 2세 안볼거요 건형 여자 40면 끝난거요 병원가서 검사 받보세요 임신가능한가
+(S
+  어/Eomi
+  (NP 더/Noun)
+  (VP 어린/Verb)
+  (NP 분/Noun 만/Noun)
+  서/Josa
+  (NP 결혼/Noun 시지/Noun)
+  ㅋㅋㅋㅋㅋㅋㅋㅋ/KoreanParticle
+  어/Eomi
+  (NP 2/Number 세/Noun)
+  (VP 안/VerbPrefix 볼거요/Verb)
+  (NP 건형/Noun 여자/Noun 40/Number 면/Noun)
+  (VP 끝난거요/Verb)
+  (NP 병원/Noun)
+  (VP 가서/Verb)
+  (NP 검사/Noun)
+  (VP 받/Verb 보세요/Verb)
+  (NP 임신/Noun)
+  (AP 가능한가/Adjective))
+
+Randomly sampling this sentence for chunking: 세 가족 다 예쁘
+Whole chunk tree for sentence: 세 가족 다 예쁘
+(S (NP 세/Noun 가족/Noun) (AP 다/Adverb 예쁘/Adjective))
+
+Randomly sampling this sentence for chunking: 돈많으면 쓰던거 버리고 새 사야지.. 잘했어 용대야..
+Whole chunk tree for sentence: 돈많으면 쓰던거 버리고 새 사야지.. 잘했어 용대야..
+(S
+  (NP 돈/Noun)
+  (AP 많으면/Adjective)
+  (VP 쓰던거/Verb 버리고/Verb)
+  (NP 새/Noun)
+  (VP 사야지/Verb)
+  ../Punctuation
+  (VP 잘/VerbPrefix 했어/Verb)
+  (NP 용/Noun 대/Suffix)
+  야/Josa
+  ../Punctuation)
+
+Randomly sampling this sentence for chunking: 얘도 물었.....래서 연예계로 발 면 마약처럼 중독되지...니은 안러길 바랬는데...
+Whole chunk tree for sentence: 얘도 물었.....래서 연예계로 발 면 마약처럼 중독되지...니은 안러길 바랬는데...
+(S
+  (NP 얘/Noun)
+  도/Josa
+  (VP 물었/Verb)
+  ...../Punctuation
+  (NP 래서/Noun 연예계/Noun)
+  로/Josa
+  (NP 발/Noun 면/Noun 마약/Noun)
+  처럼/Josa
+  (NP 중독/Noun)
+  (VP 되지/Verb)
+  .../Punctuation
+  (NP 니은/Noun)
+  (VP 안러/Verb)
+  (NP 길/Noun 바랬는데/Noun)
+  .../Punctuation)

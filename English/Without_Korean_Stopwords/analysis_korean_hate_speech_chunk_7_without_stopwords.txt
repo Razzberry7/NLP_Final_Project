@@ -1,0 +1,193 @@
+Number of characters in korean_hate_speech_chunk_7_without_stopwords.txt: 95556
+Number of words in korean_hate_speech_chunk_7_without_stopwords.txt: 17460
+
+Top 10 frequent morphemes in korean_hate_speech_chunk_7_without_stopwords.txt:
+(('.', '.'), 990)
+((',', ','), 844)
+(('the', 'DT'), 558)
+(('I', 'PRP'), 539)
+(('a', 'DT'), 526)
+(('you', 'PRP'), 385)
+(('to', 'TO'), 379)
+(('and', 'CC'), 378)
+(('?', '.'), 373)
+(('it', 'PRP'), 353)
+
+Number of particles in korean_hate_speech_chunk_7_without_stopwords.txt: 21155
+
+Top 10 frequent nouns in korean_hate_speech_chunk_7_without_stopwords.txt:
+('people', 60)
+('Kim', 59)
+('lot', 49)
+('’', 48)
+('..', 48)
+('haha', 46)
+('money', 39)
+('woman', 36)
+('comments', 35)
+('women', 34)
+
+Number of nouns in korean_hate_speech_chunk_7_without_stopwords.txt: 4784
+
+Top 10 frequent verbs in korean_hate_speech_chunk_7_without_stopwords.txt:
+('is', 319)
+("'s", 212)
+('are', 197)
+('do', 132)
+('was', 120)
+('be', 117)
+('have', 107)
+("'m", 104)
+("'re", 54)
+('get', 53)
+
+Number of verbs in korean_hate_speech_chunk_7_without_stopwords.txt: 3754
+
+Top 10 frequent adverbs in korean_hate_speech_chunk_7_without_stopwords.txt:
+("n't", 223)
+('so', 91)
+('not', 69)
+('even', 65)
+('really', 64)
+('just', 56)
+('also', 43)
+('well', 36)
+('only', 33)
+('Even', 29)
+
+Number of adverbs in korean_hate_speech_chunk_7_without_stopwords.txt: 1187
+
+Top 10 frequent adjectives in korean_hate_speech_chunk_7_without_stopwords.txt:
+('good', 72)
+('old', 23)
+('s', 19)
+('’', 19)
+('malicious', 17)
+('first', 17)
+('Korean', 16)
+('same', 16)
+('best', 16)
+('other', 15)
+
+Number of adjectives in korean_hate_speech_chunk_7_without_stopwords.txt: 1449
+
+Top 10 frequent particles in korean_hate_speech_chunk_7_without_stopwords.txt:
+('up', 42)
+('out', 25)
+('down', 8)
+('off', 7)
+('over', 4)
+('back', 3)
+('okay', 2)
+('away', 2)
+
+Number of particles in korean_hate_speech_chunk_7_without_stopwords.txt: 93
+
+Collocations among tagged words:
+[(('#', '#'), ('MeToo', 'NNP')),
+ (('....', 'RB'), ('Can', 'NNP')),
+ (('.....', 'VBP'), ('Didn', 'NNP')),
+ (('0.0000000003', 'CD'), ('seconds', 'NNS')),
+ (('21', 'CD'), ('months', 'NNS')),
+ (('30.', 'CD'), ('everyday', 'JJ')),
+ (('>', 'CD'), ('Do-kyung', 'NNP')),
+ (('>', 'FW'), ('Ellie', 'NNP')),
+ (('>', 'JJ'), ('>', 'NN')),
+ (('>', 'VBZ'), ('>', 'JJ'))]
+
+Translating this randomly sampled korean sentence: 노화로 인한 못생김 슬슬더 중되는 시기~~^^
+
+Chunking this translated sentence: It is a time when ugliness due to aging becomes more and more serious~~^^
+Whole chunk tree for sentence: It is a time when ugliness due to aging becomes more and more serious~~^^
+(S
+  It/PRP
+  (VP is/VBZ)
+  a/DT
+  (NP time/NN)
+  when/WRB
+  (NP ugliness/NN)
+  due/JJ
+  to/TO
+  (VP aging/VBG)
+  (NP becomes/NNS)
+  more/RBR
+  and/CC
+  more/RBR
+  (NP serious~~^^/NNS))
+
+Translating this randomly sampled korean sentence: 명예훼손으로 고소면 답온다
+
+Chunking this translated sentence: If you sue for defamation, you will receive an answer.
+Whole chunk tree for sentence: If you sue for defamation, you will receive an answer.
+(S
+  If/IN
+  you/PRP
+  (VP sue/VBP)
+  for/IN
+  (NP defamation/NN)
+  ,/,
+  you/PRP
+  will/MD
+  (VP receive/VB)
+  an/DT
+  (NP answer/NN)
+  ./.)
+
+Translating this randomly sampled korean sentence: 진짜 대한민국 원탑~~~!!!!!♡♡♡♡♡♡♡
+
+Chunking this translated sentence: The real top of Korea~~~!!!!!♡♡♡♡♡♡♡
+Whole chunk tree for sentence: The real top of Korea~~~!!!!!♡♡♡♡♡♡♡
+(S
+  The/DT
+  real/JJ
+  (NP top/NN)
+  of/IN
+  (NP Korea~~~/NNP)
+  !/.
+  !/.
+  !/.
+  !/.
+  !/.
+  (NP ♡♡♡♡♡♡♡/NN))
+
+Translating this randomly sampled korean sentence: ㅅㅂ 모르고런거지 알고 랬겠냐 꼰대 새키들 드럽게 말많 ㅋㅋㅋ
+
+Chunking this translated sentence: ㅅㅂ You didn't know, but you knew what you were doing. Old and new kids talk so much haha.
+Whole chunk tree for sentence: ㅅㅂ You didn't know, but you knew what you were doing. Old and new kids talk so much haha.
+(S
+  (NP ㅅㅂ/NN)
+  You/PRP
+  (VP did/VBD)
+  n't/RB
+  (VP know/VB)
+  ,/,
+  but/CC
+  you/PRP
+  (VP knew/VBD)
+  what/WP
+  you/PRP
+  (VP were/VBD doing/VBG)
+  ./.
+  (NP Old/NNP)
+  and/CC
+  new/JJ
+  (NP kids/NNS)
+  (VP talk/VBP)
+  so/RB
+  much/JJ
+  (NP haha/NN)
+  ./.)
+
+Translating this randomly sampled korean sentence: 여 깝다...냥반인과 결혼지...
+
+Chunking this translated sentence: Well... I'm getting married to a nyangbanin...
+Whole chunk tree for sentence: Well... I'm getting married to a nyangbanin...
+(S
+  Well/RB
+  .../:
+  I/PRP
+  (VP 'm/VBP getting/VBG married/VBN)
+  to/TO
+  a/DT
+  (NP nyangbanin/NN)
+  .../:)

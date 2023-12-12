@@ -1,0 +1,235 @@
+Number of characters in korean_hate_speech_chunk_2_without_stopwords.txt: 88390
+Number of words in korean_hate_speech_chunk_2_without_stopwords.txt: 16270
+
+Top 10 frequent morphemes in korean_hate_speech_chunk_2_without_stopwords.txt:
+(('.', '.'), 913)
+((',', ','), 819)
+(('a', 'DT'), 536)
+(('I', 'PRP'), 532)
+(('the', 'DT'), 451)
+(('you', 'PRP'), 385)
+(('it', 'PRP'), 376)
+(('is', 'VBZ'), 371)
+(('?', '.'), 363)
+(('and', 'CC'), 348)
+
+Number of particles in korean_hate_speech_chunk_2_without_stopwords.txt: 19786
+
+Top 10 frequent nouns in korean_hate_speech_chunk_2_without_stopwords.txt:
+('people', 58)
+('haha', 46)
+('Kim', 45)
+('lot', 43)
+('’', 42)
+('time', 33)
+('..', 33)
+('money', 30)
+('woman', 30)
+('t', 28)
+
+Number of nouns in korean_hate_speech_chunk_2_without_stopwords.txt: 4310
+
+Top 10 frequent verbs in korean_hate_speech_chunk_2_without_stopwords.txt:
+('is', 371)
+("'s", 249)
+('was', 139)
+('are', 125)
+('be', 103)
+('do', 100)
+('have', 89)
+("'m", 84)
+("'re", 66)
+('’', 53)
+
+Number of verbs in korean_hate_speech_chunk_2_without_stopwords.txt: 3639
+
+Top 10 frequent adverbs in korean_hate_speech_chunk_2_without_stopwords.txt:
+("n't", 216)
+('so', 95)
+('not', 73)
+('really', 64)
+('even', 51)
+('just', 48)
+('also', 36)
+('Even', 28)
+('well', 28)
+('only', 27)
+
+Number of adverbs in korean_hate_speech_chunk_2_without_stopwords.txt: 1138
+
+Top 10 frequent adjectives in korean_hate_speech_chunk_2_without_stopwords.txt:
+('good', 91)
+('other', 18)
+('malicious', 17)
+('hard', 16)
+('s', 16)
+('old', 15)
+('’', 15)
+('same', 15)
+('bad', 13)
+('strong', 13)
+
+Number of adjectives in korean_hate_speech_chunk_2_without_stopwords.txt: 1273
+
+Top 10 frequent particles in korean_hate_speech_chunk_2_without_stopwords.txt:
+('up', 35)
+('out', 20)
+('off', 9)
+('down', 5)
+('over', 2)
+('away', 1)
+('back', 1)
+('on~~', 1)
+('around', 1)
+('okay', 1)
+
+Number of particles in korean_hate_speech_chunk_2_without_stopwords.txt: 76
+
+Collocations among tagged words:
+[(("'", 'POS'), ('videos', 'NNS')),
+ (('....', 'NN'), ('Heat', 'NNP')),
+ (('10-year-old', 'JJ'), ('kite', 'NN')),
+ (('170', 'CD'), ('53', 'CD')),
+ (('30-year-old', 'JJ'), ('Zumma', 'NNP')),
+ (('4.5', 'CD'), ('billion', 'CD')),
+ (('9', 'CD'), ('albums', 'NNS')),
+ (('9-game', 'JJ'), ('winning', 'NN')),
+ (('9Muses', 'CD'), ('rookie', 'NN')),
+ (('@', 'VB'), ('TzuyuJungyeon', 'NNP'))]
+
+Translating this randomly sampled korean sentence: 정준 별로...사상의심
+
+Chunking this translated sentence: Jeongjun not so much...I doubt the idea
+Whole chunk tree for sentence: Jeongjun not so much...I doubt the idea
+(S
+  (NP Jeongjun/NNP)
+  not/RB
+  so/RB
+  much/JJ
+  .../:
+  I/PRP
+  (VP doubt/VBP)
+  the/DT
+  (NP idea/NN))
+
+Translating this randomly sampled korean sentence: 어 더 어린분 만서 결혼시지 ㅋㅋㅋㅋㅋㅋㅋㅋ어 2세 안볼거요 건형 여자 40면 끝난거요 병원가서 검사 받보세요 임신가능한가
+
+Chunking this translated sentence: Uh, you're getting married to someone younger hahahahaha. Uh, I won't see you for 2 years. If you're a healthy girl in your 40s, you're done. Go to the hospital and get tested. Is it possible for you to get pregnant?
+Whole chunk tree for sentence: Uh, you're getting married to someone younger hahahahaha. Uh, I won't see you for 2 years. If you're a healthy girl in your 40s, you're done. Go to the hospital and get tested. Is it possible for you to get pregnant?
+(S
+  (NP Uh/NNP)
+  ,/,
+  you/PRP
+  (VP 're/VBP getting/VBG married/VBN)
+  to/TO
+  (NP someone/NN)
+  younger/JJR
+  (NP hahahahaha/NN)
+  ./.
+  (NP Uh/NNP)
+  ,/,
+  I/PRP
+  wo/MD
+  n't/RB
+  (VP see/VB)
+  you/PRP
+  for/IN
+  2/CD
+  (NP years/NNS)
+  ./.
+  If/IN
+  you/PRP
+  (VP 're/VBP)
+  a/DT
+  healthy/JJ
+  (NP girl/NN)
+  in/IN
+  your/PRP$
+  40s/CD
+  ,/,
+  you/PRP
+  (VP 're/VBP done/VBN)
+  ./.
+  (VP Go/VB)
+  to/TO
+  the/DT
+  (NP hospital/NN)
+  and/CC
+  (VP get/VB tested/VBN)
+  ./.
+  (VP Is/VBZ)
+  it/PRP
+  possible/JJ
+  for/IN
+  you/PRP
+  to/TO
+  (VP get/VB)
+  pregnant/JJ
+  ?/.)
+
+Translating this randomly sampled korean sentence: 세 가족 다 예쁘
+
+Chunking this translated sentence: All three family members are pretty
+Whole chunk tree for sentence: All three family members are pretty
+(S All/DT three/CD (NP family/NN members/NNS) (VP are/VBP) pretty/JJ)
+
+Translating this randomly sampled korean sentence: 돈많으면 쓰던거 버리고 새 사야지.. 잘했어 용대야..
+
+Chunking this translated sentence: If you have a lot of money, you should throw away the old one and buy a new one.. Good job Yongdae..
+Whole chunk tree for sentence: If you have a lot of money, you should throw away the old one and buy a new one.. Good job Yongdae..
+(S
+  If/IN
+  you/PRP
+  (VP have/VBP)
+  a/DT
+  (NP lot/NN)
+  of/IN
+  (NP money/NN)
+  ,/,
+  you/PRP
+  should/MD
+  (VP throw/VB)
+  away/RP
+  the/DT
+  old/JJ
+  one/CD
+  and/CC
+  (VP buy/VB)
+  a/DT
+  new/JJ
+  one/CD
+  (NP ../NN Good/NNP job/NN Yongdae/NNP ../NN))
+
+Translating this randomly sampled korean sentence: 얘도 물었.....래서 연예계로 발 면 마약처럼 중독되지...니은 안러길 바랬는데...
+
+Chunking this translated sentence: He also asked... So, if you enter the entertainment industry, you become addicted to it like a drug... I was hoping you wouldn't do that...
+Whole chunk tree for sentence: He also asked... So, if you enter the entertainment industry, you become addicted to it like a drug... I was hoping you wouldn't do that...
+(S
+  He/PRP
+  also/RB
+  (VP asked/VBD)
+  .../:
+  So/RB
+  ,/,
+  if/IN
+  you/PRP
+  (VP enter/VBP)
+  the/DT
+  (NP entertainment/NN industry/NN)
+  ,/,
+  you/PRP
+  (VP become/VBP addicted/VBN)
+  to/TO
+  it/PRP
+  like/IN
+  a/DT
+  (NP drug/NN)
+  .../:
+  I/PRP
+  (VP was/VBD hoping/VBG)
+  you/PRP
+  would/MD
+  n't/RB
+  (VP do/VB)
+  that/DT
+  .../:)

@@ -1,0 +1,232 @@
+Number of characters in korean_hate_speech_chunk_6_without_stopwords.txt: 93907
+Number of words in korean_hate_speech_chunk_6_without_stopwords.txt: 17183
+
+Top 10 frequent morphemes in korean_hate_speech_chunk_6_without_stopwords.txt:
+(('.', '.'), 918)
+((',', ','), 798)
+(('I', 'PRP'), 558)
+(('the', 'DT'), 541)
+(('a', 'DT'), 511)
+(('to', 'TO'), 420)
+(('?', '.'), 365)
+(('you', 'PRP'), 357)
+(('and', 'CC'), 347)
+(('it', 'PRP'), 329)
+
+Number of particles in korean_hate_speech_chunk_6_without_stopwords.txt: 20712
+
+Top 10 frequent nouns in korean_hate_speech_chunk_6_without_stopwords.txt:
+('people', 62)
+('Kim', 55)
+('’', 54)
+('..', 45)
+('lot', 44)
+('Park', 41)
+('haha', 36)
+('t', 33)
+('money', 32)
+('time', 31)
+
+Number of nouns in korean_hate_speech_chunk_6_without_stopwords.txt: 4553
+
+Top 10 frequent verbs in korean_hate_speech_chunk_6_without_stopwords.txt:
+('is', 316)
+("'s", 204)
+('are', 172)
+('was', 140)
+('do', 131)
+('be', 130)
+('have', 125)
+("'m", 78)
+('want', 55)
+('get', 47)
+
+Number of verbs in korean_hate_speech_chunk_6_without_stopwords.txt: 3791
+
+Top 10 frequent adverbs in korean_hate_speech_chunk_6_without_stopwords.txt:
+("n't", 221)
+('so', 79)
+('not', 77)
+('just', 69)
+('even', 58)
+('really', 57)
+('also', 40)
+('well', 33)
+('only', 33)
+('Even', 31)
+
+Number of adverbs in korean_hate_speech_chunk_6_without_stopwords.txt: 1159
+
+Top 10 frequent adjectives in korean_hate_speech_chunk_6_without_stopwords.txt:
+('good', 72)
+('’', 21)
+('better', 21)
+('nice', 17)
+('hard', 15)
+('more', 14)
+('bad', 14)
+('same', 13)
+('married', 12)
+('first', 12)
+
+Number of adjectives in korean_hate_speech_chunk_6_without_stopwords.txt: 1339
+
+Top 10 frequent particles in korean_hate_speech_chunk_6_without_stopwords.txt:
+('up', 32)
+('out', 21)
+('off', 13)
+('down', 4)
+('around', 2)
+('away', 1)
+('bye', 1)
+('back', 1)
+
+Number of particles in korean_hate_speech_chunk_6_without_stopwords.txt: 75
+
+Collocations among tagged words:
+[(('......', 'JJ'), ('Gyeongri', 'NNP')),
+ (('19th', 'JJ'), ('century', 'NN')),
+ (('84', 'CD'), ('become', 'NN')),
+ (('<', 'NNP'), ('Parasite', 'NNP')),
+ (('Ambassador', 'NNP'), ('Byung-hun', 'NNP')),
+ (('Articles', 'NNS'), ('related', 'VBN')),
+ (('Bang❤️', 'NNP'), ('Many', 'NNP')),
+ (('Best', 'JJS'), ('wishes', 'NNS')),
+ (('Blue', 'NNP'), ('House', 'NNP')),
+ (('Bodhisattva', 'NNP'), ('Sister', 'NNP'))]
+
+Translating this randomly sampled korean sentence: 십 흐른 지금도 남잔 의리!!
+
+Chunking this translated sentence: Even after ten years, I am still loyal to men!!
+Whole chunk tree for sentence: Even after ten years, I am still loyal to men!!
+(S
+  Even/RB
+  after/IN
+  ten/CD
+  (NP years/NNS)
+  ,/,
+  I/PRP
+  (VP am/VBP)
+  still/RB
+  loyal/JJ
+  to/TO
+  (NP men/NNS)
+  !/.
+  !/.)
+
+Translating this randomly sampled korean sentence: 심장소리가 리마 장난치더니 진짜 유산되버려라.
+
+Chunking this translated sentence: The sound of my heart was playing tricks on me and I ended up having a miscarriage.
+Whole chunk tree for sentence: The sound of my heart was playing tricks on me and I ended up having a miscarriage.
+(S
+  The/DT
+  (NP sound/NN)
+  of/IN
+  my/PRP$
+  (NP heart/NN)
+  (VP was/VBD playing/VBG)
+  (NP tricks/NNS)
+  on/IN
+  me/PRP
+  and/CC
+  I/PRP
+  (VP ended/VBD)
+  up/RP
+  (VP having/VBG)
+  a/DT
+  (NP miscarriage/NN)
+  ./.)
+
+Translating this randomly sampled korean sentence: 전현무는 인생선택 한 임. 신동엽과 헤진 소라 처럼, 전현무는 앞으 전문직 여성 만 잘 살거고, 한혜진은 소라 꼴 낫거임. 든 상폐녀가 연남 만난다는 랑 며, 추게 늙갈 운명.
+
+Chunking this translated sentence: Jeon Hyun-moo made a life choice. Like Shin Dong-yeop and Sora, Jeon Hyun-moo will only live well as a professional woman in the future, and Han Hye-jin will be like Sora. She said that a woman with a broken heart meets a young man, and that she is destined to grow old coldly.
+Whole chunk tree for sentence: Jeon Hyun-moo made a life choice. Like Shin Dong-yeop and Sora, Jeon Hyun-moo will only live well as a professional woman in the future, and Han Hye-jin will be like Sora. She said that a woman with a broken heart meets a young man, and that she is destined to grow old coldly.
+(S
+  (NP Jeon/NNP Hyun-moo/NNP)
+  (VP made/VBD)
+  a/DT
+  (NP life/NN choice/NN)
+  ./.
+  Like/IN
+  (NP Shin/NNP Dong-yeop/NNP)
+  and/CC
+  (NP Sora/NNP)
+  ,/,
+  (NP Jeon/NNP Hyun-moo/NNP)
+  will/MD
+  only/RB
+  (VP live/VB)
+  well/RB
+  as/IN
+  a/DT
+  professional/JJ
+  (NP woman/NN)
+  in/IN
+  the/DT
+  (NP future/NN)
+  ,/,
+  and/CC
+  (NP Han/NNP Hye-jin/NNP)
+  will/MD
+  (VP be/VB)
+  like/IN
+  (NP Sora/NNP)
+  ./.
+  She/PRP
+  (VP said/VBD)
+  that/IN
+  a/DT
+  (NP woman/NN)
+  with/IN
+  a/DT
+  broken/JJ
+  (NP heart/NN)
+  (VP meets/VBZ)
+  a/DT
+  young/JJ
+  (NP man/NN)
+  ,/,
+  and/CC
+  that/IN
+  she/PRP
+  (VP is/VBZ destined/VBN)
+  to/TO
+  (VP grow/VB)
+  old/JJ
+  coldly/RB
+  ./.)
+
+Translating this randomly sampled korean sentence: 뻔뻔함 개국랑 동급인듯
+
+Chunking this translated sentence: Shameless, it seems to be on the same level as Gaekak.
+Whole chunk tree for sentence: Shameless, it seems to be on the same level as Gaekak.
+(S
+  (NP Shameless/NN)
+  ,/,
+  it/PRP
+  (VP seems/VBZ)
+  to/TO
+  (VP be/VB)
+  on/IN
+  the/DT
+  same/JJ
+  (NP level/NN)
+  as/IN
+  (NP Gaekak/NNP)
+  ./.)
+
+Translating this randomly sampled korean sentence: 라도줌마는 노빠문레기 세상 천국랑께
+
+Chunking this translated sentence: Radojumma is the world of Noppamunregi, heaven and earth
+Whole chunk tree for sentence: Radojumma is the world of Noppamunregi, heaven and earth
+(S
+  (NP Radojumma/NNP)
+  (VP is/VBZ)
+  the/DT
+  (NP world/NN)
+  of/IN
+  (NP Noppamunregi/NNP)
+  ,/,
+  heaven/RB
+  and/CC
+  (NP earth/NN))

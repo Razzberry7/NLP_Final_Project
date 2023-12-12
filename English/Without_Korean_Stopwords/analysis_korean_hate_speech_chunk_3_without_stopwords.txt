@@ -1,0 +1,202 @@
+Number of characters in korean_hate_speech_chunk_3_without_stopwords.txt: 90839
+Number of words in korean_hate_speech_chunk_3_without_stopwords.txt: 16706
+
+Top 10 frequent morphemes in korean_hate_speech_chunk_3_without_stopwords.txt:
+(('.', '.'), 894)
+((',', ','), 800)
+(('I', 'PRP'), 582)
+(('the', 'DT'), 517)
+(('a', 'DT'), 493)
+(('?', '.'), 414)
+(('you', 'PRP'), 384)
+(('it', 'PRP'), 360)
+(('to', 'TO'), 359)
+(('is', 'VBZ'), 341)
+
+Number of particles in korean_hate_speech_chunk_3_without_stopwords.txt: 20322
+
+Top 10 frequent nouns in korean_hate_speech_chunk_3_without_stopwords.txt:
+('people', 62)
+('’', 57)
+('person', 48)
+('haha', 47)
+('..', 42)
+('Kim', 42)
+('lot', 40)
+('t', 30)
+('Park', 30)
+('money', 29)
+
+Number of nouns in korean_hate_speech_chunk_3_without_stopwords.txt: 4447
+
+Top 10 frequent verbs in korean_hate_speech_chunk_3_without_stopwords.txt:
+('is', 341)
+("'s", 228)
+('was', 156)
+('are', 137)
+('do', 111)
+('be', 108)
+("'m", 94)
+('have', 89)
+('did', 55)
+('see', 48)
+
+Number of verbs in korean_hate_speech_chunk_3_without_stopwords.txt: 3719
+
+Top 10 frequent adverbs in korean_hate_speech_chunk_3_without_stopwords.txt:
+("n't", 225)
+('so', 94)
+('not', 62)
+('really', 61)
+('just', 49)
+('even', 42)
+('Even', 41)
+('also', 40)
+('well', 34)
+('only', 32)
+
+Number of adverbs in korean_hate_speech_chunk_3_without_stopwords.txt: 1145
+
+Top 10 frequent adjectives in korean_hate_speech_chunk_3_without_stopwords.txt:
+('good', 66)
+('other', 19)
+('nice', 17)
+('wrong', 16)
+('same', 15)
+('old', 15)
+('’', 14)
+('pretty', 14)
+('more', 14)
+('s', 14)
+
+Number of adjectives in korean_hate_speech_chunk_3_without_stopwords.txt: 1321
+
+Top 10 frequent particles in korean_hate_speech_chunk_3_without_stopwords.txt:
+('up', 37)
+('out', 25)
+('off', 11)
+('down', 7)
+('around', 3)
+('away', 2)
+('over', 2)
+('behind', 2)
+('Suzy', 1)
+
+Number of particles in korean_hate_speech_chunk_3_without_stopwords.txt: 90
+
+Collocations among tagged words:
+[(('&', 'CC'), ('Sugar', 'NNP')),
+ (('.......', 'NNP'), ('Hyangdan', 'NNP')),
+ (('/4', 'JJ'), ('men/2', 'NN')),
+ (('1000', 'CD'), ('meters', 'NNS')),
+ (('2018', 'CD'), ('Mama', 'NNP')),
+ (('3rd', 'CD'), ('episode~', 'NNS')),
+ (('9.9', 'CD'), ('billion', 'CD')),
+ (('=', 'VBP'), ('Water', 'NNP')),
+ (('Always', 'NNS'), ('confused', 'VBD')),
+ (('Amazing', 'VBG'), ('Joseon-style', 'JJ'))]
+
+Translating this randomly sampled korean sentence: 우 림님 정말 축드려요!!
+
+Chunking this translated sentence: Woo Lim, I really congratulate you!!
+Whole chunk tree for sentence: Woo Lim, I really congratulate you!!
+(S
+  (NP Woo/NNP Lim/NNP)
+  ,/,
+  I/PRP
+  really/RB
+  (VP congratulate/VB)
+  you/PRP
+  !/.
+  !/.)
+
+Translating this randomly sampled korean sentence: 강타 실로 보면 잘생겼는가보넹,,, 개취지 뭐
+
+Chunking this translated sentence: Kangta actually looks handsome,,, whatever.
+Whole chunk tree for sentence: Kangta actually looks handsome,,, whatever.
+(S
+  (NP Kangta/NNP)
+  actually/RB
+  (VP looks/VBZ)
+  handsome/JJ
+  ,/,
+  ,/,
+  ,/,
+  whatever/WDT
+  ./.)
+
+Translating this randomly sampled korean sentence: 장례식장 페미 몰려서 여성평등 외치고 난동 부릴거 같더니,,, 페미 조용네,,, ㅋㅋㅋ
+
+Chunking this translated sentence: It looked like feminists would gather at the funeral and shout for women's equality and cause trouble,,, but the feminists are quiet,,, lol.
+Whole chunk tree for sentence: It looked like feminists would gather at the funeral and shout for women's equality and cause trouble,,, but the feminists are quiet,,, lol.
+(S
+  It/PRP
+  (VP looked/VBD)
+  like/IN
+  (NP feminists/NNS)
+  would/MD
+  (VP gather/VB)
+  at/IN
+  the/DT
+  funeral/JJ
+  and/CC
+  (NP shout/NN)
+  for/IN
+  (NP women/NNS)
+  's/POS
+  (NP equality/NN)
+  and/CC
+  (NP cause/NN trouble/NN)
+  ,/,
+  ,/,
+  ,/,
+  but/CC
+  the/DT
+  (NP feminists/NNS)
+  (VP are/VBP)
+  quiet/JJ
+  ,/,
+  ,/,
+  ,/,
+  (NP lol/NN)
+  ./.)
+
+Translating this randomly sampled korean sentence: 국내 관종 환자 볼 수 있는 프로!!
+
+Chunking this translated sentence: A professional who can see domestic patients with vascular disease!!
+Whole chunk tree for sentence: A professional who can see domestic patients with vascular disease!!
+(S
+  A/DT
+  professional/JJ
+  who/WP
+  can/MD
+  (VP see/VB)
+  domestic/JJ
+  (NP patients/NNS)
+  with/IN
+  vascular/JJ
+  (NP disease/NN)
+  !/.
+  !/.)
+
+Translating this randomly sampled korean sentence:  러 정말 건 불륜인데 중 늘겅서 어쪄려고
+
+Chunking this translated sentence: It's really an affair, but what are you going to do with it?
+Whole chunk tree for sentence: It's really an affair, but what are you going to do with it?
+(S
+  It/PRP
+  (VP 's/VBZ)
+  really/RB
+  an/DT
+  (NP affair/NN)
+  ,/,
+  but/CC
+  what/WP
+  (VP are/VBP)
+  you/PRP
+  (VP going/VBG)
+  to/TO
+  (VP do/VB)
+  with/IN
+  it/PRP
+  ?/.)

@@ -1,0 +1,185 @@
+Number of characters in korean_hate_speech_chunk_6_without_stopwords.txt: 32664
+Number of words in korean_hate_speech_chunk_6_without_stopwords.txt: 7791
+
+Top 10 frequent phrases in korean_hate_speech_chunk_6_without_stopwords.txt:
+[('김충재', 1),
+ ('혼산다', 1),
+ ('출연진', 1),
+ ('출연진 싹', 1),
+ ('더상', 1),
+ ('더상 우려낼', 1),
+ ('혼산다 잼', 1),
+ ('막상', 1),
+ ('막상 yg연예인', 1),
+ ('막상 yg연예인 사진', 1)]
+
+Top 10 frequent morphemes in korean_hate_speech_chunk_6_without_stopwords.txt:
+[(('\n', 'Foreign'), 916),
+ (('.', 'Punctuation'), 246),
+ (('가', 'Josa'), 184),
+ (('도', 'Josa'), 162),
+ (('?', 'Punctuation'), 150),
+ (('..', 'Punctuation'), 142),
+ (('은', 'Josa'), 123),
+ (('는', 'Josa'), 122),
+ (('고', 'Josa'), 116),
+ (('...', 'Punctuation'), 114)]
+Number of morphemes in korean_hate_speech_chunk_6_without_stopwords.txt: 4920
+
+Top 10 frequent nouns in korean_hate_speech_chunk_6_without_stopwords.txt:
+[('니', 62),
+ ('사람', 57),
+ ('무', 56),
+ ('진짜', 42),
+ ('여', 37),
+ ('도', 36),
+ ('렇', 35),
+ ('남', 34),
+ ('더', 33),
+ ('거', 32)]
+Number of nouns in korean_hate_speech_chunk_6_without_stopwords.txt: 2698
+
+Top 10 frequent verbs in korean_hate_speech_chunk_6_without_stopwords.txt:
+[('는', 52),
+ ('가', 30),
+ ('잘', 26),
+ ('서', 26),
+ ('지', 23),
+ ('할', 19),
+ ('해서', 17),
+ ('대', 14),
+ ('넘', 13),
+ ('해', 13)]
+Number of verbs in korean_hate_speech_chunk_6_without_stopwords.txt: 1258
+
+Top 10 frequent adverbs in korean_hate_speech_chunk_6_without_stopwords.txt:
+[('다', 85),
+ ('으', 44),
+ ('근데', 21),
+ ('엄청', 7),
+ ('특히', 6),
+ ('암튼', 5),
+ ('첨', 4),
+ ('빨리', 4),
+ ('걍', 3),
+ ('맨날', 3)]
+Number of adverbs in korean_hate_speech_chunk_6_without_stopwords.txt: 32
+
+Top 10 frequent adjectives in korean_hate_speech_chunk_6_without_stopwords.txt:
+[('없', 23),
+ ('많', 21),
+ ('같은', 12),
+ ('좋은', 12),
+ ('없는', 11),
+ ('같은데', 10),
+ ('같', 10),
+ ('없고', 8),
+ ('좋', 8),
+ ('없다', 8)]
+Number of adjectives in korean_hate_speech_chunk_6_without_stopwords.txt: 454
+
+Top 10 frequent josa (Korean particles) in korean_hate_speech_chunk_6_without_stopwords.txt:
+[('가', 184),
+ ('도', 162),
+ ('은', 123),
+ ('는', 122),
+ ('고', 116),
+ ('게', 77),
+ ('서', 76),
+ ('지', 67),
+ ('라', 66),
+ ('요', 54)]
+Number of josa (Korean Particles) in korean_hate_speech_chunk_6_without_stopwords.txt: 71
+
+Collocations among tagged words:
+[(('!^', 'Punctuation'), ('0', 'Number')),
+ ((',.', 'Punctuation'), ('개빡', 'Noun')),
+ (('..?', 'Punctuation'), ('부부인', 'Noun')),
+ (('0', 'Number'), ('^', 'Punctuation')),
+ (('0.1', 'Number'), ('도안', 'Noun')),
+ (('12시간', 'Number'), ('고', 'Foreign')),
+ (('12월', 'Number'), ('1월', 'Number')),
+ (('15만', 'Number'), ('만났는데', 'Verb')),
+ (('1월', 'Number'), ('더', 'Foreign')),
+ (('1조', 'Number'), ('인데', 'Foreign'))]
+
+Randomly sampling this sentence for chunking: 십 흐른 지금도 남잔 의리!!
+Whole chunk tree for sentence: 십 흐른 지금도 남잔 의리!!
+(S
+  (NP 십/Noun)
+  (VP 흐른/Verb)
+  (NP 지금/Noun)
+  도/Josa
+  (VP 남잔/Verb)
+  (NP 의리/Noun)
+  !!/Punctuation)
+
+Randomly sampling this sentence for chunking: 심장소리가 리마 장난치더니 진짜 유산되버려라.
+Whole chunk tree for sentence: 심장소리가 리마 장난치더니 진짜 유산되버려라.
+(S
+  (NP 심장소리/Noun)
+  가/Josa
+  (NP 리마/Noun 장난/Noun)
+  (VP 치더니/Verb)
+  (NP 진짜/Noun 유산/Noun)
+  (VP 되/Verb 버려라/Verb)
+  ./Punctuation)
+
+Randomly sampling this sentence for chunking: 전현무는 인생선택 한 임. 신동엽과 헤진 소라 처럼, 전현무는 앞으 전문직 여성 만 잘 살거고, 한혜진은 소라 꼴 낫거임. 든 상폐녀가 연남 만난다는 랑 며, 추게 늙갈 운명.
+Whole chunk tree for sentence: 전현무는 인생선택 한 임. 신동엽과 헤진 소라 처럼, 전현무는 앞으 전문직 여성 만 잘 살거고, 한혜진은 소라 꼴 낫거임. 든 상폐녀가 연남 만난다는 랑 며, 추게 늙갈 운명.
+(S
+  (NP 전현무/Noun)
+  는/Josa
+  (NP 인생/Noun 선택/Noun)
+  (VP 한/Verb)
+  (NP 임/Noun)
+  ./Punctuation
+  (NP 신동엽/Noun)
+  과/Josa
+  (NP 헤진/Noun 소라/Noun 처럼/Noun)
+  ,/Punctuation
+  (NP 전현무/Noun)
+  는/Josa
+  (NP 앞/Noun)
+  (AP 으/Adverb)
+  (NP 전문직/Noun 여성/Noun 만/Noun)
+  (VP 잘/Verb 살거고/Verb)
+  ,/Punctuation
+  (NP 한혜진/Noun)
+  은/Josa
+  (NP 소라/Noun 꼴/Noun)
+  (VP 낫거/Verb)
+  (NP 임/Noun)
+  ./Punctuation
+  (VP 든/Verb)
+  (NP 상폐녀/Noun)
+  가/Josa
+  (NP 연남/Noun)
+  (VP 만난다는/Verb)
+  랑/Josa
+  (NP 며/Noun)
+  ,/Punctuation
+  (VP 추게/Verb 늙/Verb 갈/Verb)
+  (NP 운명/Noun)
+  ./Punctuation)
+
+Randomly sampling this sentence for chunking: 뻔뻔함 개국랑 동급인듯
+Whole chunk tree for sentence: 뻔뻔함 개국랑 동급인듯
+(S
+  (NP 뻔/Noun)
+  (AP 뻔함/Adjective)
+  (NP 개국/Noun)
+  랑/Josa
+  동/Modifier
+  (NP 급/Noun)
+  인/Josa
+  (NP 듯/Noun))
+
+Randomly sampling this sentence for chunking: 라도줌마는 노빠문레기 세상 천국랑께
+Whole chunk tree for sentence: 라도줌마는 노빠문레기 세상 천국랑께
+(S
+  라도/Josa
+  (NP 줌마/Noun)
+  는/Josa
+  (NP 노빠문레기/Noun 세상/Noun 천국/Noun)
+  랑께/Josa)

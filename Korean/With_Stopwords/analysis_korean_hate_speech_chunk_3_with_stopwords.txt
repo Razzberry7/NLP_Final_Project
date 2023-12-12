@@ -1,0 +1,174 @@
+Number of characters in korean_hate_speech_chunk_3_with_stopwords.txt: 37360
+Number of words in korean_hate_speech_chunk_3_with_stopwords.txt: 7883
+
+Top 10 frequent phrases in korean_hate_speech_chunk_3_with_stopwords.txt:
+[('후원자', 1),
+ ('뭔일터', 1),
+ ('벌써', 1),
+ ('벌써 결혼', 1),
+ ('그일', 1),
+ ('완전', 1),
+ ('완전 비호감', 1),
+ ('은퇴', 1),
+ ('논외로', 1),
+ ('논외로 친지', 1)]
+
+Top 10 frequent morphemes in korean_hate_speech_chunk_3_with_stopwords.txt:
+[(('\n', 'Foreign'), 986),
+ (('.', 'Punctuation'), 268),
+ (('이', 'Josa'), 265),
+ (('들', 'Suffix'), 220),
+ (('가', 'Josa'), 190),
+ (('?', 'Punctuation'), 167),
+ (('은', 'Josa'), 163),
+ (('..', 'Punctuation'), 152),
+ (('도', 'Josa'), 145),
+ (('에', 'Josa'), 142)]
+Number of morphemes in korean_hate_speech_chunk_3_with_stopwords.txt: 5493
+
+Top 10 frequent nouns in korean_hate_speech_chunk_3_with_stopwords.txt:
+[('왜', 61),
+ ('사람', 61),
+ ('진짜', 54),
+ ('여자', 48),
+ ('더', 43),
+ ('좀', 39),
+ ('남자', 39),
+ ('연기', 32),
+ ('결혼', 31),
+ ('거', 30)]
+Number of nouns in korean_hate_speech_chunk_3_with_stopwords.txt: 2759
+
+Top 10 frequent verbs in korean_hate_speech_chunk_3_with_stopwords.txt:
+[('하는', 42),
+ ('할', 27),
+ ('하면', 24),
+ ('잘', 21),
+ ('참', 19),
+ ('해서', 19),
+ ('들', 18),
+ ('합니다', 17),
+ ('하지', 16),
+ ('대', 15)]
+Number of verbs in korean_hate_speech_chunk_3_with_stopwords.txt: 1379
+
+Top 10 frequent adverbs in korean_hate_speech_chunk_3_with_stopwords.txt:
+[('너무', 58),
+ ('다', 45),
+ ('근데', 17),
+ ('이렇게', 16),
+ ('많이', 15),
+ ('같이', 11),
+ ('결국', 8),
+ ('그렇게', 8),
+ ('아무리', 7),
+ ('걍', 6)]
+Number of adverbs in korean_hate_speech_chunk_3_with_stopwords.txt: 81
+
+Top 10 frequent adjectives in korean_hate_speech_chunk_3_with_stopwords.txt:
+[('같은', 17),
+ ('솔직히', 17),
+ ('아니고', 15),
+ ('이런', 13),
+ ('없는', 12),
+ ('아닌데', 11),
+ ('아님', 11),
+ ('있지', 9),
+ ('같아', 9),
+ ('같은데', 8)]
+Number of adjectives in korean_hate_speech_chunk_3_with_stopwords.txt: 730
+
+Top 10 frequent josa (Korean particles) in korean_hate_speech_chunk_3_with_stopwords.txt:
+[('이', 265),
+ ('가', 190),
+ ('은', 163),
+ ('도', 145),
+ ('에', 142),
+ ('는', 120),
+ ('을', 90),
+ ('로', 64),
+ ('의', 62),
+ ('만', 56)]
+Number of josa (Korean Particles) in korean_hate_speech_chunk_3_with_stopwords.txt: 126
+
+Collocations among tagged words:
+[(('*', 'Punctuation'), ('민경훈', 'Noun')),
+ (('-', 'Punctuation'), ('무법', 'Noun')),
+ (('..??', 'Punctuation'), ('운명', 'Noun')),
+ (('10분', 'Number'), ('이라', 'Foreign')),
+ (('130만', 'Number'), ('명', 'Foreign')),
+ (('1400억', 'Number'), ('뜯기고', 'Verb')),
+ (('180', 'Number'), ('넘어갈', 'Verb')),
+ (('19', 'Number'), ('세기말', 'Noun')),
+ (('1등', 'Number'), ('부터', 'Foreign')),
+ (('1조', 'Number'), ('가', 'Foreign'))]
+
+Randomly sampling this sentence for chunking: 우와 하림님 정말 축하드려요!!
+Whole chunk tree for sentence: 우와 하림님 정말 축하드려요!!
+(S
+  우와/Exclamation
+  (NP 하림/Noun 님/Suffix)
+  (NP 정말/Noun 축하/Noun)
+  (VP 드려요/Verb)
+  !!/Punctuation)
+
+Randomly sampling this sentence for chunking: 강타 실제로 보면 잘생겼는가보넹,,, 개취지 뭐
+Whole chunk tree for sentence: 강타 실제로 보면 잘생겼는가보넹,,, 개취지 뭐
+(S
+  (NP 강타/Noun 실제/Noun)
+  로/Josa
+  (VP 보면/Verb)
+  (AP 잘생겼는/Adjective)
+  (NP 가보/Noun 넹/Noun)
+  ,,,/Punctuation
+  (NP 개취/Noun)
+  지/Josa
+  (NP 뭐/Noun))
+
+Randomly sampling this sentence for chunking: 장례식장에 페미들이 몰려와서 여성평등을 외치고 난동 부릴거 같더니,,, 페미들이 조용하네,,, ㅋㅋㅋ
+Whole chunk tree for sentence: 장례식장에 페미들이 몰려와서 여성평등을 외치고 난동 부릴거 같더니,,, 페미들이 조용하네,,, ㅋㅋㅋ
+(S
+  (NP 장례식/Noun 장/Suffix)
+  에/Josa
+  (NP 페미/Noun 들/Suffix)
+  이/Josa
+  (VP 몰려와서/Verb)
+  여/Modifier
+  성/Modifier
+  (NP 평등/Noun)
+  을/Josa
+  (NP 외치/Noun)
+  고/Josa
+  (NP 난동/Noun)
+  (VP 부릴거/Verb)
+  (AP 같더니/Adjective)
+  ,,,/Punctuation
+  (NP 페미/Noun 들/Suffix)
+  이/Josa
+  (AP 조용하네/Adjective)
+  ,,,/Punctuation
+  ㅋㅋㅋ/KoreanParticle)
+
+Randomly sampling this sentence for chunking: 국내 관종 환자들을 볼 수 있는 프로!!
+Whole chunk tree for sentence: 국내 관종 환자들을 볼 수 있는 프로!!
+(S
+  (NP 국내/Noun 관종/Noun 환자/Noun 들/Suffix)
+  을/Josa
+  (NP 볼/Noun 수/Noun)
+  (AP 있는/Adjective)
+  (NP 프로/Noun)
+  !!/Punctuation)
+
+Randomly sampling this sentence for chunking: 왜 이러나 정말 이건 불륜인데 나중에 늘겅서 어쪄려고
+Whole chunk tree for sentence: 왜 이러나 정말 이건 불륜인데 나중에 늘겅서 어쪄려고
+(S
+  (NP 왜/Noun)
+  (VP 이러나/Verb)
+  (NP 정말/Noun 이건/Noun 불륜/Noun)
+  인데/Josa
+  (NP 나중/Noun)
+  에/Josa
+  (NP 늘겅/Noun)
+  서/Josa
+  (NP 어쪄려/Noun)
+  고/Josa)

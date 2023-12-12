@@ -1,0 +1,164 @@
+Number of characters in korean_hate_speech_chunk_7_with_stopwords.txt: 38347
+Number of words in korean_hate_speech_chunk_7_with_stopwords.txt: 8052
+
+Top 10 frequent phrases in korean_hate_speech_chunk_7_with_stopwords.txt:
+[('알콩달콩', 1),
+ ('알콩달콩사는부부', 1),
+ ('박규리', 1),
+ ('페미', 1),
+ ('이수근', 1),
+ ('이수근 언제', 1),
+ ('쿨한척하', 1),
+ ('이제', 1),
+ ('뭔가', 1),
+ ('뭔가 지금', 1)]
+
+Top 10 frequent morphemes in korean_hate_speech_chunk_7_with_stopwords.txt:
+[(('\n', 'Foreign'), 987),
+ (('.', 'Punctuation'), 299),
+ (('이', 'Josa'), 251),
+ (('가', 'Josa'), 235),
+ (('들', 'Suffix'), 204),
+ (('도', 'Josa'), 176),
+ (('?', 'Punctuation'), 170),
+ (('..', 'Punctuation'), 168),
+ (('은', 'Josa'), 153),
+ (('에', 'Josa'), 146)]
+Number of morphemes in korean_hate_speech_chunk_7_with_stopwords.txt: 5528
+
+Top 10 frequent nouns in korean_hate_speech_chunk_7_with_stopwords.txt:
+[('사람', 67),
+ ('여자', 66),
+ ('왜', 61),
+ ('좀', 50),
+ ('진짜', 50),
+ ('남자', 48),
+ ('애', 39),
+ ('때', 37),
+ ('이', 33),
+ ('뭐', 30)]
+Number of nouns in korean_hate_speech_chunk_7_with_stopwords.txt: 2734
+
+Top 10 frequent verbs in korean_hate_speech_chunk_7_with_stopwords.txt:
+[('하는', 43),
+ ('할', 34),
+ ('참', 20),
+ ('들', 20),
+ ('하지', 19),
+ ('잘', 19),
+ ('해서', 18),
+ ('하고', 18),
+ ('넘', 17),
+ ('해라', 16)]
+Number of verbs in korean_hate_speech_chunk_7_with_stopwords.txt: 1413
+
+Top 10 frequent adverbs in korean_hate_speech_chunk_7_with_stopwords.txt:
+[('너무', 52),
+ ('다', 49),
+ ('이렇게', 18),
+ ('근데', 17),
+ ('저렇게', 11),
+ ('같이', 9),
+ ('그만', 9),
+ ('많이', 9),
+ ('그렇게', 8),
+ ('걍', 7)]
+Number of adverbs in korean_hate_speech_chunk_7_with_stopwords.txt: 80
+
+Top 10 frequent adjectives in korean_hate_speech_chunk_7_with_stopwords.txt:
+[('솔직히', 14),
+ ('없다', 14),
+ ('이런', 13),
+ ('없는', 13),
+ ('아니고', 12),
+ ('많은', 10),
+ ('같은', 10),
+ ('있는', 10),
+ ('좋겠다', 9),
+ ('좋은', 9)]
+Number of adjectives in korean_hate_speech_chunk_7_with_stopwords.txt: 753
+
+Top 10 frequent josa (Korean particles) in korean_hate_speech_chunk_7_with_stopwords.txt:
+[('이', 251),
+ ('가', 235),
+ ('도', 176),
+ ('은', 153),
+ ('에', 146),
+ ('는', 145),
+ ('을', 88),
+ ('의', 68),
+ ('를', 63),
+ ('로', 57)]
+Number of josa (Korean Particles) in korean_hate_speech_chunk_7_with_stopwords.txt: 135
+
+Collocations among tagged words:
+[(('..........', 'Punctuation'), ('갓', 'Modifier')),
+ (('100', 'Number'), ('마넌', 'Noun')),
+ (('1000', 'Number'), ('미터', 'Noun')),
+ (('10000%', 'Number'), ('스폰있다', 'Noun')),
+ (('100년', 'Number'), ('안에', 'Foreign')),
+ (('10월', 'Number'), ('이던데', 'Foreign')),
+ (('12%', 'Number'), ('나왔다고', 'Verb')),
+ (('15년', 'Number'), ('생인', 'Foreign')),
+ (('1회', 'Number'), ('에서', 'Foreign')),
+ (('2014년', 'Number'), ('카톡', 'Noun'))]
+
+Randomly sampling this sentence for chunking: 노화로 인한 못생김이 슬슬더 가중되는 시기~~^^
+Whole chunk tree for sentence: 노화로 인한 못생김이 슬슬더 가중되는 시기~~^^
+(S
+  (NP 노화/Noun)
+  로/Josa
+  (AP 인한/Adjective)
+  (VP 못/VerbPrefix 생김이/Verb)
+  (NP 슬슬/Noun 더/Noun 가중/Noun)
+  (VP 되는/Verb)
+  (NP 시기/Noun)
+  ~~^^/Punctuation)
+
+Randomly sampling this sentence for chunking: 명예훼손으로 고소하면 답나온다
+Whole chunk tree for sentence: 명예훼손으로 고소하면 답나온다
+(S
+  (NP 명예훼손/Noun)
+  으로/Josa
+  (AP 고소하면/Adjective)
+  (NP 답/Noun)
+  (VP 나온다/Verb))
+
+Randomly sampling this sentence for chunking: 진짜 대한민국 원탑~~~!!!!!♡♡♡♡♡♡♡
+Whole chunk tree for sentence: 진짜 대한민국 원탑~~~!!!!!♡♡♡♡♡♡♡
+(S
+  (NP 진짜/Noun 대한민국/Noun)
+  원/Modifier
+  (NP 탑/Noun)
+  ~~~!!!!!/Punctuation
+  ♡♡♡♡♡♡♡/Foreign)
+
+Randomly sampling this sentence for chunking: ㅅㅂ 모르고저런거지 알고 저랬겠냐 꼰대 새키들 드럽게 말많네 ㅋㅋㅋ
+Whole chunk tree for sentence: ㅅㅂ 모르고저런거지 알고 저랬겠냐 꼰대 새키들 드럽게 말많네 ㅋㅋㅋ
+(S
+  ㅅㅂ/KoreanParticle
+  (VP 모르고/Verb 저런거지/Verb)
+  (NP 알/Noun)
+  고/Josa
+  (AP 저랬겠냐/Adjective)
+  (NP 꼰대/Noun)
+  새/Modifier
+  (NP 키/Noun 들/Suffix)
+  (AP 드럽게/Adjective)
+  (NP 말/Noun)
+  (AP 많네/Adjective)
+  ㅋㅋㅋ/KoreanParticle)
+
+Randomly sampling this sentence for chunking: 여자가 아깝다...그냥일반인과 결혼하지...
+Whole chunk tree for sentence: 여자가 아깝다...그냥일반인과 결혼하지...
+(S
+  (NP 여자/Noun)
+  가/Josa
+  (AP 아깝다/Adjective)
+  .../Punctuation
+  그냥/Modifier
+  (NP 일반인/Noun)
+  과/Josa
+  (NP 결혼/Noun)
+  (VP 하지/Verb)
+  .../Punctuation)

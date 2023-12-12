@@ -1,0 +1,192 @@
+Number of characters in korean_hate_speech_chunk_1_without_stopwords.txt: 33269
+Number of words in korean_hate_speech_chunk_1_without_stopwords.txt: 8026
+
+Top 10 frequent phrases in korean_hate_speech_chunk_1_without_stopwords.txt:
+[('군복', 1),
+ ('군복입고면 적폐녀', 1),
+ ('문재인', 1),
+ ('문재인좋는 인민복', 1),
+ ('문재인좋는 인민복 인공기달', 1),
+ ('면 쭉쭉', 1),
+ ('정준영', 1),
+ ('협박', 1),
+ ('협박 당고', 1),
+ ('래서', 1)]
+
+Top 10 frequent morphemes in korean_hate_speech_chunk_1_without_stopwords.txt:
+[(('\n', 'Foreign'), 923),
+ (('.', 'Punctuation'), 322),
+ (('?', 'Punctuation'), 173),
+ (('고', 'Josa'), 158),
+ (('는', 'Josa'), 138),
+ (('은', 'Josa'), 134),
+ (('도', 'Josa'), 132),
+ (('을', 'Josa'), 127),
+ (('...', 'Punctuation'), 119),
+ (('..', 'Punctuation'), 113)]
+Number of morphemes in korean_hate_speech_chunk_1_without_stopwords.txt: 4949
+
+Top 10 frequent nouns in korean_hate_speech_chunk_1_without_stopwords.txt:
+[('사람', 70),
+ ('진짜', 59),
+ ('니', 58),
+ ('무', 57),
+ ('여', 48),
+ ('뭐', 45),
+ ('도', 40),
+ ('살', 40),
+ ('게', 39),
+ ('연기', 38)]
+Number of nouns in korean_hate_speech_chunk_1_without_stopwords.txt: 2698
+
+Top 10 frequent verbs in korean_hate_speech_chunk_1_without_stopwords.txt:
+[('는', 75),
+ ('지', 26),
+ ('할', 23),
+ ('잘', 19),
+ ('대', 17),
+ ('서', 16),
+ ('해서', 15),
+ ('해', 15),
+ ('한', 12),
+ ('까', 12)]
+Number of verbs in korean_hate_speech_chunk_1_without_stopwords.txt: 1277
+
+Top 10 frequent adverbs in korean_hate_speech_chunk_1_without_stopwords.txt:
+[('다', 107),
+ ('으', 56),
+ ('근데', 15),
+ ('엄청', 7),
+ ('우', 7),
+ ('되게', 6),
+ ('히', 6),
+ ('걍', 5),
+ ('누군지', 5),
+ ('맨날', 5)]
+Number of adverbs in korean_hate_speech_chunk_1_without_stopwords.txt: 35
+
+Top 10 frequent adjectives in korean_hate_speech_chunk_1_without_stopwords.txt:
+[('같은', 26),
+ ('많', 24),
+ ('없', 22),
+ ('같은데', 18),
+ ('좋은', 16),
+ ('좋', 14),
+ ('있', 12),
+ ('없는', 11),
+ ('먼', 11),
+ ('없다', 10)]
+Number of adjectives in korean_hate_speech_chunk_1_without_stopwords.txt: 466
+
+Top 10 frequent josa (Korean particles) in korean_hate_speech_chunk_1_without_stopwords.txt:
+[('고', 158),
+ ('는', 138),
+ ('은', 134),
+ ('도', 132),
+ ('을', 127),
+ ('게', 108),
+ ('서', 84),
+ ('라', 63),
+ ('만', 62),
+ ('면', 58)]
+Number of josa (Korean Particles) in korean_hate_speech_chunk_1_without_stopwords.txt: 60
+
+Collocations among tagged words:
+[(('!!!!!!!!', 'Punctuation'), ('코요테', 'Noun')),
+ (("''", 'Punctuation'), ('싼', 'Verb')),
+ (('(?)', 'Punctuation'), ('스러운', 'Adjective')),
+ (('-""', 'Punctuation'), ('알콜중독', 'Noun')),
+ (('.!!!', 'Punctuation'), ('살빼고', 'Adjective')),
+ (('.......', 'Punctuation'), ('공짜', 'Noun')),
+ (('0.3%', 'Number'), ('만고싶으면', 'Verb')),
+ (('10', 'Number'), ('살차', 'Noun')),
+ (('1000만원', 'Number'), ('70', 'Number')),
+ (('10년', 'Number'), ('만', 'Foreign'))]
+
+Randomly sampling this sentence for chunking: 주 기주의 쩔은 인간 천지 뇌 파먹는 바러스 한국 돌다니는 듯
+Whole chunk tree for sentence: 주 기주의 쩔은 인간 천지 뇌 파먹는 바러스 한국 돌다니는 듯
+(S
+  (NP 주/Noun 기주/Noun)
+  의/Josa
+  (VP 쩔은/Verb)
+  (NP 인간/Noun 천지/Noun 뇌/Noun)
+  (VP 파먹는/Verb)
+  (NP 바러스/Noun 한국/Noun)
+  (VP 돌다니는/Verb)
+  (NP 듯/Noun))
+
+Randomly sampling this sentence for chunking: ? 여태껏 동거한거요?
+Whole chunk tree for sentence: ? 여태껏 동거한거요?
+(S
+  ?/Punctuation
+  (NP 여태껏/Noun 동거/Noun)
+  한/Determiner
+  (NP 거/Noun)
+  요/Josa
+  ?/Punctuation)
+
+Randomly sampling this sentence for chunking: 남측 욕지마세요
+Whole chunk tree for sentence: 남측 욕지마세요
+(S (NP 남/Noun 측/Suffix) (NP 욕/Noun) 지/Josa (VP 마세요/Verb))
+
+Randomly sampling this sentence for chunking: 여보세요~~~ 냥 남 권태기 서 여 버리고 싶진겁니다~~ 결혼 한번 안해본 사람처럼 러세요~~
+Whole chunk tree for sentence: 여보세요~~~ 냥 남 권태기 서 여 버리고 싶진겁니다~~ 결혼 한번 안해본 사람처럼 러세요~~
+(S
+  여보세요/Exclamation
+  ~~~/Punctuation
+  (NP 냥/Noun 남/Noun 권태기/Noun)
+  (VP 서/Verb)
+  (NP 여/Noun)
+  (VP 버리고/Verb 싶진/Verb 겁니다/Verb)
+  ~~/Punctuation
+  (NP 결혼/Noun 한번/Noun)
+  (VP 안/VerbPrefix 해본/Verb)
+  (NP 사람/Noun)
+  처럼/Josa
+  (NP 러세/Noun)
+  요/Josa
+  ~~/Punctuation)
+
+Randomly sampling this sentence for chunking: 방송출연해서 런말 막해도 되? 김학래는 정 없 혼사는분인? 글고 무도 르는 도 남을 쓰레기라 말할 격있? 김학래씨도 잘못했다고 인정는게 좋을듯 떤 사정 있었는지는 르 잘못한부분은 분명히 있으니
+Whole chunk tree for sentence: 방송출연해서 런말 막해도 되? 김학래는 정 없 혼사는분인? 글고 무도 르는 도 남을 쓰레기라 말할 격있? 김학래씨도 잘못했다고 인정는게 좋을듯 떤 사정 있었는지는 르 잘못한부분은 분명히 있으니
+(S
+  (NP 방송출연/Noun)
+  (VP 해서/Verb)
+  (NP 런말/Noun 막/Noun)
+  (VP 해도/Verb 되/Verb)
+  ?/Punctuation
+  (NP 김학래/Noun)
+  는/Josa
+  (NP 정/Noun)
+  (AP 없/Adjective)
+  (NP 혼사/Noun)
+  는/Josa
+  (NP 분/Noun)
+  인/Josa
+  ?/Punctuation
+  (NP 글/Noun)
+  고/Josa
+  (NP 무도/Noun 르/Noun)
+  는/Josa
+  (NP 도/Noun 남/Noun)
+  을/Josa
+  (NP 쓰레기/Noun)
+  라/Josa
+  (NP 말/Noun)
+  (VP 할/Verb)
+  (NP 격있/Noun)
+  ?/Punctuation
+  (NP 김학래/Noun 씨/Suffix)
+  도/Josa
+  (VP 잘/VerbPrefix 못/VerbPrefix 했다고/Verb)
+  (NP 인정/Noun)
+  (VP 는게/Verb)
+  (AP 좋을듯/Adjective)
+  (VP 떤/Verb)
+  (NP 사정/Noun)
+  (AP 있었는지는/Adjective)
+  (NP 르/Noun 잘못/Noun)
+  한/Determiner
+  (NP 부분/Noun)
+  은/Josa
+  (AP 분명히/Adjective 있으니/Adjective))

@@ -1,0 +1,237 @@
+Number of characters in korean_hate_speech_chunk_4_with_stopwords.txt: 101929
+Number of words in korean_hate_speech_chunk_4_with_stopwords.txt: 18637
+
+Top 10 frequent morphemes in korean_hate_speech_chunk_4_with_stopwords.txt:
+(('.', '.'), 1027)
+((',', ','), 898)
+(('the', 'DT'), 538)
+(('I', 'PRP'), 517)
+(('a', 'DT'), 504)
+(('?', '.'), 428)
+(('to', 'TO'), 403)
+(('is', 'VBZ'), 395)
+(('it', 'PRP'), 383)
+(('and', 'CC'), 366)
+
+Number of particles in korean_hate_speech_chunk_4_with_stopwords.txt: 22511
+
+Top 10 frequent nouns in korean_hate_speech_chunk_4_with_stopwords.txt:
+('people', 76)
+('’', 55)
+('haha', 45)
+('lot', 43)
+('Kim', 41)
+('time', 41)
+('money', 36)
+('Lee', 36)
+('..', 33)
+('man', 32)
+
+Number of nouns in korean_hate_speech_chunk_4_with_stopwords.txt: 4837
+
+Top 10 frequent verbs in korean_hate_speech_chunk_4_with_stopwords.txt:
+('is', 395)
+("'s", 258)
+('are', 202)
+('do', 171)
+('be', 115)
+('was', 115)
+('have', 109)
+("'m", 76)
+('get', 51)
+("'re", 50)
+
+Number of verbs in korean_hate_speech_chunk_4_with_stopwords.txt: 3987
+
+Top 10 frequent adverbs in korean_hate_speech_chunk_4_with_stopwords.txt:
+("n't", 235)
+('so', 112)
+('not', 105)
+('really', 66)
+('just', 63)
+('even', 56)
+('also', 36)
+('well', 31)
+('too', 29)
+('now', 27)
+
+Number of adverbs in korean_hate_speech_chunk_4_with_stopwords.txt: 1371
+
+Top 10 frequent adjectives in korean_hate_speech_chunk_4_with_stopwords.txt:
+('good', 67)
+('old', 26)
+('more', 23)
+('other', 21)
+('’', 19)
+('hard', 18)
+('many', 18)
+('young', 17)
+('much', 17)
+('wrong', 14)
+
+Number of adjectives in korean_hate_speech_chunk_4_with_stopwords.txt: 1438
+
+Top 10 frequent particles in korean_hate_speech_chunk_4_with_stopwords.txt:
+('up', 48)
+('out', 41)
+('off', 19)
+('down', 6)
+('over', 1)
+('body~', 1)
+('around', 1)
+('away', 1)
+
+Number of particles in korean_hate_speech_chunk_4_with_stopwords.txt: 118
+
+Collocations among tagged words:
+[(('#', '#'), ('MeToo', 'NNP')),
+ (('*', 'JJ'), ('*', 'NN')),
+ (('....', 'POS'), ('Anchovy-type', 'JJ')),
+ (('14th', 'CD'), ('Suii', 'NNP')),
+ (('19', 'CD'), ('years~', 'NN')),
+ (('2NE1', 'CD'), ('disbands', 'NNS')),
+ (('5th', 'JJ'), ('anniversary', 'NN')),
+ (('Amazing', 'NNP'), ('27', 'CD')),
+ (('Anchovy-type', 'JJ'), ('sullihae', 'NN')),
+ (('Arthdal~~', 'NNP'), ('Fighting', 'NNP'))]
+
+Translating this randomly sampled korean sentence: 장애인 스티븐 호킹박사보다 일베충들의 행복지수가 더 높다.
+
+Chunking this translated sentence: The happiness index of Ilbe loyalists is higher than that of the disabled Dr. Stephen Hawking.
+Whole chunk tree for sentence: The happiness index of Ilbe loyalists is higher than that of the disabled Dr. Stephen Hawking.
+(S
+  The/DT
+  (NP happiness/NN index/NN)
+  of/IN
+  (NP Ilbe/NNP loyalists/NNS)
+  (VP is/VBZ)
+  higher/JJR
+  than/IN
+  that/DT
+  of/IN
+  the/DT
+  disabled/JJ
+  (NP Dr./NNP Stephen/NNP Hawking/NNP)
+  ./.)
+
+Translating this randomly sampled korean sentence: 힘들면 관뒀어야지 그게 현명한거다
+
+Chunking this translated sentence: If it's hard, you should quit. That's wise.
+Whole chunk tree for sentence: If it's hard, you should quit. That's wise.
+(S
+  If/IN
+  it/PRP
+  (VP 's/VBZ)
+  hard/JJ
+  ,/,
+  you/PRP
+  should/MD
+  (VP quit/VB)
+  ./.
+  That/DT
+  (VP 's/VBZ)
+  (NP wise/NN)
+  ./.)
+
+Translating this randomly sampled korean sentence: 화끈하게 뿌리시길~~ 그와중에 잘생김 뚝뚝..
+
+Chunking this translated sentence: Spray it hot~~ Meanwhile, you look handsome..
+Whole chunk tree for sentence: Spray it hot~~ Meanwhile, you look handsome..
+(S
+  (NP Spray/NN)
+  it/PRP
+  (VP hot~~/VBZ)
+  Meanwhile/RB
+  ,/,
+  you/PRP
+  (VP look/VBP)
+  handsome/JJ
+  (NP ../NN))
+
+Translating this randomly sampled korean sentence: 최자는 연예인들까지 나서서 오냐오냐 해주고 주변 지인이였던 여자연예인들은 안해도 욕먹고, 추모한 연예인도 가만있어라고 욕먹고..잘하는 짓이다. 남자나패라.여자 패지말고.
+
+Chunking this translated sentence: Choiza even went so far as to ask celebrities to come forward, and female celebrities who were acquaintances of him were criticized for not doing anything, and celebrities who paid tribute to him were criticized for telling him to stay still. This is a good thing. Beat up men. Don’t beat up women.
+Whole chunk tree for sentence: Choiza even went so far as to ask celebrities to come forward, and female celebrities who were acquaintances of him were criticized for not doing anything, and celebrities who paid tribute to him were criticized for telling him to stay still. This is a good thing. Beat up men. Don’t beat up women.
+(S
+  (NP Choiza/NNP)
+  even/RB
+  (VP went/VBD)
+  so/RB
+  far/RB
+  as/IN
+  to/TO
+  (VP ask/VB)
+  (NP celebrities/NNS)
+  to/TO
+  (VP come/VB)
+  forward/RB
+  ,/,
+  and/CC
+  female/JJ
+  (NP celebrities/NNS)
+  who/WP
+  (VP were/VBD)
+  (NP acquaintances/NNS)
+  of/IN
+  him/PRP
+  (VP were/VBD criticized/VBN)
+  for/IN
+  not/RB
+  (VP doing/VBG)
+  (NP anything/NN)
+  ,/,
+  and/CC
+  (NP celebrities/NNS)
+  who/WP
+  (VP paid/VBD)
+  (NP tribute/NN)
+  to/TO
+  him/PRP
+  (VP were/VBD criticized/VBN)
+  for/IN
+  (VP telling/VBG)
+  him/PRP
+  to/TO
+  (VP stay/VB)
+  still/RB
+  ./.
+  This/DT
+  (VP is/VBZ)
+  a/DT
+  good/JJ
+  (NP thing/NN)
+  ./.
+  (NP Beat/NNP)
+  up/RP
+  (NP men/NNS)
+  ./.
+  (NP Don/NNP)
+  (VP ’/VBD)
+  t/RB
+  (VP beat/VBN)
+  up/RP
+  (NP women/NNS)
+  ./.)
+
+Translating this randomly sampled korean sentence: 불청에 나와서 즐기다 들어가던만..뭔 2년..
+
+Chunking this translated sentence: I came out uninvited, enjoyed it, and then went back in... two years...
+Whole chunk tree for sentence: I came out uninvited, enjoyed it, and then went back in... two years...
+(S
+  I/PRP
+  (VP came/VBD)
+  out/RB
+  uninvited/JJ
+  ,/,
+  (VP enjoyed/VBD)
+  it/PRP
+  ,/,
+  and/CC
+  then/RB
+  (VP went/VBD)
+  back/RB
+  in/IN
+  .../:
+  two/CD
+  (NP years/NNS)
+  .../:)
