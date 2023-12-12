@@ -1,18 +1,13 @@
-#! /usr/bin/python2.7
-# -*- coding: utf-8 -*-
-
 # import nltk
 from nltk import collocations, RegexpParser, pos_tag, word_tokenize, FreqDist
 import re
 from deep_translator import GoogleTranslator
 from collections import Counter
-from konlpy.corpus import kolaw
-from konlpy.tag import Kkma, Okt
+from konlpy.tag import Okt
 from konlpy.utils import concordance, pprint
 from matplotlib import pyplot
-import matplotlib.font_manager as fm
 import os
-from alive_progress import alive_bar; import time
+from alive_progress import alive_bar
 import random
 import string
 from Korpora import Korpora
@@ -231,27 +226,27 @@ def count_korean_elements(corpus_title, corpus_text, path, recreate=False, gen_s
 
             print(f'\nTop 10 frequent nouns in {corpus_title}.txt:', file=analysis_txt) 
             pprint(noun_count.most_common(10), stream=analysis_txt)
-            num_of_nouns = len(noun_count)
+            num_of_nouns = sum(noun_count.values())
             print(f'Number of nouns in {corpus_title}.txt:', num_of_nouns, file=analysis_txt)
 
             print(f'\nTop 10 frequent verbs in {corpus_title}.txt:', file=analysis_txt) 
             pprint(verb_count.most_common(10), stream=analysis_txt)
-            num_of_verbs = len(verb_count)
+            num_of_verbs = sum(verb_count.values())
             print(f'Number of verbs in {corpus_title}.txt:', num_of_verbs, file=analysis_txt)
 
             print(f'\nTop 10 frequent adverbs in {corpus_title}.txt:', file=analysis_txt) 
             pprint(adverb_count.most_common(10), stream=analysis_txt)
-            num_of_adverbs = len(adverb_count)
+            num_of_adverbs = sum(adverb_count.values())
             print(f'Number of adverbs in {corpus_title}.txt:', num_of_adverbs, file=analysis_txt)
 
             print(f'\nTop 10 frequent adjectives in {corpus_title}.txt:', file=analysis_txt) 
             pprint(adjective_count.most_common(10), stream=analysis_txt)
-            num_of_adjectives = len(adjective_count)
+            num_of_adjectives = sum(adjective_count.values())
             print(f'Number of adjectives in {corpus_title}.txt:', num_of_adjectives, file=analysis_txt)
 
             print(f'\nTop 10 frequent josa (Korean particles) in {corpus_title}.txt:', file=analysis_txt) 
             pprint(josa_count.most_common(10), stream=analysis_txt)
-            num_of_josa = len(josa_count)
+            num_of_josa = sum(josa_count.values())
             print(f'Number of josa (Korean Particles) in {corpus_title}.txt:', num_of_josa, file=analysis_txt)
 
             # These are collocations amount the tagged words, not general collocations
@@ -480,7 +475,6 @@ def count_english_elements(corpus_title, corpus_text, path, recreate=False, gen_
                 json.dump(existing_data, json_file, indent=4)
     else:
         print(f"\t{file_to_create} already exists! Recreate flag was not specified, this file will be skipped.") 
-
 
 # Method to generate a random seed of specified length; saves to seed.txt
 def generate_seed(gen_seed="No", seed_length=8):
@@ -728,32 +722,11 @@ def generate_plots():
                 # Write each row in the list to the CSV
                 for row in data:
                     writer.writerow(row)
-
-                    # # Create a table
-                    # table = pyplot.table(cellText=data, colLabels=columns, loc='center')
-
-                    # fprop = fm.FontProperties(fname='NotoSansKR-Regular.ttf')
-
-                    # for cell in table._cells:
-                    #     table._cells[cell].set_text_props(fontproperties=fprop)
-
-                    # # Hide the axes
-                    # pyplot.axis('off')
-
-                    # # Save the table to a file
-                    # pyplot.savefig(f"./Tables/test_table_{i}_{stopword.name}.png", dpi=300)
-
-                    # pyplot.clf()
-
-            
-            
-
-
     except (FileNotFoundError, json.JSONDecodeError):
         # If file doesn't exist, tell the user to generate data first
         print(f"./corpus_data.json doesn't exist! This is created after performing analyses on a corpus.")
 
 if __name__ == "__main__":
     create_folders(verbose=False) # Creates needed folders for organization if not already present
-    # load_korean_corpus() # Starts the entire program
+    load_korean_corpus() # Starts the entire program
     generate_plots()
