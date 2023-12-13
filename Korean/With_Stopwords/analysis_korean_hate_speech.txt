@@ -1,0 +1,56 @@
+Number of characters in korean_hate_speech.txt: 313599
+Number of words in korean_hate_speech.txt: 66321
+Number of comments in korean_hate_speech.txt: 7896
+Number of unique nouns in korean_hate_speech.txt: 9940
+Number of morphemes in korean_hate_speech.txt: 22576
+
+Top 10 frequent sentences in korean_hate_speech.txt:
+[('현재', 1),
+ ('현재 호텔주인', 1),
+ ('현재 호텔주인 심정', 1),
+ ('18', 1),
+ ('18 난', 1),
+ ('18 난 마른하늘', 1),
+ ('날벼락', 1),
+ ('호텔', 1),
+ ('누군', 1),
+ ('누군 계속', 1)]
+
+Top 10 frequent nouns in korean_hate_speech.txt:
+[('여자', 542),
+ ('사람', 540),
+ ('왜', 484),
+ ('진짜', 409),
+ ('좀', 385),
+ ('남자', 317),
+ ('더', 288),
+ ('뭐', 272),
+ ('때', 268),
+ ('애', 257)]
+
+Top 10 frequent morphemes in korean_hate_speech.txt:
+[(('\n', 'Foreign'), 7896),
+ (('.', 'Punctuation'), 2322),
+ (('이', 'Josa'), 2150),
+ (('들', 'Suffix'), 1746),
+ (('가', 'Josa'), 1643),
+ (('?', 'Punctuation'), 1382),
+ (('도', 'Josa'), 1267),
+ (('에', 'Josa'), 1254),
+ (('은', 'Josa'), 1221),
+ (('..', 'Punctuation'), 1207)]
+
+Collocations among tagged words:
+[(('!', 'Foreign'),
+  ('!https://www1.president.go.kr/petitions/Temp/70RSXH', 'URL')),
+ (('!^^', 'Punctuation'), ('밝게', 'Verb')),
+ ((',.', 'Punctuation'), ('개빡', 'Noun')),
+ (('-""', 'Punctuation'), ('알콜중독', 'Noun')),
+ (('->', 'Punctuation'), ('즉', 'Noun')),
+ (('.!!!', 'Punctuation'), ('살빼고', 'Adjective')),
+ (('...!', 'Punctuation'), ('유키스', 'Noun')),
+ (('....??', 'Punctuation'), ('병역', 'Noun')),
+ (('1000', 'Number'), ('미터', 'Noun')),
+ (('10000%', 'Number'), ('스폰있다', 'Noun'))]
+Whole chunk tree for sentence: 발전
+(S (NP 발전/Noun))

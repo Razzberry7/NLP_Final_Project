@@ -13,8 +13,6 @@ Top 10 frequent morphemes in korean_hate_speech_chunk_5_without_stopwords.txt:
 (('it', 'PRP'), 345)
 (('you', 'PRP'), 322)
 
-Number of particles in korean_hate_speech_chunk_5_without_stopwords.txt: 19983
-
 Top 10 frequent nouns in korean_hate_speech_chunk_5_without_stopwords.txt:
 ('’', 66)
 ('people', 47)
@@ -26,7 +24,6 @@ Top 10 frequent nouns in korean_hate_speech_chunk_5_without_stopwords.txt:
 ('lot', 35)
 ('person', 33)
 ('Park', 31)
-
 Number of nouns in korean_hate_speech_chunk_5_without_stopwords.txt: 4458
 
 Top 10 frequent verbs in korean_hate_speech_chunk_5_without_stopwords.txt:
@@ -40,7 +37,6 @@ Top 10 frequent verbs in korean_hate_speech_chunk_5_without_stopwords.txt:
 ("'m", 96)
 ('Is', 47)
 ('’', 45)
-
 Number of verbs in korean_hate_speech_chunk_5_without_stopwords.txt: 3593
 
 Top 10 frequent adverbs in korean_hate_speech_chunk_5_without_stopwords.txt:
@@ -54,7 +50,6 @@ Top 10 frequent adverbs in korean_hate_speech_chunk_5_without_stopwords.txt:
 ('well', 33)
 ('Even', 29)
 ('only', 24)
-
 Number of adverbs in korean_hate_speech_chunk_5_without_stopwords.txt: 1092
 
 Top 10 frequent adjectives in korean_hate_speech_chunk_5_without_stopwords.txt:
@@ -68,7 +63,6 @@ Top 10 frequent adjectives in korean_hate_speech_chunk_5_without_stopwords.txt:
 ('pretty', 13)
 ('other', 13)
 ('first', 13)
-
 Number of adjectives in korean_hate_speech_chunk_5_without_stopwords.txt: 1342
 
 Top 10 frequent particles in korean_hate_speech_chunk_5_without_stopwords.txt:
@@ -82,7 +76,6 @@ Top 10 frequent particles in korean_hate_speech_chunk_5_without_stopwords.txt:
 ('around', 1)
 ('..', 1)
 ('along', 1)
-
 Number of particles in korean_hate_speech_chunk_5_without_stopwords.txt: 86
 
 Collocations among tagged words:

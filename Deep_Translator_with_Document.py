@@ -6,6 +6,7 @@ from collections import Counter
 from konlpy.tag import Okt
 from konlpy.utils import concordance, pprint
 from matplotlib import pyplot
+from matplotlib.font_manager import FontProperties
 import os
 from alive_progress import alive_bar
 import random
@@ -280,7 +281,7 @@ def count_korean_elements(corpus_title, corpus_text, path, recreate=False, gen_s
                 # seem to save to postscript files when using the appropriate NLTK libraries to save the tree.
                 # This is commented out for general use cases, but left in for when I want to grab some screenshots
                 # of trees as examples for the paper.
-                ###chunks.draw() 
+                #chunks.draw() 
 
             # Note: could be interesting to search for specific words, but not important for project goals
             # print(f'\nLocations of "대한민국" in {corpus_title}.txt:', file=analysis_txt)
@@ -373,38 +374,36 @@ def count_english_elements(corpus_title, corpus_text, path, recreate=False, gen_
             print(f"\nTop 10 frequent morphemes in {corpus_title}.txt:", file=analysis_txt)
             for common_morpheme in FreqDist(tagged_corpus).most_common(10):
                 print(common_morpheme, file=analysis_txt)
-            num_of_morphemes = len(tagged_corpus)
-            print(f"\nNumber of particles in {corpus_title}.txt:", num_of_morphemes, file=analysis_txt)
 
             print(f"\nTop 10 frequent nouns in {corpus_title}.txt:", file=analysis_txt)
             for common_noun in FreqDist(nouns).most_common(10):
                 print(common_noun, file=analysis_txt)
             num_of_nouns = len(nouns)
-            print(f"\nNumber of nouns in {corpus_title}.txt:", num_of_nouns, file=analysis_txt)
+            print(f"Number of nouns in {corpus_title}.txt:", num_of_nouns, file=analysis_txt)
 
             print(f"\nTop 10 frequent verbs in {corpus_title}.txt:", file=analysis_txt)
             for common_verb in FreqDist(verbs).most_common(10):
                 print(common_verb, file=analysis_txt)
             num_of_verbs = len(verbs)
-            print(f"\nNumber of verbs in {corpus_title}.txt:", num_of_verbs, file=analysis_txt)
+            print(f"Number of verbs in {corpus_title}.txt:", num_of_verbs, file=analysis_txt)
 
             print(f"\nTop 10 frequent adverbs in {corpus_title}.txt:", file=analysis_txt)
             for common_adverb in FreqDist(adverbs).most_common(10):
                 print(common_adverb, file=analysis_txt)
             num_of_adverbs = len(adverbs)
-            print(f"\nNumber of adverbs in {corpus_title}.txt:", num_of_adverbs, file=analysis_txt)
+            print(f"Number of adverbs in {corpus_title}.txt:", num_of_adverbs, file=analysis_txt)
 
             print(f"\nTop 10 frequent adjectives in {corpus_title}.txt:", file=analysis_txt)
             for common_adjective in FreqDist(adjectives).most_common(10):
                 print(common_adjective, file=analysis_txt)
             num_of_adjectives = len(adjectives)
-            print(f"\nNumber of adjectives in {corpus_title}.txt:", num_of_adjectives, file=analysis_txt)
+            print(f"Number of adjectives in {corpus_title}.txt:", num_of_adjectives, file=analysis_txt)
 
             print(f"\nTop 10 frequent particles in {corpus_title}.txt:", file=analysis_txt)
             for common_particle in FreqDist(particles).most_common(10):
                 print(common_particle, file=analysis_txt)
             num_of_particles = len(particles)
-            print(f"\nNumber of particles in {corpus_title}.txt:", num_of_particles, file=analysis_txt)
+            print(f"Number of particles in {corpus_title}.txt:", num_of_particles, file=analysis_txt)
 
             # These are collocations only among the tagged words, not general collocations
             print('\nCollocations among tagged words:', file=analysis_txt)
@@ -442,7 +441,7 @@ def count_english_elements(corpus_title, corpus_text, path, recreate=False, gen_
 
                     # This is commented out for general use cases, but left in for when I want to grab some screenshots
                     # of trees as examples for the paper.
-                    ###chunks.draw()
+                    # chunks.draw()
                 
             try:
                 # Load existing data
@@ -678,6 +677,7 @@ def generate_plots():
                 # Create column names
                 columns = ['Language', 'Stopwords', metric.name]
 
+
                 # Load appropriate data into a different list for the table
                 data = [['Korean', 'With', average_metric(language=Language.KOREAN.value, stopword=Stopword.WITH.value, metric=metric.value)],
                         ['Korean', 'Without', average_metric(language=Language.KOREAN.value, stopword=Stopword.WITHOUT.value, metric=metric.value)],
@@ -691,10 +691,17 @@ def generate_plots():
                 ax.axis('off')
 
                 # Create a table
-                pyplot.table(cellText=data, colLabels=columns, loc='center')
+                table = ax.table(cellText=data, colLabels=columns, loc='center', cellLoc='center', bbox=[0, 0, 1, 1])
+
+                table[(0, 0)].set_facecolor("#D3d3d3")
+                table[(0, 0)].set_text_props(fontproperties=FontProperties(weight='bold'))
+                table[(0, 1)].set_facecolor("#D3d3d3")
+                table[(0, 1)].set_text_props(fontproperties=FontProperties(weight='bold'))
+                table[(0, 2)].set_facecolor("#D3d3d3")
+                table[(0, 2)].set_text_props(fontproperties=FontProperties(weight='bold'))
 
                 # Save the table to a file
-                pyplot.savefig(f"./Tables/{metric.name}_table.png")
+                pyplot.savefig(f"./Tables/{metric.name}_table.png", bbox_inches='tight', pad_inches=0)
 
             # Make a table for each chunk's sampled sentences
             columns = ['Corpus Chunk', 'Stopwords', 'Sampled Sentences', 'Ko Word Count', 

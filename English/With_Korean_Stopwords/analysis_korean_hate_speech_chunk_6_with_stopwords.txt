@@ -13,8 +13,6 @@ Top 10 frequent morphemes in korean_hate_speech_chunk_6_with_stopwords.txt:
 (('and', 'CC'), 360)
 (('you', 'PRP'), 347)
 
-Number of particles in korean_hate_speech_chunk_6_with_stopwords.txt: 22734
-
 Top 10 frequent nouns in korean_hate_speech_chunk_6_with_stopwords.txt:
 ('’', 72)
 ('people', 70)
@@ -26,7 +24,6 @@ Top 10 frequent nouns in korean_hate_speech_chunk_6_with_stopwords.txt:
 ('lot', 39)
 ('person', 38)
 ('t', 36)
-
 Number of nouns in korean_hate_speech_chunk_6_with_stopwords.txt: 4875
 
 Top 10 frequent verbs in korean_hate_speech_chunk_6_with_stopwords.txt:
@@ -40,7 +37,6 @@ Top 10 frequent verbs in korean_hate_speech_chunk_6_with_stopwords.txt:
 ("'m", 72)
 ('get', 66)
 ('think', 59)
-
 Number of verbs in korean_hate_speech_chunk_6_with_stopwords.txt: 4125
 
 Top 10 frequent adverbs in korean_hate_speech_chunk_6_with_stopwords.txt:
@@ -54,7 +50,6 @@ Top 10 frequent adverbs in korean_hate_speech_chunk_6_with_stopwords.txt:
 ('only', 37)
 ('too', 35)
 ('well', 31)
-
 Number of adverbs in korean_hate_speech_chunk_6_with_stopwords.txt: 1425
 
 Top 10 frequent adjectives in korean_hate_speech_chunk_6_with_stopwords.txt:
@@ -68,7 +63,6 @@ Top 10 frequent adjectives in korean_hate_speech_chunk_6_with_stopwords.txt:
 ('bad', 15)
 ('same', 15)
 ('hard', 15)
-
 Number of adjectives in korean_hate_speech_chunk_6_with_stopwords.txt: 1427
 
 Top 10 frequent particles in korean_hate_speech_chunk_6_with_stopwords.txt:
@@ -78,7 +72,6 @@ Top 10 frequent particles in korean_hate_speech_chunk_6_with_stopwords.txt:
 ('down', 5)
 ('around', 3)
 ('back', 2)
-
 Number of particles in korean_hate_speech_chunk_6_with_stopwords.txt: 107
 
 Collocations among tagged words:
